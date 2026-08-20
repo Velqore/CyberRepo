@@ -1,0 +1,1684 @@
+{
+  "metadata": {
+    "generatedAt": "2026-08-20T16:31:34.612Z",
+    "count": 85,
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "id": "repo-velqore-1",
+      "category_id": "cat-ai-agents",
+      "name": "researchmind-ai",
+      "owner": "Velqore",
+      "full_name": "Velqore/researchmind-ai",
+      "description": "AI research copilot Chrome extension built with React + Tailwind + FastAPI + Supabase + Claude.",
+      "url": "https://github.com/Velqore/researchmind-ai",
+      "stars": 320,
+      "language": "JavaScript",
+      "topics": [
+        "ai-copilot",
+        "research",
+        "chrome-extension",
+        "claude",
+        "fastapi",
+        "gem"
+      ],
+      "sort_order": 1,
+      "created_at": "2026-07-10T00:00:00Z"
+    },
+    {
+      "id": "repo-velqore-2",
+      "category_id": "cat-malware",
+      "name": "phantomtrace",
+      "owner": "Velqore",
+      "full_name": "Velqore/phantomtrace",
+      "description": "Advanced anti-forensics toolkit with homomorphic encryption and GPL-3.0 protection built by Velqore.",
+      "url": "https://github.com/Velqore/phantomtrace",
+      "stars": 1250,
+      "language": "Python",
+      "topics": [
+        "anti-forensics",
+        "homomorphic-encryption",
+        "cybersecurity",
+        "defense",
+        "gem"
+      ],
+      "sort_order": 2,
+      "created_at": "2026-03-07T00:00:00Z"
+    },
+    {
+      "id": "repo-velqore-3",
+      "category_id": "cat-pentest",
+      "name": "Claude-Red",
+      "owner": "Velqore",
+      "full_name": "Velqore/Claude-Red",
+      "description": "Curated offensive security skill library for Claude models covering SQLi, shellcode, EDR evasion, and exploit dev.",
+      "url": "https://github.com/Velqore/Claude-Red",
+      "stars": 840,
+      "language": "Markdown",
+      "topics": [
+        "offensive-security",
+        "claude-skills",
+        "red-team",
+        "exploit-dev",
+        "gem"
+      ],
+      "sort_order": 3,
+      "created_at": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "repo-velqore-4",
+      "category_id": "cat-frontend",
+      "name": "ClimateGuard",
+      "owner": "Velqore",
+      "full_name": "Velqore/ClimateGuard",
+      "description": "Modern climate monitoring, hazard analysis, and environmental early warning web platform.",
+      "url": "https://github.com/Velqore/ClimateGuard",
+      "stars": 460,
+      "language": "JavaScript",
+      "topics": [
+        "climate",
+        "environmental",
+        "dashboard",
+        "react",
+        "vite",
+        "gem"
+      ],
+      "sort_order": 4,
+      "created_at": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "repo-velqore-5",
+      "category_id": "cat-ui",
+      "name": "ProfileCard",
+      "owner": "Velqore",
+      "full_name": "Velqore/ProfileCard",
+      "description": "Interactive modern glassmorphic 3D profile card web component with reactive physics.",
+      "url": "https://github.com/Velqore/ProfileCard",
+      "stars": 380,
+      "language": "HTML",
+      "topics": [
+        "3d-card",
+        "glassmorphism",
+        "profile-card",
+        "css3",
+        "ui",
+        "gem"
+      ],
+      "sort_order": 5,
+      "created_at": "2026-05-04T00:00:00Z"
+    },
+    {
+      "id": "repo-velqore-6",
+      "category_id": "cat-osint",
+      "name": "numberinfo",
+      "owner": "Velqore",
+      "full_name": "Velqore/numberinfo",
+      "description": "High performance OSINT telephony intelligence and metadata gathering tool written in Go.",
+      "url": "https://github.com/Velqore/numberinfo",
+      "stars": 510,
+      "language": "Go",
+      "topics": [
+        "osint",
+        "telephony",
+        "recon",
+        "golang",
+        "gem"
+      ],
+      "sort_order": 6,
+      "created_at": "2024-11-27T00:00:00Z"
+    },
+    {
+      "id": "repo-pentest-1",
+      "category_id": "cat-pentest",
+      "name": "metasploit-framework",
+      "owner": "rapid7",
+      "full_name": "rapid7/metasploit-framework",
+      "description": "World leading open-source penetration testing framework used for offensive operations and vulnerability verification.",
+      "url": "https://github.com/rapid7/metasploit-framework",
+      "stars": 34200,
+      "language": "Ruby",
+      "topics": [
+        "pentest",
+        "exploit",
+        "framework",
+        "offensive-security",
+        "ruby"
+      ],
+      "sort_order": 7,
+      "created_at": "2010-09-01T00:00:00Z"
+    },
+    {
+      "id": "repo-pentest-nuclei",
+      "category_id": "cat-pentest",
+      "name": "nuclei",
+      "owner": "projectdiscovery",
+      "full_name": "projectdiscovery/nuclei",
+      "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "stars": 20500,
+      "language": "Go",
+      "topics": [
+        "security",
+        "vulnerability-scanner",
+        "recon",
+        "go",
+        "automation"
+      ],
+      "sort_order": 8,
+      "created_at": "2020-04-12T00:00:00Z"
+    },
+    {
+      "id": "repo-pentest-ligolo",
+      "category_id": "cat-pentest",
+      "name": "ligolo-ng",
+      "owner": "nicocha30",
+      "full_name": "nicocha30/ligolo-ng",
+      "description": "An advanced, yet simple, tunneling/pivoting tool that uses a TUN interface for effortless network pivoting.",
+      "url": "https://github.com/nicocha30/ligolo-ng",
+      "stars": 4200,
+      "language": "Go",
+      "topics": [
+        "pivoting",
+        "tunneling",
+        "red-team",
+        "pentesting",
+        "gem"
+      ],
+      "sort_order": 9,
+      "created_at": "2022-08-11T00:00:00Z"
+    },
+    {
+      "id": "repo-pentest-chisel",
+      "category_id": "cat-pentest",
+      "name": "chisel",
+      "owner": "jpillora",
+      "full_name": "jpillora/chisel",
+      "description": "A fast TCP/UDP tunnel over HTTP secured via SSH. Single executable client and server.",
+      "url": "https://github.com/jpillora/chisel",
+      "stars": 12800,
+      "language": "Go",
+      "topics": [
+        "tunneling",
+        "proxy",
+        "ssh",
+        "networking",
+        "go"
+      ],
+      "sort_order": 10,
+      "created_at": "2015-09-02T00:00:00Z"
+    },
+    {
+      "id": "repo-pentest-badchars",
+      "category_id": "cat-pentest",
+      "name": "badchars",
+      "owner": "ironhackers",
+      "full_name": "ironhackers/badchars",
+      "description": "A hex bad character generator and finder for exploit & shellcode development.",
+      "url": "https://github.com/ironhackers/badchars",
+      "stars": 320,
+      "language": "Python",
+      "topics": [
+        "exploit-dev",
+        "shellcode",
+        "badchars",
+        "assembly",
+        "gem"
+      ],
+      "sort_order": 11,
+      "created_at": "2019-06-18T00:00:00Z"
+    },
+    {
+      "id": "repo-pentest-cme",
+      "category_id": "cat-pentest",
+      "name": "CrackMapExec",
+      "owner": "byt3bl33d3r",
+      "full_name": "byt3bl33d3r/CrackMapExec",
+      "description": "A swiss army knife for pentesting Windows/Active Directory environments.",
+      "url": "https://github.com/byt3bl33d3r/CrackMapExec",
+      "stars": 8400,
+      "language": "Python",
+      "topics": [
+        "active-directory",
+        "pentest",
+        "windows",
+        "smb",
+        "post-exploitation"
+      ],
+      "sort_order": 12,
+      "created_at": "2015-06-03T00:00:00Z"
+    },
+    {
+      "id": "repo-osint-1",
+      "category_id": "cat-osint",
+      "name": "sherlock",
+      "owner": "sherlock-project",
+      "full_name": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across 400+ major global networks.",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "stars": 61800,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "reconnaissance",
+        "investigation",
+        "python",
+        "cli"
+      ],
+      "sort_order": 13,
+      "created_at": "2018-12-24T00:00:00Z"
+    },
+    {
+      "id": "repo-osint-subfinder",
+      "category_id": "cat-osint",
+      "name": "subfinder",
+      "owner": "projectdiscovery",
+      "full_name": "projectdiscovery/subfinder",
+      "description": "Fast passive subdomain enumeration tool that discovers valid subdomains for websites.",
+      "url": "https://github.com/projectdiscovery/subfinder",
+      "stars": 13200,
+      "language": "Go",
+      "topics": [
+        "subdomain-enumeration",
+        "recon",
+        "osint",
+        "bugbounty"
+      ],
+      "sort_order": 14,
+      "created_at": "2017-11-20T00:00:00Z"
+    },
+    {
+      "id": "repo-osint-snscrape",
+      "category_id": "cat-osint",
+      "name": "snscrape",
+      "owner": "JustAnotherArchivist",
+      "full_name": "JustAnotherArchivist/snscrape",
+      "description": "A social networking service scraper that extracts posts, user profiles, and timelines without API keys.",
+      "url": "https://github.com/JustAnotherArchivist/snscrape",
+      "stars": 4900,
+      "language": "Python",
+      "topics": [
+        "scraper",
+        "osint",
+        "social-media",
+        "twitter",
+        "gem"
+      ],
+      "sort_order": 15,
+      "created_at": "2020-03-24T00:00:00Z"
+    },
+    {
+      "id": "repo-osint-ghunt",
+      "category_id": "cat-osint",
+      "name": "GHunt",
+      "owner": "mxrch",
+      "full_name": "mxrch/GHunt",
+      "description": "Offensive Google framework to investigate Google accounts, emails, YouTube channels, and Google Maps data.",
+      "url": "https://github.com/mxrch/GHunt",
+      "stars": 16200,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "google",
+        "recon",
+        "investigation",
+        "python"
+      ],
+      "sort_order": 16,
+      "created_at": "2020-09-28T00:00:00Z"
+    },
+    {
+      "id": "repo-osint-email2phone",
+      "category_id": "cat-osint",
+      "name": "email2phonenumber",
+      "owner": "martinvigo",
+      "full_name": "martinvigo/email2phonenumber",
+      "description": "OSINT tool to obtain a target phone number just by having their email address using password reset leak vectors.",
+      "url": "https://github.com/martinvigo/email2phonenumber",
+      "stars": 1800,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "privacy",
+        "telephony",
+        "recon",
+        "gem"
+      ],
+      "sort_order": 17,
+      "created_at": "2019-04-09T00:00:00Z"
+    },
+    {
+      "id": "repo-malware-volatility",
+      "category_id": "cat-malware",
+      "name": "volatility3",
+      "owner": "volatilityfoundation",
+      "full_name": "volatilityfoundation/volatility3",
+      "description": "The volatile memory extraction and forensics framework for memory dump analysis across Windows, Linux, and Mac.",
+      "url": "https://github.com/volatilityfoundation/volatility3",
+      "stars": 6800,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "memory-dump",
+        "incident-response",
+        "malware-analysis"
+      ],
+      "sort_order": 18,
+      "created_at": "2019-09-17T00:00:00Z"
+    },
+    {
+      "id": "repo-malware-pebear",
+      "category_id": "cat-malware",
+      "name": "pe-bear",
+      "owner": "hasherezade",
+      "full_name": "hasherezade/pe-bear",
+      "description": "Portable Executable reversing and inspection tool with fast visual breakdown, section headers, and hex editor.",
+      "url": "https://github.com/hasherezade/pe-bear",
+      "stars": 3400,
+      "language": "C++",
+      "topics": [
+        "pe-files",
+        "reverse-engineering",
+        "malware-analysis",
+        "gem"
+      ],
+      "sort_order": 19,
+      "created_at": "2013-02-16T00:00:00Z"
+    },
+    {
+      "id": "repo-malware-capa",
+      "category_id": "cat-malware",
+      "name": "capa",
+      "owner": "mandiant",
+      "full_name": "mandiant/capa",
+      "description": "Detects capabilities in executable files. Automatically tells you what a binary does (e.g. injects code, connects C2).",
+      "url": "https://github.com/mandiant/capa",
+      "stars": 6100,
+      "language": "Python",
+      "topics": [
+        "malware-analysis",
+        "reverse-engineering",
+        "threat-intel",
+        "mandiant"
+      ],
+      "sort_order": 20,
+      "created_at": "2020-07-06T00:00:00Z"
+    },
+    {
+      "id": "repo-malware-malwoverviews",
+      "category_id": "cat-malware",
+      "name": "malwoverviews",
+      "owner": "maroueneboubakri",
+      "full_name": "maroueneboubakri/malwoverviews",
+      "description": "First response threat intelligence overview of malware samples and static analysis summarizer.",
+      "url": "https://github.com/maroueneboubakri/malwoverviews",
+      "stars": 540,
+      "language": "Python",
+      "topics": [
+        "malware",
+        "threat-intel",
+        "triage",
+        "gem"
+      ],
+      "sort_order": 21,
+      "created_at": "2020-11-20T00:00:00Z"
+    },
+    {
+      "id": "repo-rev-1",
+      "category_id": "cat-reversing",
+      "name": "ghidra",
+      "owner": "NationalSecurityAgency",
+      "full_name": "NationalSecurityAgency/ghidra",
+      "description": "Extensible software reverse engineering (SRE) suite developed by the NSA Research Directorate.",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "stars": 52100,
+      "language": "Java",
+      "topics": [
+        "reverse-engineering",
+        "decompiler",
+        "disassembler",
+        "binary-analysis"
+      ],
+      "sort_order": 22,
+      "created_at": "2019-03-05T00:00:00Z"
+    },
+    {
+      "id": "repo-rev-radare2",
+      "category_id": "cat-reversing",
+      "name": "radare2",
+      "owner": "radareorg",
+      "full_name": "radareorg/radare2",
+      "description": "UNIX-like reverse engineering framework and command-line toolset for disassembling and debugging.",
+      "url": "https://github.com/radareorg/radare2",
+      "stars": 21000,
+      "language": "C",
+      "topics": [
+        "reverse-engineering",
+        "disassembler",
+        "debugger",
+        "c"
+      ],
+      "sort_order": 23,
+      "created_at": "2009-02-23T00:00:00Z"
+    },
+    {
+      "id": "repo-rev-angr",
+      "category_id": "cat-reversing",
+      "name": "angr",
+      "owner": "angr",
+      "full_name": "angr/angr",
+      "description": "A powerful and user-friendly binary analysis platform with automated symbolic execution and constraint solving.",
+      "url": "https://github.com/angr/angr",
+      "stars": 7800,
+      "language": "Python",
+      "topics": [
+        "symbolic-execution",
+        "binary-analysis",
+        "decompiler",
+        "gem"
+      ],
+      "sort_order": 24,
+      "created_at": "2014-04-12T00:00:00Z"
+    },
+    {
+      "id": "repo-rev-frida",
+      "category_id": "cat-reversing",
+      "name": "frida",
+      "owner": "frida",
+      "full_name": "frida/frida",
+      "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.",
+      "url": "https://github.com/frida/frida",
+      "stars": 15600,
+      "language": "C",
+      "topics": [
+        "dynamic-instrumentation",
+        "hooking",
+        "reverse-engineering",
+        "security"
+      ],
+      "sort_order": 25,
+      "created_at": "2012-07-29T00:00:00Z"
+    },
+    {
+      "id": "repo-rev-binaryninja",
+      "category_id": "cat-reversing",
+      "name": "binaryninja-api",
+      "owner": "Vector35",
+      "full_name": "Vector35/binaryninja-api",
+      "description": "Public API and plugins for Binary Ninja disassembler and intermediate representation decompiler.",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "stars": 1600,
+      "language": "C++",
+      "topics": [
+        "binary-ninja",
+        "decompiler",
+        "disassembler",
+        "gem"
+      ],
+      "sort_order": 26,
+      "created_at": "2016-04-18T00:00:00Z"
+    },
+    {
+      "id": "repo-websec-1",
+      "category_id": "cat-websec",
+      "name": "sqlmap",
+      "owner": "sqlmapproject",
+      "full_name": "sqlmapproject/sqlmap",
+      "description": "Automatic SQL injection and database takeover tool capable of detecting and exploiting SQL injection flaws.",
+      "url": "https://github.com/sqlmapproject/sqlmap",
+      "stars": 32900,
+      "language": "Python",
+      "topics": [
+        "sql-injection",
+        "database",
+        "web-security",
+        "penetration-testing"
+      ],
+      "sort_order": 27,
+      "created_at": "2011-04-18T00:00:00Z"
+    },
+    {
+      "id": "repo-websec-ffuf",
+      "category_id": "cat-websec",
+      "name": "ffuf",
+      "owner": "ffuf",
+      "full_name": "ffuf/ffuf",
+      "description": "Fast web fuzzer written in Go for discovering hidden web directory endpoints, virtual hosts, and parameters.",
+      "url": "https://github.com/ffuf/ffuf",
+      "stars": 13700,
+      "language": "Go",
+      "topics": [
+        "fuzzer",
+        "web-security",
+        "bugbounty",
+        "go"
+      ],
+      "sort_order": 28,
+      "created_at": "2018-10-17T00:00:00Z"
+    },
+    {
+      "id": "repo-websec-jwttool",
+      "category_id": "cat-websec",
+      "name": "jwt_tool",
+      "owner": "ticarpi",
+      "full_name": "ticarpi/jwt_tool",
+      "description": "A toolkit for validating, forging, manipulating, and cracking JSON Web Tokens (JWTs).",
+      "url": "https://github.com/ticarpi/jwt_tool",
+      "stars": 3600,
+      "language": "Python",
+      "topics": [
+        "jwt",
+        "tokens",
+        "crypto-attacks",
+        "websec",
+        "gem"
+      ],
+      "sort_order": 29,
+      "created_at": "2019-07-28T00:00:00Z"
+    },
+    {
+      "id": "repo-websec-arjun",
+      "category_id": "cat-websec",
+      "name": "Arjun",
+      "owner": "s0md3v",
+      "full_name": "s0md3v/Arjun",
+      "description": "HTTP parameter discovery suite finding hidden query strings and POST payload parameters with regex heuristics.",
+      "url": "https://github.com/s0md3v/Arjun",
+      "stars": 3800,
+      "language": "Python",
+      "topics": [
+        "parameter-discovery",
+        "bugbounty",
+        "web-security",
+        "gem"
+      ],
+      "sort_order": 30,
+      "created_at": "2018-09-02T00:00:00Z"
+    },
+    {
+      "id": "repo-websec-dalfox",
+      "category_id": "cat-websec",
+      "name": "dalfox",
+      "owner": "hahwul",
+      "full_name": "hahwul/dalfox",
+      "description": "Fast and powerful parameter analysis and Cross-site scripting (XSS) scanner with DOM verification.",
+      "url": "https://github.com/hahwul/dalfox",
+      "stars": 3100,
+      "language": "Go",
+      "topics": [
+        "xss",
+        "scanner",
+        "bugbounty",
+        "automation",
+        "gem"
+      ],
+      "sort_order": 31,
+      "created_at": "2019-10-18T00:00:00Z"
+    },
+    {
+      "id": "repo-crypto-1",
+      "category_id": "cat-crypto",
+      "name": "hashcat",
+      "owner": "hashcat",
+      "full_name": "hashcat/hashcat",
+      "description": "World fastest and most advanced password recovery and hash cracking utility with full GPU acceleration.",
+      "url": "https://github.com/hashcat/hashcat",
+      "stars": 21900,
+      "language": "C",
+      "topics": [
+        "hashcat",
+        "password-recovery",
+        "gpu-acceleration",
+        "cryptography"
+      ],
+      "sort_order": 32,
+      "created_at": "2015-12-04T00:00:00Z"
+    },
+    {
+      "id": "repo-crypto-age",
+      "category_id": "cat-crypto",
+      "name": "age",
+      "owner": "FiloSottile",
+      "full_name": "FiloSottile/age",
+      "description": "A simple, modern, and secure file encryption tool and Go library with small explicit keys and UNIX composability.",
+      "url": "https://github.com/FiloSottile/age",
+      "stars": 16500,
+      "language": "Go",
+      "topics": [
+        "encryption",
+        "cryptography",
+        "cli",
+        "security"
+      ],
+      "sort_order": 33,
+      "created_at": "2019-05-19T00:00:00Z"
+    },
+    {
+      "id": "repo-crypto-trufflehog",
+      "category_id": "cat-crypto",
+      "name": "trufflehog",
+      "owner": "trufflesecurity",
+      "full_name": "trufflesecurity/trufflehog",
+      "description": "Find, verify, and remediate leaked credentials, private keys, and high-entropy secrets in code repositories.",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "stars": 17200,
+      "language": "Go",
+      "topics": [
+        "secrets-scanner",
+        "security",
+        "credentials",
+        "go"
+      ],
+      "sort_order": 34,
+      "created_at": "2016-12-28T00:00:00Z"
+    },
+    {
+      "id": "repo-crypto-ciphey",
+      "category_id": "cat-crypto",
+      "name": "Ciphey",
+      "owner": "Ciphey",
+      "full_name": "Ciphey/Ciphey",
+      "description": "Automatically decrypt encryptions, decode base64/hex, and crack ciphers without knowing the key.",
+      "url": "https://github.com/Ciphey/Ciphey",
+      "stars": 14800,
+      "language": "Python",
+      "topics": [
+        "cryptography",
+        "cipher-cracker",
+        "ctf",
+        "nlp",
+        "gem"
+      ],
+      "sort_order": 35,
+      "created_at": "2020-03-24T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-ollama",
+      "category_id": "cat-llm",
+      "name": "ollama",
+      "owner": "ollama",
+      "full_name": "ollama/ollama",
+      "description": "Get up and running with Llama 3.3, Mistral, Gemma 2, and other large language models locally.",
+      "url": "https://github.com/ollama/ollama",
+      "stars": 114000,
+      "language": "Go",
+      "topics": [
+        "llm",
+        "local-ai",
+        "llama",
+        "inference",
+        "go"
+      ],
+      "sort_order": 36,
+      "created_at": "2023-06-15T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-vllm",
+      "category_id": "cat-llm",
+      "name": "vllm",
+      "owner": "vllm-project",
+      "full_name": "vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs with PagedAttention.",
+      "url": "https://github.com/vllm-project/vllm",
+      "stars": 38000,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "inference",
+        "gpu",
+        "serving",
+        "paged-attention"
+      ],
+      "sort_order": 37,
+      "created_at": "2023-06-01T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-llamacpp",
+      "category_id": "cat-llm",
+      "name": "llama.cpp",
+      "owner": "ggerganov",
+      "full_name": "ggerganov/llama.cpp",
+      "description": "LLM inference in C/C++ with zero external dependencies and extreme quantization performance on Apple Silicon & CUDA.",
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "stars": 72000,
+      "language": "C++",
+      "topics": [
+        "llama",
+        "c-plus-plus",
+        "quantization",
+        "inference"
+      ],
+      "sort_order": 38,
+      "created_at": "2023-03-10T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-litellm",
+      "category_id": "cat-llm",
+      "name": "litellm",
+      "owner": "BerriAI",
+      "full_name": "BerriAI/litellm",
+      "description": "Call 100+ LLMs using the OpenAI standard format (Claude, Bedrock, Vertex, Ollama, DeepSeek) with load balancing.",
+      "url": "https://github.com/BerriAI/litellm",
+      "stars": 18000,
+      "language": "Python",
+      "topics": [
+        "llm-proxy",
+        "openai-format",
+        "anthropic",
+        "load-balancer",
+        "gem"
+      ],
+      "sort_order": 39,
+      "created_at": "2023-07-28T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-outlines",
+      "category_id": "cat-llm",
+      "name": "outlines",
+      "owner": "dottxt-ai",
+      "full_name": "dottxt-ai/outlines",
+      "description": "Structured text generation and JSON schema enforcement guarantee for LLM outputs with finite state machines.",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "stars": 9400,
+      "language": "Python",
+      "topics": [
+        "structured-generation",
+        "json-schema",
+        "llm",
+        "regex",
+        "gem"
+      ],
+      "sort_order": 40,
+      "created_at": "2023-05-15T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-1",
+      "category_id": "cat-ai-agents",
+      "name": "langchain",
+      "owner": "langchain-ai",
+      "full_name": "langchain-ai/langchain",
+      "description": "Build context-aware reasoning applications with LLMs, Autonomous Agents, and Vector Indexing.",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": 96000,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "ai",
+        "agents",
+        "langchain",
+        "python",
+        "gpt"
+      ],
+      "sort_order": 41,
+      "created_at": "2022-10-17T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-autogpt",
+      "category_id": "cat-ai-agents",
+      "name": "AutoGPT",
+      "owner": "Significant-Gravitas",
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "description": "Autonomous open-source AI agent platform accessible for everyone to build and run agent workflows.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": 168000,
+      "language": "Python",
+      "topics": [
+        "autonomous-agents",
+        "gpt-4",
+        "ai",
+        "orchestration"
+      ],
+      "sort_order": 42,
+      "created_at": "2023-03-30T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-crewai",
+      "category_id": "cat-ai-agents",
+      "name": "crewAI",
+      "owner": "crewAIInc",
+      "full_name": "crewAIInc/crewAI",
+      "description": "Cutting-edge framework for orchestrating role-playing, autonomous AI agents to collaborate seamlessly.",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "stars": 25000,
+      "language": "Python",
+      "topics": [
+        "agents",
+        "multi-agent",
+        "orchestration",
+        "ai-crew"
+      ],
+      "sort_order": 43,
+      "created_at": "2023-11-20T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-browseruse",
+      "category_id": "cat-ai-agents",
+      "name": "browser-use",
+      "owner": "browser-use",
+      "full_name": "browser-use/browser-use",
+      "description": "Make websites accessible for AI agents via autonomous browser control and visual reasoning.",
+      "url": "https://github.com/browser-use/browser-use",
+      "stars": 28000,
+      "language": "Python",
+      "topics": [
+        "browser-automation",
+        "ai-agents",
+        "playwright",
+        "web-agent"
+      ],
+      "sort_order": 44,
+      "created_at": "2024-10-25T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-agentzero",
+      "category_id": "cat-ai-agents",
+      "name": "agent-zero",
+      "owner": "frdel",
+      "full_name": "frdel/agent-zero",
+      "description": "Dynamic autonomous generalist AI agent framework designed to execute code in Docker and interact with humans.",
+      "url": "https://github.com/frdel/agent-zero",
+      "stars": 4200,
+      "language": "Python",
+      "topics": [
+        "autonomous-agent",
+        "docker",
+        "terminal-agent",
+        "gem"
+      ],
+      "sort_order": 45,
+      "created_at": "2024-03-12T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-2",
+      "category_id": "cat-ml",
+      "name": "pytorch",
+      "owner": "pytorch",
+      "full_name": "pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration.",
+      "url": "https://github.com/pytorch/pytorch",
+      "stars": 84000,
+      "language": "C++",
+      "topics": [
+        "pytorch",
+        "deep-learning",
+        "machine-learning",
+        "gpu",
+        "neural-network"
+      ],
+      "sort_order": 46,
+      "created_at": "2016-08-13T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-3",
+      "category_id": "cat-ml",
+      "name": "stable-diffusion-webui",
+      "owner": "AUTOMATIC1111",
+      "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Stable Diffusion web UI for image synthesis, diffusion modeling, and generative art.",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "stars": 142000,
+      "language": "Python",
+      "topics": [
+        "stable-diffusion",
+        "generative-ai",
+        "image-generation",
+        "python"
+      ],
+      "sort_order": 47,
+      "created_at": "2022-08-22T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-comfyui",
+      "category_id": "cat-ml",
+      "name": "ComfyUI",
+      "owner": "comfyanonymous",
+      "full_name": "comfyanonymous/ComfyUI",
+      "description": "The most powerful and modular stable diffusion GUI and backend with node-based graph workflow engine.",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "stars": 58000,
+      "language": "Python",
+      "topics": [
+        "stable-diffusion",
+        "graph-engine",
+        "generative-ai",
+        "nodes"
+      ],
+      "sort_order": 48,
+      "created_at": "2023-01-16T00:00:00Z"
+    },
+    {
+      "id": "repo-ai-kornia",
+      "category_id": "cat-ml",
+      "name": "kornia",
+      "owner": "kornia",
+      "full_name": "kornia/kornia",
+      "description": "Geometric computer vision library for PyTorch on GPU with differentiable image transformations.",
+      "url": "https://github.com/kornia/kornia",
+      "stars": 10200,
+      "language": "Python",
+      "topics": [
+        "computer-vision",
+        "pytorch",
+        "gpu",
+        "differentiable",
+        "gem"
+      ],
+      "sort_order": 49,
+      "created_at": "2019-03-20T00:00:00Z"
+    },
+    {
+      "id": "repo-web-1",
+      "category_id": "cat-frontend",
+      "name": "react",
+      "owner": "facebook",
+      "full_name": "facebook/react",
+      "description": "The library for web and native user interfaces.",
+      "url": "https://github.com/facebook/react",
+      "stars": 228000,
+      "language": "JavaScript",
+      "topics": [
+        "react",
+        "javascript",
+        "ui",
+        "frontend",
+        "declarative"
+      ],
+      "sort_order": 50,
+      "created_at": "2013-05-24T00:00:00Z"
+    },
+    {
+      "id": "repo-web-2",
+      "category_id": "cat-frontend",
+      "name": "next.js",
+      "owner": "vercel",
+      "full_name": "vercel/next.js",
+      "description": "The React Framework for the Web with Hybrid Static & Server Rendering.",
+      "url": "https://github.com/vercel/next.js",
+      "stars": 126000,
+      "language": "JavaScript",
+      "topics": [
+        "nextjs",
+        "react",
+        "ssr",
+        "fullstack",
+        "typescript"
+      ],
+      "sort_order": 51,
+      "created_at": "2016-10-05T00:00:00Z"
+    },
+    {
+      "id": "repo-web-astro",
+      "category_id": "cat-frontend",
+      "name": "astro",
+      "owner": "withastro",
+      "full_name": "withastro/astro",
+      "description": "The web framework for content-driven websites with Islands architecture and zero JS by default.",
+      "url": "https://github.com/withastro/astro",
+      "stars": 48000,
+      "language": "TypeScript",
+      "topics": [
+        "astro",
+        "islands-architecture",
+        "static-site-generator",
+        "fast-web"
+      ],
+      "sort_order": 52,
+      "created_at": "2021-03-12T00:00:00Z"
+    },
+    {
+      "id": "repo-web-million",
+      "category_id": "cat-frontend",
+      "name": "million",
+      "owner": "aidenybai",
+      "full_name": "aidenybai/million",
+      "description": "The virtual DOM replacement that makes React up to 70% faster with optimizing compiler blocks.",
+      "url": "https://github.com/aidenybai/million",
+      "stars": 15600,
+      "language": "TypeScript",
+      "topics": [
+        "react",
+        "virtual-dom",
+        "performance",
+        "compiler",
+        "gem"
+      ],
+      "sort_order": 53,
+      "created_at": "2021-06-25T00:00:00Z"
+    },
+    {
+      "id": "repo-web-3",
+      "category_id": "cat-backend",
+      "name": "fastapi",
+      "owner": "tiangolo",
+      "full_name": "tiangolo/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production.",
+      "url": "https://github.com/tiangolo/fastapi",
+      "stars": 77000,
+      "language": "Python",
+      "topics": [
+        "fastapi",
+        "python",
+        "async",
+        "api",
+        "rest"
+      ],
+      "sort_order": 54,
+      "created_at": "2018-12-08T00:00:00Z"
+    },
+    {
+      "id": "repo-web-supabase",
+      "category_id": "cat-backend",
+      "name": "supabase",
+      "owner": "supabase",
+      "full_name": "supabase/supabase",
+      "description": "The open source Firebase alternative. Built with Postgres, Realtime subscriptions, Auth, and Storage.",
+      "url": "https://github.com/supabase/supabase",
+      "stars": 76000,
+      "language": "TypeScript",
+      "topics": [
+        "supabase",
+        "postgres",
+        "auth",
+        "realtime",
+        "database"
+      ],
+      "sort_order": 55,
+      "created_at": "2020-01-15T00:00:00Z"
+    },
+    {
+      "id": "repo-web-hono",
+      "category_id": "cat-backend",
+      "name": "hono",
+      "owner": "honojs",
+      "full_name": "honojs/hono",
+      "description": "Ultrafast, lightweight web framework for Cloudflare Workers, Fastly, Deno, Bun, and Node.js.",
+      "url": "https://github.com/honojs/hono",
+      "stars": 21000,
+      "language": "TypeScript",
+      "topics": [
+        "web-framework",
+        "edge-computing",
+        "cloudflare-workers",
+        "bun",
+        "gem"
+      ],
+      "sort_order": 56,
+      "created_at": "2021-12-14T00:00:00Z"
+    },
+    {
+      "id": "repo-web-surrealdb",
+      "category_id": "cat-backend",
+      "name": "surrealdb",
+      "owner": "surrealdb",
+      "full_name": "surrealdb/surrealdb",
+      "description": "A scalable, distributed, collaborative, document-graph database for the realtime web.",
+      "url": "https://github.com/surrealdb/surrealdb",
+      "stars": 28000,
+      "language": "Rust",
+      "topics": [
+        "database",
+        "rust",
+        "graph-database",
+        "document-store",
+        "realtime"
+      ],
+      "sort_order": 57,
+      "created_at": "2021-12-22T00:00:00Z"
+    },
+    {
+      "id": "repo-web-elysia",
+      "category_id": "cat-backend",
+      "name": "elysia",
+      "owner": "elysiajs",
+      "full_name": "elysiajs/elysia",
+      "description": "Ergonomic Framework for Humans on Bun with end-to-end type safety, OpenAPI compliance, and raw speed.",
+      "url": "https://github.com/elysiajs/elysia",
+      "stars": 11200,
+      "language": "TypeScript",
+      "topics": [
+        "bun",
+        "typescript",
+        "api-framework",
+        "fast",
+        "gem"
+      ],
+      "sort_order": 58,
+      "created_at": "2022-09-08T00:00:00Z"
+    },
+    {
+      "id": "repo-web-shadcn",
+      "category_id": "cat-ui",
+      "name": "ui",
+      "owner": "shadcn",
+      "full_name": "shadcn-ui/ui",
+      "description": "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+      "url": "https://github.com/shadcn-ui/ui",
+      "stars": 75000,
+      "language": "TypeScript",
+      "topics": [
+        "design-system",
+        "tailwind",
+        "radix-ui",
+        "react",
+        "components"
+      ],
+      "sort_order": 59,
+      "created_at": "2023-01-22T00:00:00Z"
+    },
+    {
+      "id": "repo-web-three",
+      "category_id": "cat-ui",
+      "name": "three.js",
+      "owner": "mrdoob",
+      "full_name": "mrdoob/three.js",
+      "description": "JavaScript 3D Library for WebGL canvas animations, shaders, and immersive interactive graphics.",
+      "url": "https://github.com/mrdoob/three.js",
+      "stars": 101000,
+      "language": "JavaScript",
+      "topics": [
+        "threejs",
+        "3d",
+        "webgl",
+        "graphics",
+        "shaders"
+      ],
+      "sort_order": 60,
+      "created_at": "2010-03-23T00:00:00Z"
+    },
+    {
+      "id": "repo-web-aceternity",
+      "category_id": "cat-ui",
+      "name": "ui",
+      "owner": "aceternity",
+      "full_name": "aceternity/ui",
+      "description": "Trending copy-paste interactive UI components, glowing borders, card tilt effects, and canvas shaders.",
+      "url": "https://github.com/aceternity/ui",
+      "stars": 8400,
+      "language": "TypeScript",
+      "topics": [
+        "ui-components",
+        "framer-motion",
+        "tailwind",
+        "shaders",
+        "gem"
+      ],
+      "sort_order": 61,
+      "created_at": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "repo-web-r3f",
+      "category_id": "cat-ui",
+      "name": "react-three-fiber",
+      "owner": "pmndrs",
+      "full_name": "pmndrs/react-three-fiber",
+      "description": "A React renderer for Three.js that lets you build declarative, reusable 3D graphics scenes.",
+      "url": "https://github.com/pmndrs/react-three-fiber",
+      "stars": 26000,
+      "language": "TypeScript",
+      "topics": [
+        "threejs",
+        "react",
+        "3d",
+        "webgl"
+      ],
+      "sort_order": 62,
+      "created_at": "2019-04-18T00:00:00Z"
+    },
+    {
+      "id": "repo-devops-1",
+      "category_id": "cat-devops",
+      "name": "kubernetes",
+      "owner": "kubernetes",
+      "full_name": "kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Cluster Management.",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "stars": 112000,
+      "language": "Go",
+      "topics": [
+        "kubernetes",
+        "containers",
+        "devops",
+        "cloud-native",
+        "go"
+      ],
+      "sort_order": 63,
+      "created_at": "2014-06-06T00:00:00Z"
+    },
+    {
+      "id": "repo-devops-k9s",
+      "category_id": "cat-devops",
+      "name": "k9s",
+      "owner": "derailed",
+      "full_name": "derailed/k9s",
+      "description": "Kubernetes CLI To Manage Your Clusters In Style with terminal dashboard and realtime telemetry.",
+      "url": "https://github.com/derailed/k9s",
+      "stars": 27000,
+      "language": "Go",
+      "topics": [
+        "kubernetes",
+        "terminal-ui",
+        "devops",
+        "monitoring",
+        "gem"
+      ],
+      "sort_order": 64,
+      "created_at": "2019-01-30T00:00:00Z"
+    },
+    {
+      "id": "repo-devops-act",
+      "category_id": "cat-devops",
+      "name": "act",
+      "owner": "nektos",
+      "full_name": "nektos/act",
+      "description": "Run your GitHub Actions locally in Docker containers for rapid CI/CD feedback without pushing commits.",
+      "url": "https://github.com/nektos/act",
+      "stars": 53000,
+      "language": "Go",
+      "topics": [
+        "github-actions",
+        "ci-cd",
+        "docker",
+        "local-testing",
+        "gem"
+      ],
+      "sort_order": 65,
+      "created_at": "2019-03-12T00:00:00Z"
+    },
+    {
+      "id": "repo-devops-opentofu",
+      "category_id": "cat-devops",
+      "name": "opentofu",
+      "owner": "opentofu",
+      "full_name": "opentofu/opentofu",
+      "description": "OpenTofu lets you declaratively manage your cloud infrastructure using code (IaC) under Linux Foundation.",
+      "url": "https://github.com/opentofu/opentofu",
+      "stars": 23000,
+      "language": "Go",
+      "topics": [
+        "infrastructure-as-code",
+        "terraform",
+        "cloud",
+        "devops"
+      ],
+      "sort_order": 66,
+      "created_at": "2023-08-25T00:00:00Z"
+    },
+    {
+      "id": "repo-devops-2",
+      "category_id": "cat-cloudsec",
+      "name": "prowler",
+      "owner": "prowler-cloud",
+      "full_name": "prowler-cloud/prowler",
+      "description": "Open Source security assessment, auditing, and hardening tool for AWS, GCP, Azure, and Kubernetes.",
+      "url": "https://github.com/prowler-cloud/prowler",
+      "stars": 11800,
+      "language": "Python",
+      "topics": [
+        "cloud-security",
+        "aws",
+        "azure",
+        "gcp",
+        "compliance"
+      ],
+      "sort_order": 67,
+      "created_at": "2016-09-12T00:00:00Z"
+    },
+    {
+      "id": "repo-cloudsec-trivy",
+      "category_id": "cat-cloudsec",
+      "name": "trivy",
+      "owner": "aquasecurity",
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, and SBOM in container images, file systems, and Git repositories.",
+      "url": "https://github.com/aquasecurity/trivy",
+      "stars": 23000,
+      "language": "Go",
+      "topics": [
+        "container-security",
+        "vulnerability-scanner",
+        "sbom",
+        "devsecops"
+      ],
+      "sort_order": 68,
+      "created_at": "2019-04-18T00:00:00Z"
+    },
+    {
+      "id": "repo-cloudsec-falco",
+      "category_id": "cat-cloudsec",
+      "name": "falco",
+      "owner": "falcosecurity",
+      "full_name": "falcosecurity/falco",
+      "description": "Cloud Native Runtime Security & threat detection engine for Kubernetes and Linux with eBPF probes.",
+      "url": "https://github.com/falcosecurity/falco",
+      "stars": 7200,
+      "language": "C++",
+      "topics": [
+        "runtime-security",
+        "ebpf",
+        "kubernetes",
+        "threat-detection",
+        "gem"
+      ],
+      "sort_order": 69,
+      "created_at": "2016-05-19T00:00:00Z"
+    },
+    {
+      "id": "repo-cloudsec-scoutsuite",
+      "category_id": "cat-cloudsec",
+      "name": "ScoutSuite",
+      "owner": "nccgroup",
+      "full_name": "nccgroup/ScoutSuite",
+      "description": "Multi-Cloud Security Auditing Tool that assesses security posture of AWS, Azure, GCP, and Alibaba Cloud.",
+      "url": "https://github.com/nccgroup/ScoutSuite",
+      "stars": 5300,
+      "language": "Python",
+      "topics": [
+        "cloud-security",
+        "aws",
+        "azure",
+        "gcp",
+        "audit",
+        "gem"
+      ],
+      "sort_order": 70,
+      "created_at": "2018-08-20T00:00:00Z"
+    },
+    {
+      "id": "repo-mobile-1",
+      "category_id": "cat-mobile",
+      "name": "flutter",
+      "owner": "flutter",
+      "full_name": "flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond.",
+      "url": "https://github.com/flutter/flutter",
+      "stars": 165000,
+      "language": "Dart",
+      "topics": [
+        "flutter",
+        "mobile",
+        "dart",
+        "cross-platform",
+        "ios",
+        "android"
+      ],
+      "sort_order": 71,
+      "created_at": "2015-03-06T00:00:00Z"
+    },
+    {
+      "id": "repo-mobile-tauri",
+      "category_id": "cat-mobile",
+      "name": "tauri",
+      "owner": "tauri-apps",
+      "full_name": "tauri-apps/tauri",
+      "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend and Rust backend.",
+      "url": "https://github.com/tauri-apps/tauri",
+      "stars": 83000,
+      "language": "Rust",
+      "topics": [
+        "tauri",
+        "rust",
+        "cross-platform",
+        "mobile",
+        "desktop"
+      ],
+      "sort_order": 72,
+      "created_at": "2019-07-12T00:00:00Z"
+    },
+    {
+      "id": "repo-mobile-scrcpy",
+      "category_id": "cat-mobile",
+      "name": "scrcpy",
+      "owner": "Genymobile",
+      "full_name": "Genymobile/scrcpy",
+      "description": "Display and control your Android device over USB or TCP/IP with high performance and low latency.",
+      "url": "https://github.com/Genymobile/scrcpy",
+      "stars": 112000,
+      "language": "C",
+      "topics": [
+        "android",
+        "screen-mirror",
+        "remote-control",
+        "c",
+        "gem"
+      ],
+      "sort_order": 73,
+      "created_at": "2018-03-07T00:00:00Z"
+    },
+    {
+      "id": "repo-mobile-maestro",
+      "category_id": "cat-mobile",
+      "name": "maestro",
+      "owner": "mobile-dev-inc",
+      "full_name": "mobile-dev-inc/maestro",
+      "description": "Painless Mobile UI Automation for Android and iOS in simple declarative YAML flows.",
+      "url": "https://github.com/mobile-dev-inc/maestro",
+      "stars": 7800,
+      "language": "Kotlin",
+      "topics": [
+        "mobile-testing",
+        "automation",
+        "ios",
+        "android",
+        "gem"
+      ],
+      "sort_order": 74,
+      "created_at": "2022-07-15T00:00:00Z"
+    },
+    {
+      "id": "repo-systems-1",
+      "category_id": "cat-systems",
+      "name": "linux",
+      "owner": "torvalds",
+      "full_name": "torvalds/linux",
+      "description": "Linux kernel source tree by Linus Torvalds.",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 182000,
+      "language": "C",
+      "topics": [
+        "linux",
+        "kernel",
+        "os",
+        "c",
+        "systems"
+      ],
+      "sort_order": 75,
+      "created_at": "2011-09-04T00:00:00Z"
+    },
+    {
+      "id": "repo-systems-zig",
+      "category_id": "cat-systems",
+      "name": "zig",
+      "owner": "ziglang",
+      "full_name": "ziglang/zig",
+      "description": "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
+      "url": "https://github.com/ziglang/zig",
+      "stars": 35000,
+      "language": "Zig",
+      "topics": [
+        "zig",
+        "compiler",
+        "systems-programming",
+        "c-interop"
+      ],
+      "sort_order": 76,
+      "created_at": "2015-10-20T00:00:00Z"
+    },
+    {
+      "id": "repo-systems-ripgrep",
+      "category_id": "cat-systems",
+      "name": "ripgrep",
+      "owner": "BurntSushi",
+      "full_name": "BurntSushi/ripgrep",
+      "description": "ripgrep combines the usability of The Silver Searcher with the raw speed of GNU grep using finite automata.",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "stars": 49000,
+      "language": "Rust",
+      "topics": [
+        "search",
+        "rust",
+        "cli",
+        "regex",
+        "systems"
+      ],
+      "sort_order": 77,
+      "created_at": "2016-09-04T00:00:00Z"
+    },
+    {
+      "id": "repo-systems-cosmo",
+      "category_id": "cat-systems",
+      "name": "cosmopolitan",
+      "owner": "jart",
+      "full_name": "jart/cosmopolitan",
+      "description": "Build-once run-anywhere C library compiling single binaries that run on Linux, Mac, Windows, FreeBSD, and OpenBSD.",
+      "url": "https://github.com/jart/cosmopolitan",
+      "stars": 15800,
+      "language": "C",
+      "topics": [
+        "c",
+        "portable-binaries",
+        "os",
+        "assembly",
+        "gem"
+      ],
+      "sort_order": 78,
+      "created_at": "2020-12-24T00:00:00Z"
+    },
+    {
+      "id": "repo-systems-ebpf",
+      "category_id": "cat-systems",
+      "name": "ebpf",
+      "owner": "cilium",
+      "full_name": "cilium/ebpf",
+      "description": "Pure Go library that provides utilities for loading, compiling, and debugging eBPF programs into the Linux kernel.",
+      "url": "https://github.com/cilium/ebpf",
+      "stars": 6200,
+      "language": "Go",
+      "topics": [
+        "ebpf",
+        "linux",
+        "kernel",
+        "networking",
+        "gem"
+      ],
+      "sort_order": 79,
+      "created_at": "2018-04-20T00:00:00Z"
+    },
+    {
+      "id": "repo-network-wireshark",
+      "category_id": "cat-network",
+      "name": "wireshark",
+      "owner": "wireshark",
+      "full_name": "wireshark/wireshark",
+      "description": "The worlds foremost network protocol analyzer for network packet inspection, troubleshooting, and forensics.",
+      "url": "https://github.com/wireshark/wireshark",
+      "stars": 7600,
+      "language": "C",
+      "topics": [
+        "wireshark",
+        "networking",
+        "packet-analysis",
+        "protocols"
+      ],
+      "sort_order": 80,
+      "created_at": "2015-05-18T00:00:00Z"
+    },
+    {
+      "id": "repo-network-tailscale",
+      "category_id": "cat-network",
+      "name": "tailscale",
+      "owner": "tailscale",
+      "full_name": "tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and create zero-config overlay mesh networks between your devices.",
+      "url": "https://github.com/tailscale/tailscale",
+      "stars": 19500,
+      "language": "Go",
+      "topics": [
+        "wireguard",
+        "vpn",
+        "mesh-network",
+        "p2p",
+        "go"
+      ],
+      "sort_order": 81,
+      "created_at": "2020-02-18T00:00:00Z"
+    },
+    {
+      "id": "repo-network-caddy",
+      "category_id": "cat-network",
+      "name": "caddy",
+      "owner": "caddyserver",
+      "full_name": "caddyserver/caddy",
+      "description": "Fast, multi-platform web server and reverse proxy with automatic HTTPS and Let Encrypt certificate renewal.",
+      "url": "https://github.com/caddyserver/caddy",
+      "stars": 56000,
+      "language": "Go",
+      "topics": [
+        "web-server",
+        "https",
+        "reverse-proxy",
+        "go"
+      ],
+      "sort_order": 82,
+      "created_at": "2015-01-20T00:00:00Z"
+    },
+    {
+      "id": "repo-network-nebula",
+      "category_id": "cat-network",
+      "name": "nebula",
+      "owner": "slackhq",
+      "full_name": "slackhq/nebula",
+      "description": "A scalable overlay networking tool with a focus on performance, simplicity, and zero-trust mutual encryption.",
+      "url": "https://github.com/slackhq/nebula",
+      "stars": 14500,
+      "language": "Go",
+      "topics": [
+        "overlay-network",
+        "mesh",
+        "zero-trust",
+        "security",
+        "gem"
+      ],
+      "sort_order": 83,
+      "created_at": "2019-11-18T00:00:00Z"
+    },
+    {
+      "id": "repo-network-rathole",
+      "category_id": "cat-network",
+      "name": "rathole",
+      "owner": "rapiz1",
+      "full_name": "rapiz1/rathole",
+      "description": "A lightweight, secure, and fast NAT traversal proxy written in Rust with Noise protocol encryption.",
+      "url": "https://github.com/rapiz1/rathole",
+      "stars": 7800,
+      "language": "Rust",
+      "topics": [
+        "nat-traversal",
+        "proxy",
+        "rust",
+        "noise-protocol",
+        "gem"
+      ],
+      "sort_order": 84,
+      "created_at": "2021-12-05T00:00:00Z"
+    },
+    {
+      "id": "repo-network-masscan",
+      "category_id": "cat-network",
+      "name": "masscan",
+      "owner": "robertdavidgraham",
+      "full_name": "robertdavidgraham/masscan",
+      "description": "TCP port scanner that spews SYN packets asynchronously, transmitting 10 million packets per second.",
+      "url": "https://github.com/robertdavidgraham/masscan",
+      "stars": 23500,
+      "language": "C",
+      "topics": [
+        "port-scanner",
+        "networking",
+        "asynchronous",
+        "fast-scan"
+      ],
+      "sort_order": 85,
+      "created_at": "2013-09-09T00:00:00Z"
+    }
+  ]
+}

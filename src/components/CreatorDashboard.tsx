@@ -1,30 +1,34 @@
 import { useState, useEffect, useMemo } from 'react';
 import {
   Github,
-  ExternalLink,
   Star,
   GitFork,
   Terminal,
-  Shield,
+  ExternalLink,
   Code2,
-  Sparkles,
-  MapPin,
-  Globe,
-  RefreshCw,
+  Terminal as TerminalIcon,
   Search,
+  BookOpen,
+  Globe,
+  Rocket,
+  Shield,
+  Zap,
+  Sparkles,
+  Server,
+  MapPin,
+  RefreshCw,
   Check,
   Copy,
   Layers,
-  Zap,
   Lock,
   Cpu,
   Brain,
-  Rocket,
   Flame,
   Radio,
   Bookmark,
   Share2,
 } from 'lucide-react';
+import { ApiModal } from './ApiModal';
 import {
   fetchGitHubUserProfile,
   fetchGitHubUserRepos,
@@ -50,6 +54,7 @@ export function CreatorDashboard({ onToast }: CreatorDashboardProps) {
   const [repos, setRepos] = useState<GitHubUserRepo[]>(VELQORE_FALLBACK_REPOS);
   const [loading, setLoading] = useState(true);
   const [isLive, setIsLive] = useState(false);
+  const [isApiModalOpen, setIsApiModalOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<RepoCategory>('all');
   const [selectedOwnership, setSelectedOwnership] = useState<OwnershipFilter>('all');
@@ -252,6 +257,9 @@ export function CreatorDashboard({ onToast }: CreatorDashboardProps) {
 
   return (
     <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+      {/* API Modal */}
+      <ApiModal isOpen={isApiModalOpen} onClose={() => setIsApiModalOpen(false)} />
+
       {/* ──────────────── Top Telemetry Status Header ──────────────── */}
       <div className="flex flex-wrap items-center justify-between gap-4 p-4 rounded-2xl dark-minimal-panel border border-cyan-500/20 shadow-[0_10px_30px_rgba(0,0,0,0.6)] cyber-hud-corner">
         <div className="flex items-center gap-3">
@@ -475,9 +483,19 @@ export function CreatorDashboard({ onToast }: CreatorDashboardProps) {
               <Rocket className="w-3.5 h-3.5" />
               <span>MODULE REPOSITORY ARSENAL</span>
             </div>
-            <h3 className="text-xl font-black text-white font-display">
-              Projects & Engineering Toolkits ({filteredRepos.length})
-            </h3>
+            <div className="flex items-center gap-4">
+              <h3 className="text-xl font-black text-white font-display">
+                Projects & Engineering Toolkits ({filteredRepos.length})
+              </h3>
+              <button
+                onClick={() => setIsApiModalOpen(true)}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 text-cyan-400 text-xs font-mono font-bold transition-colors"
+                title="View Developer API"
+              >
+                <Server className="w-3.5 h-3.5" />
+                API
+              </button>
+            </div>
           </div>
 
           {/* Ownership Filter Tabs */}

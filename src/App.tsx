@@ -18,6 +18,7 @@ import { CreatorDashboard } from '@/components/CreatorDashboard';
 import { Card3D } from '@/components/Card3D';
 import { Icon3D } from '@/components/Icon3D';
 import { CyberRepoLogoAnimation, CyberRepoCodeCore } from '@/components/CyberRepoLogo';
+import { ApiModal } from '@/components/ApiModal';
 
 import {
   Search,
@@ -70,6 +71,8 @@ import {
   Brain,
   Rocket,
   Bot,
+  Server,
+  FileJson,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
@@ -180,6 +183,7 @@ export default function App() {
   const [activeView, setActiveView] = useState<ActiveView>('browse');
   const [activeTopics, setActiveTopics] = useState<Set<string>>(new Set());
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [isApiModalOpen, setIsApiModalOpen] = useState(false);
 
   // GitHub live radar community filter
   const [githubCommunity, setGithubCommunity] = useState<TechCommunity>('all');
@@ -494,8 +498,16 @@ export default function App() {
           onBookmark={() => toggleBookmark(modalRepo.id)}
           onClose={() => setModalRepo(null)}
           onToast={showToast}
+          onOpenApi={() => setIsApiModalOpen(true)}
         />
       )}
+
+      {/* Developer API Modal */}
+      <ApiModal
+        isOpen={isApiModalOpen}
+        onClose={() => setIsApiModalOpen(false)}
+        initialRepoName={modalRepo?.name}
+      />
 
       {/* Top Cyber Telemetry Status Bar */}
       <div className="relative z-50 border-b border-white/[0.06] bg-[#06080d]/90 backdrop-blur-md text-[11px] font-mono text-zinc-400">
@@ -596,6 +608,19 @@ export default function App() {
                     )}
                   </button>
                 ))}
+
+                {/* Direct REST API Modal Button */}
+                <button
+                  onClick={() => setIsApiModalOpen(true)}
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-cyan-300 hover:text-cyan-100 hover:bg-cyan-500/20 border border-cyan-400/40 transition-all shadow-[0_0_12px_rgba(34,211,238,0.2)] group"
+                  title="Developer REST API (JSON Endpoints)"
+                >
+                  <Server className="w-3.5 h-3.5 text-cyan-400 group-hover:animate-pulse" />
+                  <span>REST API</span>
+                  <span className="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded bg-cyan-400/25 text-cyan-200 border border-cyan-400/50">
+                    v1.0
+                  </span>
+                </button>
               </nav>
 
               <button
@@ -637,6 +662,13 @@ export default function App() {
             <span>{label}</span>
           </button>
         ))}
+        <button
+          onClick={() => setIsApiModalOpen(true)}
+          className="flex-1 flex items-center justify-center gap-1 px-2 py-2 rounded-lg text-xs font-semibold text-cyan-400 hover:bg-zinc-900 border border-cyan-500/30"
+        >
+          <Server className="w-3.5 h-3.5" />
+          <span>API</span>
+        </button>
       </div>
 
       {activeView === 'creator' ? (
@@ -659,6 +691,7 @@ export default function App() {
             totalRepos={totalRepos}
             categoriesCount={categories.length}
             onOpenCreator={() => setActiveView('creator')}
+            onOpenApi={() => setIsApiModalOpen(true)}
           />
 
           {/* ──────────────── Multi-Community Ecosystem Tabs ──────────────── */}
@@ -784,6 +817,17 @@ export default function App() {
                     >
                       <Zap className="w-3.5 h-3.5 text-cyan-400" />
                       GitHub Live Radar (Universal Search)
+                    </button>
+                    <button
+                      onClick={() => setIsApiModalOpen(true)}
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-cyan-300 hover:text-white hover:bg-cyan-500/20 border border-cyan-500/40 transition-all shadow-[0_0_10px_rgba(34,211,238,0.15)]"
+                      title="Fetch data programmatically via REST API"
+                    >
+                      <Server className="w-3.5 h-3.5 text-cyan-400" />
+                      <span>DEVELOPER API</span>
+                      <span className="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded bg-cyan-500/25 text-cyan-200 border border-cyan-400/50">
+                        JSON
+                      </span>
                     </button>
                   </div>
 
@@ -1172,6 +1216,14 @@ export default function App() {
                   <span className="text-zinc-700">|</span>
                   <span>{TECH_COMMUNITIES.length} TECH COMMUNITIES</span>
                   <span className="text-zinc-700">|</span>
+                  <button
+                    onClick={() => setIsApiModalOpen(true)}
+                    className="text-cyan-400 hover:text-cyan-200 hover:underline flex items-center gap-1.5 transition-colors"
+                  >
+                    <Server className="w-3.5 h-3.5" />
+                    <span>PUBLIC REST API (v1.0)</span>
+                  </button>
+                  <span className="text-zinc-700">|</span>
                   <span className="text-cyan-400 flex items-center gap-1">
                     <Sparkles className="w-3.5 h-3.5" /> 3D CINEMATIC PERSPECTIVE
                   </span>
@@ -1332,10 +1384,12 @@ function HeroSection({
   totalRepos,
   categoriesCount,
   onOpenCreator,
+  onOpenApi,
 }: {
   totalRepos: number;
   categoriesCount: number;
   onOpenCreator: () => void;
+  onOpenApi: () => void;
 }) {
   return (
     <section className="relative z-10 overflow-hidden pt-12 pb-16 lg:pt-16 lg:pb-20">
@@ -1400,13 +1454,23 @@ function HeroSection({
                 </div>
               </div>
 
-              <button
-                onClick={onOpenCreator}
-                className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-mono font-bold text-xs hover:brightness-110 shadow-md transition-all flex-shrink-0"
-              >
-                <span>CREATOR DASHBOARD</span>
-                <ChevronRight className="w-3.5 h-3.5" />
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={onOpenApi}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-850 border border-cyan-500/40 text-cyan-300 font-mono font-bold text-xs shadow-md transition-all flex-shrink-0 hover:text-white"
+                  title="Explore REST API endpoints"
+                >
+                  <Server className="w-3.5 h-3.5 text-cyan-400" />
+                  <span>REST API</span>
+                </button>
+                <button
+                  onClick={onOpenCreator}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-mono font-bold text-xs hover:brightness-110 shadow-md transition-all flex-shrink-0"
+                >
+                  <span>CREATOR DASHBOARD</span>
+                  <ChevronRight className="w-3.5 h-3.5" />
+                </button>
+              </div>
             </div>
           </div>
 
@@ -1788,6 +1852,7 @@ function RepoModal({
   onBookmark,
   onClose,
   onToast,
+  onOpenApi,
 }: {
   repo: ModalRepo;
   loading: boolean;
@@ -1795,6 +1860,7 @@ function RepoModal({
   onBookmark: () => void;
   onClose: () => void;
   onToast: (msg: string) => void;
+  onOpenApi: () => void;
 }) {
   const colorSpec = colorClasses[repo.categoryColor] ?? colorClasses['blue'];
 
@@ -1841,6 +1907,13 @@ function RepoModal({
           </div>
 
           <div className="flex items-center gap-2 flex-shrink-0">
+            <button
+              onClick={onOpenApi}
+              className="p-2.5 rounded-xl bg-cyan-500/10 text-cyan-400 hover:text-cyan-200 border border-cyan-500/30 hover:border-cyan-400 transition-all"
+              title="View REST API JSON"
+            >
+              <Server className="w-4 h-4" />
+            </button>
             <button
               onClick={onBookmark}
               className={`p-2.5 rounded-xl border transition-all ${
@@ -1952,6 +2025,13 @@ function RepoModal({
 
           {/* Action links */}
           <div className="flex flex-col sm:flex-row gap-3 pt-2">
+            <button
+              onClick={onOpenApi}
+              className="flex-1 flex items-center justify-center gap-2 py-3 rounded-2xl bg-zinc-900 border border-cyan-500/40 text-xs font-mono font-bold text-cyan-300 hover:bg-cyan-500/10 transition-all shadow-sm"
+            >
+              <Server className="w-4 h-4 text-cyan-400" />
+              <span>FETCH VIA API</span>
+            </button>
             {repo.homepage && (
               <a
                 href={repo.homepage}

@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "generatedAt": "2026-08-20T16:31:34.613Z",
+    "count": 6,
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "id": "all",
+      "name": "All Ecosystems",
+      "description": "Explore curated high-impact repositories across all software engineering, AI, security, and cloud disciplines.",
+      "icon": "Compass",
+      "color": "cyan",
+      "categoryIds": [],
+      "categorySlugs": []
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity & Red Team",
+      "description": "Offensive toolkits, anti-forensics, OSINT reconnaissance, malware analysis, and cryptographic defenses.",
+      "icon": "Shield",
+      "color": "red",
+      "categoryIds": [
+        "cat-pentest",
+        "cat-osint",
+        "cat-malware",
+        "cat-reversing",
+        "cat-websec",
+        "cat-crypto"
+      ],
+      "categorySlugs": [
+        "penetration-testing",
+        "osint",
+        "malware-forensics",
+        "reverse-engineering",
+        "web-security",
+        "cryptography"
+      ]
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI, LLMs & Machine Learning",
+      "description": "Large language models, autonomous AI agents, neural network architectures, and research copilot extensions.",
+      "icon": "Brain",
+      "color": "purple",
+      "categoryIds": [
+        "cat-llm",
+        "cat-ml",
+        "cat-ai-agents"
+      ],
+      "categorySlugs": [
+        "llms-models",
+        "llms-agents",
+        "ai-agents",
+        "deep-learning",
+        "machine-learning"
+      ]
+    },
+    {
+      "id": "web-fullstack",
+      "name": "Full Stack & Modern Web",
+      "description": "Modern frontend frameworks, high-throughput asynchronous backend runtimes, and design systems.",
+      "icon": "Globe",
+      "color": "emerald",
+      "categoryIds": [
+        "cat-frontend",
+        "cat-backend",
+        "cat-ui"
+      ],
+      "categorySlugs": [
+        "frontend-frameworks",
+        "backend-apis",
+        "design-systems"
+      ]
+    },
+    {
+      "id": "devops-cloud",
+      "name": "DevOps & Cloud Native",
+      "description": "Container orchestration, infrastructure-as-code, observability, and distributed cloud architecture.",
+      "icon": "Cloud",
+      "color": "sky",
+      "categoryIds": [
+        "cat-cloudsec",
+        "cat-devops"
+      ],
+      "categorySlugs": [
+        "devops-orchestration",
+        "cloud-security"
+      ]
+    },
+    {
+      "id": "mobile-systems",
+      "name": "Mobile, Systems & Embedded",
+      "description": "Cross-platform mobile apps, operating systems, compilers, IoT, and high-performance low-level engineering.",
+      "icon": "Cpu",
+      "color": "amber",
+      "categoryIds": [
+        "cat-mobile",
+        "cat-systems",
+        "cat-network"
+      ],
+      "categorySlugs": [
+        "mobile-cross-platform",
+        "systems-compilers",
+        "networking-mesh"
+      ]
+    }
+  ]
+}
