@@ -1,0 +1,13 @@
+{{- if .Values.pdb.enabled }}
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: {{ include "cyberrepos.fullname" . }}
+  labels:
+    {{- include "cyberrepos.labels" . | nindent 4 }}
+spec:
+  minAvailable: {{ .Values.pdb.minAvailable }}
+  selector:
+    matchLabels:
+      {{- include "cyberrepos.selectorLabels" . | nindent 6 }}
+{{- end }}

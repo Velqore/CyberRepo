@@ -1,0 +1,81 @@
+# Default values for cyberrepos.
+replicaCount: 3
+
+image:
+  repository: ghcr.io/velqore/cyberrepos
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+
+podAnnotations: {}
+
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 101
+  runAsGroup: 101
+  fsGroup: 101
+
+securityContext:
+  allowPrivilegeEscalation: false
+  readOnlyRootFilesystem: true
+  capabilities:
+    drop:
+      - ALL
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+
+ingress:
+  enabled: true
+  className: "nginx"
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/proxy-body-size: "8m"
+  hosts:
+    - host: cyberrepos.example.com
+      paths:
+        - path: /
+          pathType: Prefix
+  tls:
+    - secretName: cyberrepos-tls-cert
+      hosts:
+        - cyberrepos.example.com
+
+resources:
+  limits:
+    cpu: 250m
+    memory: 192Mi
+  requests:
+    cpu: 50m
+    memory: 64Mi
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 80
+
+pdb:
+  enabled: true
+  minAvailable: 1
+
+nodeSelector: {}
+tolerations: []
+affinity: {}
+
+config:
+  appEnv: "production"
+  supabaseUrl: "https://debpapifbkxxvatbhyqx.supabase.co"
+  supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRlYnBhcGlmYmt4eHZhdGJoeXF4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY3NjQyOTMsImV4cCI6MjEwMjM0MDI5M30.4xpuo2bDm00-wLYjhx8_pvSmhntnPi6EBI91urpJ4s0"

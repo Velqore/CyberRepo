@@ -1,0 +1,121 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cyberrepos-frontend
+  namespace: cyberrepos-system
+  labels:
+    app.kubernetes.io/name: cyberrepos
+    app.kubernetes.io/component: frontend
+    app.kubernetes.io/version: "1.0.0"
+spec:
+  replicas: 3
+  revisionHistoryLimit: 5
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: cyberrepos
+      app.kubernetes.io/component: frontend
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: cyberrepos
+        app.kubernetes.io/component: frontend
+      annotations:
+        prometheus.io/scrape: "false"
+    spec:
+      # Pod Anti-Affinity: Spread replicas across different worker nodes
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - weight: 100
+              podAffinityTerm:
+                labelSelector:
+                  matchExpressions:
+                    - key: app.kubernetes.io/name
+                      operator: In
+                      values:
+                        - cyberrepos
+                topologyKey: kubernetes.io/hostname
+
+      # Pod Security Context
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 101 # nginx user in alpine
+        runAsGroup: 101
+        fsGroup: 101
+
+      containers:
+        - name: web
+          image: cyberrepos:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8080
+              protocol: TCP
+
+          # Container Security Context (Hardened)
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop:
+                - ALL
+
+          # Resource Governance
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 250m
+              memory: 192Mi
+
+          # Liveness, Readiness, and Startup Probes
+          startupProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 2
+            periodSeconds: 3
+            failureThreshold: 10
+            timeoutSeconds: 2
+
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 3
+            periodSeconds: 5
+            successThreshold: 1
+            failureThreshold: 3
+            timeoutSeconds: 2
+
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 15
+            failureThreshold: 3
+            timeoutSeconds: 2
+
+          # Temporary volumes for read-only root filesystem compliance
+          volumeMounts:
+            - name: nginx-cache
+              mountPath: /var/cache/nginx
+            - name: nginx-run
+              mountPath: /var/run
+            - name: tmp-dir
+              mountPath: /tmp
+
+      volumes:
+        - name: nginx-cache
+          emptyDir: {}
+        - name: nginx-run
+          emptyDir: {}
+        - name: tmp-dir
+          emptyDir: {}

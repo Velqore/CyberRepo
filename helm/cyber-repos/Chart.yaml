@@ -1,0 +1,16 @@
+apiVersion: v2
+name: cyberrepos
+description: Production Helm Chart for CyberRepos Hub Web Discovery Engine
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+maintainers:
+  - name: Velqore
+    url: https://github.com/Velqore
+keywords:
+  - cyberrepos
+  - react
+  - frontend
+  - kubernetes
+  - redteam
+  - ai

@@ -1,0 +1,13 @@
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: cyberrepos-pdb
+  namespace: cyberrepos-system
+  labels:
+    app.kubernetes.io/name: cyberrepos
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: cyberrepos
+      app.kubernetes.io/component: frontend

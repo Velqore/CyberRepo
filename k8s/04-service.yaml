@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cyberrepos-service
+  namespace: cyberrepos-system
+  labels:
+    app.kubernetes.io/name: cyberrepos
+    app.kubernetes.io/component: frontend
+spec:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+      protocol: TCP
+  selector:
+    app.kubernetes.io/name: cyberrepos
+    app.kubernetes.io/component: frontend

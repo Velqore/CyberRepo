@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cyberrepos-system
+  labels:
+    app.kubernetes.io/name: cyberrepos
+    app.kubernetes.io/part-of: cyberrepos-hub
+    environment: production

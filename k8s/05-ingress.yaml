@@ -1,0 +1,32 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: cyberrepos-ingress
+  namespace: cyberrepos-system
+  labels:
+    app.kubernetes.io/name: cyberrepos
+    app.kubernetes.io/component: frontend
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/proxy-body-size: "8m"
+    nginx.ingress.kubernetes.io/enable-cors: "true"
+    nginx.ingress.kubernetes.io/limit-rps: "30"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - cyberrepos.example.com
+      secretName: cyberrepos-tls-cert
+  rules:
+    - host: cyberrepos.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: cyberrepos-service
+                port:
+                  number: 80
