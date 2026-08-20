@@ -1,9 +1,12 @@
 <div align="center">
 
 <!-- Animated Header Banner via Capsule Render API (GitHub Native Render Supported) -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06080d,30:0f172a,70:1e1b4b,100:06080d&height=240&section=header&text=CYBERREPO%20HUB&fontSize=48&fontColor=22d3ee&animation=twinkling&fontAlignY=38&desc=MULTI-ECOSYSTEM%20DEVELOPER%20VAULT%20%26%20RADAR&descAlignY=60&descSize=14" width="100%" alt="CyberRepo Header Banner" />
+<h1 align="center">
+  <a href="https://cyberrepos.vercel.app">
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=36&duration=2400&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&height=70&lines=%E2%9A%A1+CYBERREPO+HUB+%E2%9A%A1;MULTI-ECOSYSTEM+DEVELOPER+VAULT;UNIVERSAL+GITHUB+RADAR" alt="CyberRepo Hub" />
+  </a>
+</h1>
 
-<br/>
 
 <!-- Animated Typing Text Header -->
 <a href="https://cyberrepos.vercel.app">
