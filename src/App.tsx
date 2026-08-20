@@ -17,7 +17,7 @@ import {
 import { CreatorDashboard } from '@/components/CreatorDashboard';
 import { Card3D } from '@/components/Card3D';
 import { Icon3D } from '@/components/Icon3D';
-import { CyberRepoLogoAnimation } from '@/components/CyberRepoLogo';
+import { CyberRepoLogoAnimation, CyberRepoCodeCore } from '@/components/CyberRepoLogo';
 
 import {
   Search,
@@ -460,7 +460,7 @@ export default function App() {
     return (
       <div className="min-h-screen bg-[#06080d] flex items-center justify-center relative overflow-hidden font-sans">
         <div className="flex flex-col items-center gap-5 z-10">
-          <Icon3D icon={Shield} color="cyan" size="xl" />
+          <CyberRepoCodeCore size={64} />
           <div className="text-center">
             <h3 className="text-sm font-bold text-white tracking-widest uppercase font-mono">
               INITIALIZING ECOSYSTEM RADAR
@@ -1159,7 +1159,7 @@ export default function App() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="flex items-center gap-3">
-                  <Icon3D icon={Shield} color="cyan" size="sm" />
+                  <CyberRepoCodeCore size={28} />
                   <div>
                     <p className="text-sm font-bold text-white font-display">CyberRepo Hub 3D</p>
                     <p className="text-[11px] text-zinc-500 font-mono">
@@ -1468,7 +1468,7 @@ function HologramCore3D() {
         style={{ transform: 'translateZ(45px)' }}
       >
         <div className="relative">
-          <Icon3D icon={Shield} color="cyan" size="lg" />
+          <CyberRepoCodeCore size={48} />
         </div>
         <div className="text-center mt-3">
           <p className="text-xs font-bold text-white font-mono tracking-wider">ECOSYSTEM.3D</p>

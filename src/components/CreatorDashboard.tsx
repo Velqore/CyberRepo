@@ -36,6 +36,7 @@ import {
 import { formatStars, getLanguageColor } from '@/lib/format';
 import { Card3D } from '@/components/Card3D';
 import { Icon3D } from '@/components/Icon3D';
+import { CyberRepoCodeCore } from '@/components/CyberRepoLogo';
 
 interface CreatorDashboardProps {
   onToast: (msg: string) => void;
@@ -254,7 +255,7 @@ export function CreatorDashboard({ onToast }: CreatorDashboardProps) {
       {/* ──────────────── Top Telemetry Status Header ──────────────── */}
       <div className="flex flex-wrap items-center justify-between gap-4 p-4 rounded-2xl dark-minimal-panel border border-cyan-500/20 shadow-[0_10px_30px_rgba(0,0,0,0.6)] cyber-hud-corner">
         <div className="flex items-center gap-3">
-          <Icon3D icon={Shield} color="cyan" size="md" />
+          <CyberRepoCodeCore size={36} />
           <div>
             <div className="flex items-center gap-2">
               <h2 className="text-lg font-black text-white font-display tracking-tight flex items-center gap-2">

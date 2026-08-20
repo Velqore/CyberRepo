@@ -179,6 +179,11 @@ const DATA_FRAGMENTS = [
   { text: 'K8S', x: 135, y: 20, z: 30, color: '#34d399' },
 ];
 
+// ─── Reusable 3D Code Core Export ──────────────────────────────────────────────
+export function CyberRepoCodeCore({ size = 32, className = '' }: { size?: number; className?: string }) {
+  return <ShieldCoreSVG size={size} className={className} />;
+}
+
 // ─── Main Export ───────────────────────────────────────────────────────────────
 export function CyberRepoLogoAnimation({ size = 'header' }: { size?: 'header' | 'hero' }) {
   const isHero = size === 'hero';
