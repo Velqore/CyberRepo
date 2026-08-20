@@ -223,7 +223,7 @@ CyberRepo/
 
 <br/>
 
-Built with ⚡ by [**Velqore**](https://github.com/Velqore)
+Built by [**Velqore**](https://github.com/Velqore)
 
 </div>
 
