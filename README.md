@@ -1,16 +1,15 @@
 <div align="center">
 
-<!-- Animated Header Banner via Capsule Render API (GitHub Native Render Supported) -->
+<!-- Animated Header Title via Readme Typing SVG (100% GitHub Proxy Compatible) -->
 <h1 align="center">
   <a href="https://cyberrepos.vercel.app">
     <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=36&duration=2400&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&height=70&lines=%E2%9A%A1+CYBERREPO+HUB+%E2%9A%A1;MULTI-ECOSYSTEM+DEVELOPER+VAULT;UNIVERSAL+GITHUB+RADAR" alt="CyberRepo Hub" />
   </a>
 </h1>
 
-
-<!-- Animated Typing Text Header -->
+<!-- Animated Subtitle Tagline Banner -->
 <a href="https://cyberrepos.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&height=50&lines=%E2%9A%A1+FIND+%E2%9C%A6+FORK+%E2%9C%A6+LEARN+%E2%9C%A6+BUILD;%F0%9F%9B%A1%EF%B8%8F+Cybersecurity+%26+Red+Team+Arsenal;%F0%9F%A4%96+AI+%26+Autonomous+Agents+Vault;%E2%9A%A1+Full-Stack+Web+%26+DevOps+Radar;%F0%9F%91%A4+Curated+%26+Maintained+by+Velqore" alt="Typing SVG Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2200&pause=800&color=A855F7&center=true&vCenter=true&width=750&height=45&lines=%F0%9F%9B%A1%EF%B8%8F+Cybersecurity+%26+Red+Team+Arsenal;%F0%9F%A4%96+AI+%26+Autonomous+Agents+Vault;%E2%9A%A1+Full-Stack+Web+%26+DevOps+Radar;%F0%9F%91%A4+Curated+%26+Maintained+by+Velqore" alt="Typing Subtitle" />
 </a>
 
 <br/>
