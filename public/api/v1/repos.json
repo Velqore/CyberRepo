@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-21T04:55:32.353Z",
+    "generatedAt": "2026-08-21T05:10:35.360Z",
     "count": 170,
     "version": "1.0"
   },
@@ -3147,23 +3147,24 @@
       "created_at": "2021-07-16T00:00:00Z"
     },
     {
-      "id": "repo-forensics-networkminer",
+      "id": "repo-forensics-flare-floss",
       "category_id": "cat-malware",
-      "name": "network-forensics",
-      "owner": "netresec",
-      "full_name": "netresec/NetworkMiner",
-      "description": "NetworkMiner is a Network Forensic Analysis Tool (NFAT) for passive network sniffing and PCAP file analysis.",
-      "url": "https://github.com/netresec/NetworkMiner",
-      "stars": 700,
-      "language": "C#",
+      "name": "flare-floss",
+      "owner": "mandiant",
+      "full_name": "mandiant/flare-floss",
+      "description": "FLOSS (FireEye/Mandiant Labs Obfuscated String Solver) extracts obfuscated and encoded strings from malware binaries.",
+      "url": "https://github.com/mandiant/flare-floss",
+      "stars": 5200,
+      "language": "Python",
       "topics": [
-        "network-forensics",
-        "pcap-analysis",
-        "nfat",
-        "passive-monitoring"
+        "malware-analysis",
+        "deobfuscation",
+        "reverse-engineering",
+        "dfir",
+        "gem"
       ],
       "sort_order": 163,
-      "created_at": "2014-04-21T00:00:00Z"
+      "created_at": "2016-04-05T00:00:00Z"
     },
     {
       "id": "repo-forensics-dumpsterfire",
@@ -3185,24 +3186,24 @@
       "created_at": "2019-04-01T00:00:00Z"
     },
     {
-      "id": "repo-forensics-diffy",
+      "id": "repo-forensics-deepbluecli",
       "category_id": "cat-malware",
-      "name": "diffy",
-      "owner": "Netflix",
-      "full_name": "Netflix/diffy",
-      "description": "Diffy is a DFIR tool by Netflix for finding anomalies in cloud instances during incident response investigations.",
-      "url": "https://github.com/Netflix/diffy",
-      "stars": 650,
-      "language": "Python",
+      "name": "DeepBlueCLI",
+      "owner": "sans-blue-team",
+      "full_name": "sans-blue-team/DeepBlueCLI",
+      "description": "DeepBlueCLI: SANS forensic tool for threat hunting via automated PowerShell and Windows EVTX event log analysis.",
+      "url": "https://github.com/sans-blue-team/DeepBlueCLI",
+      "stars": 3100,
+      "language": "PowerShell",
       "topics": [
-        "cloud-forensics",
-        "anomaly-detection",
-        "aws",
+        "windows-event-logs",
+        "threat-hunting",
         "dfir",
+        "sans",
         "gem"
       ],
       "sort_order": 165,
-      "created_at": "2016-11-01T00:00:00Z"
+      "created_at": "2016-09-02T00:00:00Z"
     },
     {
       "id": "repo-forensics-loki",
