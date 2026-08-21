@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-21T06:41:17.502Z",
-    "count": 215,
+    "generatedAt": "2026-08-21T07:20:41.243Z",
+    "count": 386,
     "version": "1.0"
   },
   "data": [
     {
-      "id": "repo-velqore-1",
+      "id": "repo-1",
       "category_id": "cat-ai-agents",
       "name": "researchmind-ai",
       "owner": "Velqore",
@@ -27,7 +27,7 @@
       "created_at": "2026-07-10T00:00:00Z"
     },
     {
-      "id": "repo-velqore-2",
+      "id": "repo-2",
       "category_id": "cat-malware",
       "name": "phantomtrace",
       "owner": "Velqore",
@@ -47,7 +47,7 @@
       "created_at": "2026-03-07T00:00:00Z"
     },
     {
-      "id": "repo-velqore-3",
+      "id": "repo-3",
       "category_id": "cat-pentest",
       "name": "Claude-Red",
       "owner": "Velqore",
@@ -67,7 +67,7 @@
       "created_at": "2026-06-01T00:00:00Z"
     },
     {
-      "id": "repo-velqore-4",
+      "id": "repo-4",
       "category_id": "cat-frontend",
       "name": "ClimateGuard",
       "owner": "Velqore",
@@ -88,7 +88,7 @@
       "created_at": "2026-05-08T00:00:00Z"
     },
     {
-      "id": "repo-velqore-5",
+      "id": "repo-5",
       "category_id": "cat-ui",
       "name": "ProfileCard",
       "owner": "Velqore",
@@ -109,7 +109,7 @@
       "created_at": "2026-05-04T00:00:00Z"
     },
     {
-      "id": "repo-velqore-6",
+      "id": "repo-6",
       "category_id": "cat-osint",
       "name": "numberinfo",
       "owner": "Velqore",
@@ -129,7 +129,7 @@
       "created_at": "2024-11-27T00:00:00Z"
     },
     {
-      "id": "repo-pentest-1",
+      "id": "repo-7",
       "category_id": "cat-pentest",
       "name": "metasploit-framework",
       "owner": "rapid7",
@@ -149,7 +149,7 @@
       "created_at": "2010-09-01T00:00:00Z"
     },
     {
-      "id": "repo-pentest-nuclei",
+      "id": "repo-8",
       "category_id": "cat-pentest",
       "name": "nuclei",
       "owner": "projectdiscovery",
@@ -169,7 +169,7 @@
       "created_at": "2020-04-12T00:00:00Z"
     },
     {
-      "id": "repo-pentest-ligolo",
+      "id": "repo-9",
       "category_id": "cat-pentest",
       "name": "ligolo-ng",
       "owner": "nicocha30",
@@ -189,7 +189,7 @@
       "created_at": "2022-08-11T00:00:00Z"
     },
     {
-      "id": "repo-pentest-chisel",
+      "id": "repo-10",
       "category_id": "cat-pentest",
       "name": "chisel",
       "owner": "jpillora",
@@ -209,7 +209,7 @@
       "created_at": "2015-09-02T00:00:00Z"
     },
     {
-      "id": "repo-pentest-netexec",
+      "id": "repo-11",
       "category_id": "cat-pentest",
       "name": "NetExec",
       "owner": "Pennyw0rth",
@@ -229,7 +229,7 @@
       "created_at": "2023-10-01T00:00:00Z"
     },
     {
-      "id": "repo-pentest-peass",
+      "id": "repo-12",
       "category_id": "cat-pentest",
       "name": "PEASS-ng",
       "owner": "carlospolop",
@@ -248,7 +248,7 @@
       "created_at": "2019-12-05T00:00:00Z"
     },
     {
-      "id": "repo-pentest-bloodhound",
+      "id": "repo-13",
       "category_id": "cat-pentest",
       "name": "BloodHound",
       "owner": "BloodHoundAD",
@@ -267,7 +267,7 @@
       "created_at": "2016-07-28T00:00:00Z"
     },
     {
-      "id": "repo-pentest-impacket",
+      "id": "repo-14",
       "category_id": "cat-pentest",
       "name": "impacket",
       "owner": "fortra",
@@ -286,7 +286,7 @@
       "created_at": "2012-04-18T00:00:00Z"
     },
     {
-      "id": "repo-pentest-rustscan",
+      "id": "repo-15",
       "category_id": "cat-pentest",
       "name": "RustScan",
       "owner": "RustScan",
@@ -306,7 +306,7 @@
       "created_at": "2020-07-28T00:00:00Z"
     },
     {
-      "id": "repo-pentest-hydra",
+      "id": "repo-16",
       "category_id": "cat-pentest",
       "name": "thc-hydra",
       "owner": "vanhauser-thc",
@@ -325,7 +325,7 @@
       "created_at": "2014-06-16T00:00:00Z"
     },
     {
-      "id": "repo-osint-sherlock",
+      "id": "repo-17",
       "category_id": "cat-osint",
       "name": "sherlock",
       "owner": "sherlock-project",
@@ -344,7 +344,7 @@
       "created_at": "2018-12-24T00:00:00Z"
     },
     {
-      "id": "repo-osint-subfinder",
+      "id": "repo-18",
       "category_id": "cat-osint",
       "name": "subfinder",
       "owner": "projectdiscovery",
@@ -363,7 +363,7 @@
       "created_at": "2017-10-31T00:00:00Z"
     },
     {
-      "id": "repo-osint-ghunt",
+      "id": "repo-19",
       "category_id": "cat-osint",
       "name": "GHunt",
       "owner": "mxrch",
@@ -383,7 +383,7 @@
       "created_at": "2020-09-29T00:00:00Z"
     },
     {
-      "id": "repo-osint-snscrape",
+      "id": "repo-20",
       "category_id": "cat-osint",
       "name": "snscrape",
       "owner": "JustAnotherArchivist",
@@ -402,7 +402,7 @@
       "created_at": "2020-04-12T00:00:00Z"
     },
     {
-      "id": "repo-osint-email2phone",
+      "id": "repo-21",
       "category_id": "cat-osint",
       "name": "email2phonenumber",
       "owner": "martinvigo",
@@ -422,7 +422,7 @@
       "created_at": "2019-10-09T00:00:00Z"
     },
     {
-      "id": "repo-osint-theharvester",
+      "id": "repo-22",
       "category_id": "cat-osint",
       "name": "theHarvester",
       "owner": "laramies",
@@ -441,7 +441,7 @@
       "created_at": "2012-07-06T00:00:00Z"
     },
     {
-      "id": "repo-osint-spiderfoot",
+      "id": "repo-23",
       "category_id": "cat-osint",
       "name": "spiderfoot",
       "owner": "smicallef",
@@ -460,7 +460,7 @@
       "created_at": "2012-04-03T00:00:00Z"
     },
     {
-      "id": "repo-osint-amass",
+      "id": "repo-24",
       "category_id": "cat-osint",
       "name": "Amass",
       "owner": "owasp-amass",
@@ -479,7 +479,7 @@
       "created_at": "2018-03-24T00:00:00Z"
     },
     {
-      "id": "repo-forensics-volatility3",
+      "id": "repo-25",
       "category_id": "cat-forensics",
       "name": "volatility3",
       "owner": "volatilityfoundation",
@@ -498,7 +498,7 @@
       "created_at": "2019-10-01T00:00:00Z"
     },
     {
-      "id": "repo-malware-pebear",
+      "id": "repo-26",
       "category_id": "cat-malware",
       "name": "pe-bear",
       "owner": "hasherezade",
@@ -518,7 +518,7 @@
       "created_at": "2017-01-28T00:00:00Z"
     },
     {
-      "id": "repo-malware-capa",
+      "id": "repo-27",
       "category_id": "cat-malware",
       "name": "capa",
       "owner": "mandiant",
@@ -537,7 +537,7 @@
       "created_at": "2020-07-16T00:00:00Z"
     },
     {
-      "id": "repo-malware-yara",
+      "id": "repo-28",
       "category_id": "cat-malware",
       "name": "yara",
       "owner": "VirusTotal",
@@ -556,7 +556,7 @@
       "created_at": "2013-09-02T00:00:00Z"
     },
     {
-      "id": "repo-malware-pesieve",
+      "id": "repo-29",
       "category_id": "cat-malware",
       "name": "pe-sieve",
       "owner": "hasherezade",
@@ -575,7 +575,7 @@
       "created_at": "2018-05-18T00:00:00Z"
     },
     {
-      "id": "repo-reversing-ghidra",
+      "id": "repo-30",
       "category_id": "cat-reversing",
       "name": "ghidra",
       "owner": "NationalSecurityAgency",
@@ -594,7 +594,7 @@
       "created_at": "2019-03-05T00:00:00Z"
     },
     {
-      "id": "repo-reversing-radare2",
+      "id": "repo-31",
       "category_id": "cat-reversing",
       "name": "radare2",
       "owner": "radareorg",
@@ -613,7 +613,7 @@
       "created_at": "2012-07-28T00:00:00Z"
     },
     {
-      "id": "repo-reversing-frida",
+      "id": "repo-32",
       "category_id": "cat-reversing",
       "name": "frida",
       "owner": "frida",
@@ -632,7 +632,7 @@
       "created_at": "2012-10-09T00:00:00Z"
     },
     {
-      "id": "repo-reversing-angr",
+      "id": "repo-33",
       "category_id": "cat-reversing",
       "name": "angr",
       "owner": "angr",
@@ -651,7 +651,7 @@
       "created_at": "2014-12-04T00:00:00Z"
     },
     {
-      "id": "repo-reversing-binja",
+      "id": "repo-34",
       "category_id": "cat-reversing",
       "name": "binaryninja-api",
       "owner": "Vector35",
@@ -671,7 +671,7 @@
       "created_at": "2016-05-18T00:00:00Z"
     },
     {
-      "id": "repo-reversing-x64dbg",
+      "id": "repo-35",
       "category_id": "cat-reversing",
       "name": "x64dbg",
       "owner": "x64dbg",
@@ -690,7 +690,7 @@
       "created_at": "2013-10-09T00:00:00Z"
     },
     {
-      "id": "repo-websec-sqlmap",
+      "id": "repo-36",
       "category_id": "cat-websec",
       "name": "sqlmap",
       "owner": "sqlmapproject",
@@ -709,7 +709,7 @@
       "created_at": "2011-09-08T00:00:00Z"
     },
     {
-      "id": "repo-websec-ffuf",
+      "id": "repo-37",
       "category_id": "cat-websec",
       "name": "ffuf",
       "owner": "ffuf",
@@ -728,7 +728,7 @@
       "created_at": "2018-09-17T00:00:00Z"
     },
     {
-      "id": "repo-websec-arjun",
+      "id": "repo-38",
       "category_id": "cat-websec",
       "name": "Arjun",
       "owner": "s0md3v",
@@ -747,7 +747,7 @@
       "created_at": "2018-10-18T00:00:00Z"
     },
     {
-      "id": "repo-websec-trufflehog",
+      "id": "repo-39",
       "category_id": "cat-websec",
       "name": "trufflehog",
       "owner": "trufflesecurity",
@@ -766,7 +766,7 @@
       "created_at": "2016-12-19T00:00:00Z"
     },
     {
-      "id": "repo-websec-dalfox",
+      "id": "repo-40",
       "category_id": "cat-websec",
       "name": "dalfox",
       "owner": "hahwul",
@@ -786,7 +786,7 @@
       "created_at": "2019-11-20T00:00:00Z"
     },
     {
-      "id": "repo-websec-jwttool",
+      "id": "repo-41",
       "category_id": "cat-websec",
       "name": "jwt_tool",
       "owner": "ticarpi",
@@ -806,7 +806,7 @@
       "created_at": "2018-09-02T00:00:00Z"
     },
     {
-      "id": "repo-websec-seclists",
+      "id": "repo-42",
       "category_id": "cat-websec",
       "name": "SecLists",
       "owner": "danielmiessler",
@@ -825,7 +825,7 @@
       "created_at": "2013-03-24T00:00:00Z"
     },
     {
-      "id": "repo-websec-payloads",
+      "id": "repo-43",
       "category_id": "cat-websec",
       "name": "PayloadsAllTheThings",
       "owner": "swisskyrepo",
@@ -844,7 +844,7 @@
       "created_at": "2017-02-14T00:00:00Z"
     },
     {
-      "id": "repo-crypto-hashcat",
+      "id": "repo-44",
       "category_id": "cat-crypto",
       "name": "hashcat",
       "owner": "hashcat",
@@ -863,7 +863,7 @@
       "created_at": "2015-12-07T00:00:00Z"
     },
     {
-      "id": "repo-crypto-age",
+      "id": "repo-45",
       "category_id": "cat-crypto",
       "name": "age",
       "owner": "FiloSottile",
@@ -883,7 +883,7 @@
       "created_at": "2019-05-23T00:00:00Z"
     },
     {
-      "id": "repo-crypto-ciphey",
+      "id": "repo-46",
       "category_id": "cat-crypto",
       "name": "Ciphey",
       "owner": "Ciphey",
@@ -903,7 +903,7 @@
       "created_at": "2020-03-24T00:00:00Z"
     },
     {
-      "id": "repo-crypto-libsodium",
+      "id": "repo-47",
       "category_id": "cat-crypto",
       "name": "libsodium",
       "owner": "jedisct1",
@@ -922,7 +922,7 @@
       "created_at": "2013-03-04T00:00:00Z"
     },
     {
-      "id": "repo-crypto-tink",
+      "id": "repo-48",
       "category_id": "cat-crypto",
       "name": "tink",
       "owner": "tink-crypto",
@@ -941,7 +941,7 @@
       "created_at": "2022-01-20T00:00:00Z"
     },
     {
-      "id": "repo-llm-vllm",
+      "id": "repo-49",
       "category_id": "cat-llm",
       "name": "vllm",
       "owner": "vllm-project",
@@ -961,7 +961,7 @@
       "created_at": "2023-06-08T00:00:00Z"
     },
     {
-      "id": "repo-llm-ollama",
+      "id": "repo-50",
       "category_id": "cat-llm",
       "name": "ollama",
       "owner": "ollama",
@@ -981,7 +981,7 @@
       "created_at": "2023-07-06T00:00:00Z"
     },
     {
-      "id": "repo-llm-llamacpp",
+      "id": "repo-51",
       "category_id": "cat-llm",
       "name": "llama.cpp",
       "owner": "ggerganov",
@@ -1001,7 +1001,7 @@
       "created_at": "2023-03-10T00:00:00Z"
     },
     {
-      "id": "repo-llm-litellm",
+      "id": "repo-52",
       "category_id": "cat-llm",
       "name": "litellm",
       "owner": "BerriAI",
@@ -1021,7 +1021,7 @@
       "created_at": "2023-08-01T00:00:00Z"
     },
     {
-      "id": "repo-llm-outlines",
+      "id": "repo-53",
       "category_id": "cat-llm",
       "name": "outlines",
       "owner": "dottxt-ai",
@@ -1040,7 +1040,7 @@
       "created_at": "2023-05-18T00:00:00Z"
     },
     {
-      "id": "repo-llm-transformers",
+      "id": "repo-54",
       "category_id": "cat-llm",
       "name": "transformers",
       "owner": "huggingface",
@@ -1059,7 +1059,7 @@
       "created_at": "2018-10-29T00:00:00Z"
     },
     {
-      "id": "repo-agents-browseruse",
+      "id": "repo-55",
       "category_id": "cat-ai-agents",
       "name": "browser-use",
       "owner": "browser-use",
@@ -1078,7 +1078,7 @@
       "created_at": "2024-11-04T00:00:00Z"
     },
     {
-      "id": "repo-agents-langchain",
+      "id": "repo-56",
       "category_id": "cat-ai-agents",
       "name": "langchain",
       "owner": "langchain-ai",
@@ -1097,7 +1097,7 @@
       "created_at": "2022-10-24T00:00:00Z"
     },
     {
-      "id": "repo-agents-crewai",
+      "id": "repo-57",
       "category_id": "cat-ai-agents",
       "name": "crewAI",
       "owner": "crewAIInc",
@@ -1116,7 +1116,7 @@
       "created_at": "2023-11-24T00:00:00Z"
     },
     {
-      "id": "repo-agents-autogpt",
+      "id": "repo-58",
       "category_id": "cat-ai-agents",
       "name": "AutoGPT",
       "owner": "Significant-Gravitas",
@@ -1135,7 +1135,7 @@
       "created_at": "2023-03-30T00:00:00Z"
     },
     {
-      "id": "repo-agents-agentzero",
+      "id": "repo-59",
       "category_id": "cat-ai-agents",
       "name": "agent-zero",
       "owner": "frdel",
@@ -1154,7 +1154,7 @@
       "created_at": "2024-06-25T00:00:00Z"
     },
     {
-      "id": "repo-agents-autogen",
+      "id": "repo-60",
       "category_id": "cat-ai-agents",
       "name": "autogen",
       "owner": "microsoft",
@@ -1173,7 +1173,7 @@
       "created_at": "2023-08-18T00:00:00Z"
     },
     {
-      "id": "repo-agents-llamaindex",
+      "id": "repo-61",
       "category_id": "cat-ai-agents",
       "name": "llama_index",
       "owner": "run-llama",
@@ -1192,7 +1192,7 @@
       "created_at": "2022-11-20T00:00:00Z"
     },
     {
-      "id": "repo-ml-sdwebui",
+      "id": "repo-62",
       "category_id": "cat-ml",
       "name": "stable-diffusion-webui",
       "owner": "AUTOMATIC1111",
@@ -1211,7 +1211,7 @@
       "created_at": "2022-08-22T00:00:00Z"
     },
     {
-      "id": "repo-ml-pytorch",
+      "id": "repo-63",
       "category_id": "cat-ml",
       "name": "pytorch",
       "owner": "pytorch",
@@ -1231,7 +1231,7 @@
       "created_at": "2016-08-13T00:00:00Z"
     },
     {
-      "id": "repo-ml-comfyui",
+      "id": "repo-64",
       "category_id": "cat-ml",
       "name": "ComfyUI",
       "owner": "comfyanonymous",
@@ -1250,7 +1250,7 @@
       "created_at": "2023-01-16T00:00:00Z"
     },
     {
-      "id": "repo-ml-kornia",
+      "id": "repo-65",
       "category_id": "cat-ml",
       "name": "kornia",
       "owner": "kornia",
@@ -1269,7 +1269,7 @@
       "created_at": "2019-01-16T00:00:00Z"
     },
     {
-      "id": "repo-ml-ultralytics",
+      "id": "repo-66",
       "category_id": "cat-ml",
       "name": "ultralytics",
       "owner": "ultralytics",
@@ -1288,7 +1288,7 @@
       "created_at": "2023-01-07T00:00:00Z"
     },
     {
-      "id": "repo-ml-whisper",
+      "id": "repo-67",
       "category_id": "cat-ml",
       "name": "whisper",
       "owner": "openai",
@@ -1307,7 +1307,7 @@
       "created_at": "2022-09-19T00:00:00Z"
     },
     {
-      "id": "repo-frontend-react",
+      "id": "repo-68",
       "category_id": "cat-frontend",
       "name": "react",
       "owner": "facebook",
@@ -1326,7 +1326,7 @@
       "created_at": "2013-05-24T00:00:00Z"
     },
     {
-      "id": "repo-frontend-nextjs",
+      "id": "repo-69",
       "category_id": "cat-frontend",
       "name": "next.js",
       "owner": "vercel",
@@ -1345,7 +1345,7 @@
       "created_at": "2016-10-05T00:00:00Z"
     },
     {
-      "id": "repo-frontend-astro",
+      "id": "repo-70",
       "category_id": "cat-frontend",
       "name": "astro",
       "owner": "withastro",
@@ -1364,7 +1364,7 @@
       "created_at": "2021-03-14T00:00:00Z"
     },
     {
-      "id": "repo-frontend-million",
+      "id": "repo-71",
       "category_id": "cat-frontend",
       "name": "million",
       "owner": "aidenybai",
@@ -1383,7 +1383,7 @@
       "created_at": "2021-05-18T00:00:00Z"
     },
     {
-      "id": "repo-frontend-vue",
+      "id": "repo-72",
       "category_id": "cat-frontend",
       "name": "core",
       "owner": "vuejs",
@@ -1402,7 +1402,7 @@
       "created_at": "2018-09-18T00:00:00Z"
     },
     {
-      "id": "repo-frontend-svelte",
+      "id": "repo-73",
       "category_id": "cat-frontend",
       "name": "svelte",
       "owner": "sveltejs",
@@ -1421,7 +1421,7 @@
       "created_at": "2016-11-20T00:00:00Z"
     },
     {
-      "id": "repo-backend-fastapi",
+      "id": "repo-74",
       "category_id": "cat-backend",
       "name": "fastapi",
       "owner": "tiangolo",
@@ -1440,7 +1440,7 @@
       "created_at": "2018-12-05T00:00:00Z"
     },
     {
-      "id": "repo-backend-hono",
+      "id": "repo-75",
       "category_id": "cat-backend",
       "name": "hono",
       "owner": "honojs",
@@ -1460,7 +1460,7 @@
       "created_at": "2021-12-14T00:00:00Z"
     },
     {
-      "id": "repo-backend-elysia",
+      "id": "repo-76",
       "category_id": "cat-backend",
       "name": "elysia",
       "owner": "elysiajs",
@@ -1479,7 +1479,7 @@
       "created_at": "2022-09-02T00:00:00Z"
     },
     {
-      "id": "repo-backend-supabase",
+      "id": "repo-77",
       "category_id": "cat-backend",
       "name": "supabase",
       "owner": "supabase",
@@ -1499,7 +1499,7 @@
       "created_at": "2020-01-13T00:00:00Z"
     },
     {
-      "id": "repo-backend-surrealdb",
+      "id": "repo-78",
       "category_id": "cat-backend",
       "name": "surrealdb",
       "owner": "surrealdb",
@@ -1519,7 +1519,7 @@
       "created_at": "2021-12-15T00:00:00Z"
     },
     {
-      "id": "repo-backend-gin",
+      "id": "repo-79",
       "category_id": "cat-backend",
       "name": "gin",
       "owner": "gin-gonic",
@@ -1538,7 +1538,7 @@
       "created_at": "2014-06-19T00:00:00Z"
     },
     {
-      "id": "repo-backend-pocketbase",
+      "id": "repo-80",
       "category_id": "cat-backend",
       "name": "pocketbase",
       "owner": "pocketbase",
@@ -1558,7 +1558,7 @@
       "created_at": "2022-06-28T00:00:00Z"
     },
     {
-      "id": "repo-ui-shadcn",
+      "id": "repo-81",
       "category_id": "cat-ui",
       "name": "ui",
       "owner": "shadcn-ui",
@@ -1577,7 +1577,7 @@
       "created_at": "2023-01-22T00:00:00Z"
     },
     {
-      "id": "repo-ui-threejs",
+      "id": "repo-82",
       "category_id": "cat-ui",
       "name": "three.js",
       "owner": "mrdoob",
@@ -1596,7 +1596,7 @@
       "created_at": "2010-03-23T00:00:00Z"
     },
     {
-      "id": "repo-ui-r3f",
+      "id": "repo-83",
       "category_id": "cat-ui",
       "name": "react-three-fiber",
       "owner": "pmndrs",
@@ -1616,7 +1616,7 @@
       "created_at": "2019-04-20T00:00:00Z"
     },
     {
-      "id": "repo-ui-tailwind",
+      "id": "repo-84",
       "category_id": "cat-ui",
       "name": "tailwindcss",
       "owner": "tailwindlabs",
@@ -1635,7 +1635,7 @@
       "created_at": "2017-10-31T00:00:00Z"
     },
     {
-      "id": "repo-ui-framermotion",
+      "id": "repo-85",
       "category_id": "cat-ui",
       "name": "motion",
       "owner": "framer",
@@ -1654,7 +1654,7 @@
       "created_at": "2018-09-04T00:00:00Z"
     },
     {
-      "id": "repo-ui-lucide",
+      "id": "repo-86",
       "category_id": "cat-ui",
       "name": "lucide",
       "owner": "lucide-icons",
@@ -1673,7 +1673,7 @@
       "created_at": "2020-10-18T00:00:00Z"
     },
     {
-      "id": "repo-devops-k8s",
+      "id": "repo-87",
       "category_id": "cat-devops",
       "name": "kubernetes",
       "owner": "kubernetes",
@@ -1692,7 +1692,7 @@
       "created_at": "2014-06-06T00:00:00Z"
     },
     {
-      "id": "repo-devops-k9s",
+      "id": "repo-88",
       "category_id": "cat-devops",
       "name": "k9s",
       "owner": "derailed",
@@ -1712,7 +1712,7 @@
       "created_at": "2019-01-29T00:00:00Z"
     },
     {
-      "id": "repo-devops-act",
+      "id": "repo-89",
       "category_id": "cat-devops",
       "name": "act",
       "owner": "nektos",
@@ -1732,7 +1732,7 @@
       "created_at": "2019-03-08T00:00:00Z"
     },
     {
-      "id": "repo-devops-opentofu",
+      "id": "repo-90",
       "category_id": "cat-devops",
       "name": "opentofu",
       "owner": "opentofu",
@@ -1752,7 +1752,7 @@
       "created_at": "2023-08-16T00:00:00Z"
     },
     {
-      "id": "repo-devops-helm",
+      "id": "repo-91",
       "category_id": "cat-devops",
       "name": "helm",
       "owner": "helm",
@@ -1771,7 +1771,7 @@
       "created_at": "2015-10-19T00:00:00Z"
     },
     {
-      "id": "repo-devops-argocd",
+      "id": "repo-92",
       "category_id": "cat-devops",
       "name": "argo-cd",
       "owner": "argoproj",
@@ -1790,7 +1790,7 @@
       "created_at": "2018-01-09T00:00:00Z"
     },
     {
-      "id": "repo-cloudsec-prowler",
+      "id": "repo-93",
       "category_id": "cat-cloudsec",
       "name": "prowler",
       "owner": "prowler-cloud",
@@ -1810,7 +1810,7 @@
       "created_at": "2016-09-06T00:00:00Z"
     },
     {
-      "id": "repo-cloudsec-trivy",
+      "id": "repo-94",
       "category_id": "cat-cloudsec",
       "name": "trivy",
       "owner": "aquasecurity",
@@ -1829,7 +1829,7 @@
       "created_at": "2019-04-18T00:00:00Z"
     },
     {
-      "id": "repo-cloudsec-scoutsuite",
+      "id": "repo-95",
       "category_id": "cat-cloudsec",
       "name": "ScoutSuite",
       "owner": "nccgroup",
@@ -1848,7 +1848,7 @@
       "created_at": "2018-05-18T00:00:00Z"
     },
     {
-      "id": "repo-cloudsec-falco",
+      "id": "repo-96",
       "category_id": "cat-cloudsec",
       "name": "falco",
       "owner": "falcosecurity",
@@ -1867,7 +1867,7 @@
       "created_at": "2016-05-18T00:00:00Z"
     },
     {
-      "id": "repo-cloudsec-checkov",
+      "id": "repo-97",
       "category_id": "cat-cloudsec",
       "name": "checkov",
       "owner": "bridgecrewio",
@@ -1886,7 +1886,7 @@
       "created_at": "2019-12-05T00:00:00Z"
     },
     {
-      "id": "repo-mobile-flutter",
+      "id": "repo-98",
       "category_id": "cat-mobile",
       "name": "flutter",
       "owner": "flutter",
@@ -1906,7 +1906,7 @@
       "created_at": "2015-03-06T00:00:00Z"
     },
     {
-      "id": "repo-mobile-tauri",
+      "id": "repo-99",
       "category_id": "cat-mobile",
       "name": "tauri",
       "owner": "tauri-apps",
@@ -1926,7 +1926,7 @@
       "created_at": "2019-07-10T00:00:00Z"
     },
     {
-      "id": "repo-mobile-maestro",
+      "id": "repo-100",
       "category_id": "cat-mobile",
       "name": "maestro",
       "owner": "mobile-dev-inc",
@@ -1946,7 +1946,7 @@
       "created_at": "2022-07-21T00:00:00Z"
     },
     {
-      "id": "repo-mobile-scrcpy",
+      "id": "repo-101",
       "category_id": "cat-mobile",
       "name": "scrcpy",
       "owner": "Genymobile",
@@ -1965,7 +1965,7 @@
       "created_at": "2017-12-08T00:00:00Z"
     },
     {
-      "id": "repo-mobile-reactnative",
+      "id": "repo-102",
       "category_id": "cat-mobile",
       "name": "react-native",
       "owner": "facebook",
@@ -1984,7 +1984,7 @@
       "created_at": "2015-01-09T00:00:00Z"
     },
     {
-      "id": "repo-systems-linux",
+      "id": "repo-103",
       "category_id": "cat-systems",
       "name": "linux",
       "owner": "torvalds",
@@ -2003,7 +2003,7 @@
       "created_at": "2011-09-04T00:00:00Z"
     },
     {
-      "id": "repo-systems-zig",
+      "id": "repo-104",
       "category_id": "cat-systems",
       "name": "zig",
       "owner": "ziglang",
@@ -2022,7 +2022,7 @@
       "created_at": "2015-10-24T00:00:00Z"
     },
     {
-      "id": "repo-systems-ripgrep",
+      "id": "repo-105",
       "category_id": "cat-systems",
       "name": "ripgrep",
       "owner": "BurntSushi",
@@ -2041,7 +2041,7 @@
       "created_at": "2016-09-04T00:00:00Z"
     },
     {
-      "id": "repo-systems-cosmo",
+      "id": "repo-106",
       "category_id": "cat-systems",
       "name": "cosmopolitan",
       "owner": "jart",
@@ -2061,7 +2061,7 @@
       "created_at": "2020-12-24T00:00:00Z"
     },
     {
-      "id": "repo-systems-ebpf",
+      "id": "repo-107",
       "category_id": "cat-systems",
       "name": "ebpf",
       "owner": "cilium",
@@ -2081,7 +2081,7 @@
       "created_at": "2017-09-21T00:00:00Z"
     },
     {
-      "id": "repo-systems-rust",
+      "id": "repo-108",
       "category_id": "cat-systems",
       "name": "rust",
       "owner": "rust-lang",
@@ -2100,7 +2100,7 @@
       "created_at": "2010-06-16T00:00:00Z"
     },
     {
-      "id": "repo-systems-wasmtime",
+      "id": "repo-109",
       "category_id": "cat-systems",
       "name": "wasmtime",
       "owner": "bytecodealliance",
@@ -2119,7 +2119,7 @@
       "created_at": "2019-03-26T00:00:00Z"
     },
     {
-      "id": "repo-network-wireshark",
+      "id": "repo-110",
       "category_id": "cat-network",
       "name": "wireshark",
       "owner": "wireshark",
@@ -2138,7 +2138,7 @@
       "created_at": "2017-05-18T00:00:00Z"
     },
     {
-      "id": "repo-network-tailscale",
+      "id": "repo-111",
       "category_id": "cat-network",
       "name": "tailscale",
       "owner": "tailscale",
@@ -2158,7 +2158,7 @@
       "created_at": "2020-02-18T00:00:00Z"
     },
     {
-      "id": "repo-network-caddy",
+      "id": "repo-112",
       "category_id": "cat-network",
       "name": "caddy",
       "owner": "caddyserver",
@@ -2177,7 +2177,7 @@
       "created_at": "2015-01-20T00:00:00Z"
     },
     {
-      "id": "repo-network-nebula",
+      "id": "repo-113",
       "category_id": "cat-network",
       "name": "nebula",
       "owner": "slackhq",
@@ -2197,7 +2197,7 @@
       "created_at": "2019-11-18T00:00:00Z"
     },
     {
-      "id": "repo-network-rathole",
+      "id": "repo-114",
       "category_id": "cat-network",
       "name": "rathole",
       "owner": "rapiz1",
@@ -2217,7 +2217,7 @@
       "created_at": "2021-12-05T00:00:00Z"
     },
     {
-      "id": "repo-network-masscan",
+      "id": "repo-115",
       "category_id": "cat-network",
       "name": "masscan",
       "owner": "robertdavidgraham",
@@ -2236,7 +2236,7 @@
       "created_at": "2013-09-09T00:00:00Z"
     },
     {
-      "id": "repo-network-traefik",
+      "id": "repo-116",
       "category_id": "cat-network",
       "name": "traefik",
       "owner": "traefik",
@@ -2255,7 +2255,7 @@
       "created_at": "2015-09-10T00:00:00Z"
     },
     {
-      "id": "repo-network-cloudflared",
+      "id": "repo-117",
       "category_id": "cat-network",
       "name": "cloudflared",
       "owner": "cloudflare",
@@ -2274,7 +2274,7 @@
       "created_at": "2017-10-18T00:00:00Z"
     },
     {
-      "id": "repo-pentest-sliver",
+      "id": "repo-118",
       "category_id": "cat-pentest",
       "name": "sliver",
       "owner": "BishopFox",
@@ -2294,7 +2294,7 @@
       "created_at": "2019-06-25T00:00:00Z"
     },
     {
-      "id": "repo-pentest-katana",
+      "id": "repo-119",
       "category_id": "cat-pentest",
       "name": "katana",
       "owner": "projectdiscovery",
@@ -2313,7 +2313,7 @@
       "created_at": "2022-09-14T00:00:00Z"
     },
     {
-      "id": "repo-pentest-httpx",
+      "id": "repo-120",
       "category_id": "cat-pentest",
       "name": "httpx",
       "owner": "projectdiscovery",
@@ -2332,7 +2332,7 @@
       "created_at": "2020-04-12T00:00:00Z"
     },
     {
-      "id": "repo-osint-reconng",
+      "id": "repo-121",
       "category_id": "cat-osint",
       "name": "recon-ng",
       "owner": "lanmaster53",
@@ -2351,7 +2351,7 @@
       "created_at": "2012-07-28T00:00:00Z"
     },
     {
-      "id": "repo-osint-sublist3r",
+      "id": "repo-122",
       "category_id": "cat-osint",
       "name": "Sublist3r",
       "owner": "aboul3la",
@@ -2370,7 +2370,7 @@
       "created_at": "2015-11-09T00:00:00Z"
     },
     {
-      "id": "repo-reversing-cutter",
+      "id": "repo-123",
       "category_id": "cat-reversing",
       "name": "cutter",
       "owner": "rizinorg",
@@ -2390,7 +2390,7 @@
       "created_at": "2017-09-18T00:00:00Z"
     },
     {
-      "id": "repo-reversing-rizin",
+      "id": "repo-124",
       "category_id": "cat-reversing",
       "name": "rizin",
       "owner": "rizinorg",
@@ -2409,7 +2409,7 @@
       "created_at": "2020-12-10T00:00:00Z"
     },
     {
-      "id": "repo-reversing-ilspy",
+      "id": "repo-125",
       "category_id": "cat-reversing",
       "name": "ILSpy",
       "owner": "icsharpcode",
@@ -2428,7 +2428,7 @@
       "created_at": "2011-04-12T00:00:00Z"
     },
     {
-      "id": "repo-websec-wafw00f",
+      "id": "repo-126",
       "category_id": "cat-websec",
       "name": "wafw00f",
       "owner": "EnableSecurity",
@@ -2447,7 +2447,7 @@
       "created_at": "2014-06-25T00:00:00Z"
     },
     {
-      "id": "repo-websec-commix",
+      "id": "repo-127",
       "category_id": "cat-websec",
       "name": "commix",
       "owner": "commixproject",
@@ -2466,7 +2466,7 @@
       "created_at": "2014-10-18T00:00:00Z"
     },
     {
-      "id": "repo-crypto-liboqs",
+      "id": "repo-128",
       "category_id": "cat-crypto",
       "name": "liboqs",
       "owner": "open-quantum-safe",
@@ -2485,7 +2485,7 @@
       "created_at": "2016-11-28T00:00:00Z"
     },
     {
-      "id": "repo-llm-deepseek",
+      "id": "repo-129",
       "category_id": "cat-llm",
       "name": "DeepSeek-Coder",
       "owner": "deepseek-ai",
@@ -2504,7 +2504,7 @@
       "created_at": "2023-11-18T00:00:00Z"
     },
     {
-      "id": "repo-agents-openhands",
+      "id": "repo-130",
       "category_id": "cat-ai-agents",
       "name": "OpenHands",
       "owner": "All-Hands-AI",
@@ -2523,7 +2523,7 @@
       "created_at": "2024-03-12T00:00:00Z"
     },
     {
-      "id": "repo-agents-metagpt",
+      "id": "repo-131",
       "category_id": "cat-ai-agents",
       "name": "MetaGPT",
       "owner": "geekan",
@@ -2542,7 +2542,7 @@
       "created_at": "2023-06-30T00:00:00Z"
     },
     {
-      "id": "repo-ml-nanogpt",
+      "id": "repo-132",
       "category_id": "cat-ml",
       "name": "nanoGPT",
       "owner": "karpathy",
@@ -2562,7 +2562,7 @@
       "created_at": "2022-12-28T00:00:00Z"
     },
     {
-      "id": "repo-frontend-solid",
+      "id": "repo-133",
       "category_id": "cat-frontend",
       "name": "solid",
       "owner": "solidjs",
@@ -2581,7 +2581,7 @@
       "created_at": "2018-04-18T00:00:00Z"
     },
     {
-      "id": "repo-frontend-nuxt",
+      "id": "repo-134",
       "category_id": "cat-frontend",
       "name": "nuxt",
       "owner": "nuxt",
@@ -2600,7 +2600,7 @@
       "created_at": "2016-10-25T00:00:00Z"
     },
     {
-      "id": "repo-backend-nest",
+      "id": "repo-135",
       "category_id": "cat-backend",
       "name": "nest",
       "owner": "nestjs",
@@ -2619,7 +2619,7 @@
       "created_at": "2017-02-18T00:00:00Z"
     },
     {
-      "id": "repo-backend-actix",
+      "id": "repo-136",
       "category_id": "cat-backend",
       "name": "actix-web",
       "owner": "actix",
@@ -2638,7 +2638,7 @@
       "created_at": "2017-10-18T00:00:00Z"
     },
     {
-      "id": "repo-ui-tldraw",
+      "id": "repo-137",
       "category_id": "cat-ui",
       "name": "tldraw",
       "owner": "tldraw",
@@ -2657,7 +2657,7 @@
       "created_at": "2021-11-20T00:00:00Z"
     },
     {
-      "id": "repo-ui-excalidraw",
+      "id": "repo-138",
       "category_id": "cat-ui",
       "name": "excalidraw",
       "owner": "excalidraw",
@@ -2676,7 +2676,7 @@
       "created_at": "2020-01-01T00:00:00Z"
     },
     {
-      "id": "repo-devops-prometheus",
+      "id": "repo-139",
       "category_id": "cat-devops",
       "name": "prometheus",
       "owner": "prometheus",
@@ -2695,7 +2695,7 @@
       "created_at": "2012-11-24T00:00:00Z"
     },
     {
-      "id": "repo-devops-grafana",
+      "id": "repo-140",
       "category_id": "cat-devops",
       "name": "grafana",
       "owner": "grafana",
@@ -2714,7 +2714,7 @@
       "created_at": "2014-01-14T00:00:00Z"
     },
     {
-      "id": "repo-devops-dockercompose",
+      "id": "repo-141",
       "category_id": "cat-devops",
       "name": "compose",
       "owner": "docker",
@@ -2733,7 +2733,7 @@
       "created_at": "2014-06-18T00:00:00Z"
     },
     {
-      "id": "repo-cloudsec-opa",
+      "id": "repo-142",
       "category_id": "cat-cloudsec",
       "name": "opa",
       "owner": "open-policy-agent",
@@ -2752,7 +2752,7 @@
       "created_at": "2016-03-24T00:00:00Z"
     },
     {
-      "id": "repo-mobile-expo",
+      "id": "repo-143",
       "category_id": "cat-mobile",
       "name": "expo",
       "owner": "expo",
@@ -2772,7 +2772,7 @@
       "created_at": "2015-08-11T00:00:00Z"
     },
     {
-      "id": "repo-systems-go",
+      "id": "repo-144",
       "category_id": "cat-systems",
       "name": "go",
       "owner": "golang",
@@ -2791,7 +2791,7 @@
       "created_at": "2014-08-19T00:00:00Z"
     },
     {
-      "id": "repo-systems-llvm",
+      "id": "repo-145",
       "category_id": "cat-systems",
       "name": "llvm-project",
       "owner": "llvm",
@@ -2811,7 +2811,7 @@
       "created_at": "2019-10-18T00:00:00Z"
     },
     {
-      "id": "repo-systems-fd",
+      "id": "repo-146",
       "category_id": "cat-systems",
       "name": "fd",
       "owner": "sharkdp",
@@ -2831,7 +2831,7 @@
       "created_at": "2017-09-02T00:00:00Z"
     },
     {
-      "id": "repo-systems-bat",
+      "id": "repo-147",
       "category_id": "cat-systems",
       "name": "bat",
       "owner": "sharkdp",
@@ -2851,7 +2851,7 @@
       "created_at": "2018-05-18T00:00:00Z"
     },
     {
-      "id": "repo-network-libp2p",
+      "id": "repo-148",
       "category_id": "cat-network",
       "name": "rust-libp2p",
       "owner": "libp2p",
@@ -2871,7 +2871,7 @@
       "created_at": "2017-10-24T00:00:00Z"
     },
     {
-      "id": "repo-network-grpc",
+      "id": "repo-149",
       "category_id": "cat-network",
       "name": "grpc",
       "owner": "grpc",
@@ -2890,7 +2890,7 @@
       "created_at": "2015-02-18T00:00:00Z"
     },
     {
-      "id": "repo-forensics-autopsy",
+      "id": "repo-150",
       "category_id": "cat-forensics",
       "name": "autopsy",
       "owner": "sleuthkit",
@@ -2910,7 +2910,7 @@
       "created_at": "2012-08-14T00:00:00Z"
     },
     {
-      "id": "repo-forensics-sleuthkit",
+      "id": "repo-151",
       "category_id": "cat-forensics",
       "name": "sleuthkit",
       "owner": "sleuthkit",
@@ -2929,7 +2929,7 @@
       "created_at": "2012-03-16T00:00:00Z"
     },
     {
-      "id": "repo-forensics-rekall",
+      "id": "repo-152",
       "category_id": "cat-forensics",
       "name": "rekall",
       "owner": "google",
@@ -2949,7 +2949,7 @@
       "created_at": "2013-09-12T00:00:00Z"
     },
     {
-      "id": "repo-forensics-plaso",
+      "id": "repo-153",
       "category_id": "cat-forensics",
       "name": "plaso",
       "owner": "log2timeline",
@@ -2969,7 +2969,7 @@
       "created_at": "2013-04-18T00:00:00Z"
     },
     {
-      "id": "repo-forensics-bulk-extractor",
+      "id": "repo-154",
       "category_id": "cat-forensics",
       "name": "bulk_extractor",
       "owner": "simsong",
@@ -2988,7 +2988,7 @@
       "created_at": "2012-05-01T00:00:00Z"
     },
     {
-      "id": "repo-forensics-velociraptor",
+      "id": "repo-155",
       "category_id": "cat-forensics",
       "name": "velociraptor",
       "owner": "Velocidex",
@@ -3008,7 +3008,7 @@
       "created_at": "2019-01-14T00:00:00Z"
     },
     {
-      "id": "repo-forensics-grr",
+      "id": "repo-156",
       "category_id": "cat-forensics",
       "name": "grr",
       "owner": "google",
@@ -3028,7 +3028,7 @@
       "created_at": "2011-11-10T00:00:00Z"
     },
     {
-      "id": "repo-forensics-dfir-iris",
+      "id": "repo-157",
       "category_id": "cat-forensics",
       "name": "iris-web",
       "owner": "dfir-iris",
@@ -3048,7 +3048,7 @@
       "created_at": "2021-10-04T00:00:00Z"
     },
     {
-      "id": "repo-forensics-chainsaw",
+      "id": "repo-158",
       "category_id": "cat-forensics",
       "name": "chainsaw",
       "owner": "WithSecureLabs",
@@ -3068,7 +3068,7 @@
       "created_at": "2021-06-14T00:00:00Z"
     },
     {
-      "id": "repo-forensics-hayabusa",
+      "id": "repo-159",
       "category_id": "cat-forensics",
       "name": "hayabusa",
       "owner": "Yamato-Security",
@@ -3088,7 +3088,7 @@
       "created_at": "2021-08-05T00:00:00Z"
     },
     {
-      "id": "repo-forensics-timesketch",
+      "id": "repo-160",
       "category_id": "cat-forensics",
       "name": "timesketch",
       "owner": "google",
@@ -3108,7 +3108,7 @@
       "created_at": "2014-09-04T00:00:00Z"
     },
     {
-      "id": "repo-forensics-autopsy-android",
+      "id": "repo-161",
       "category_id": "cat-forensics",
       "name": "androidqf",
       "owner": "mvt-project",
@@ -3127,7 +3127,7 @@
       "created_at": "2021-11-18T00:00:00Z"
     },
     {
-      "id": "repo-forensics-mvt",
+      "id": "repo-162",
       "category_id": "cat-forensics",
       "name": "mvt",
       "owner": "mvt-project",
@@ -3147,7 +3147,7 @@
       "created_at": "2021-07-16T00:00:00Z"
     },
     {
-      "id": "repo-forensics-flare-floss",
+      "id": "repo-163",
       "category_id": "cat-forensics",
       "name": "flare-floss",
       "owner": "mandiant",
@@ -3167,7 +3167,7 @@
       "created_at": "2016-04-05T00:00:00Z"
     },
     {
-      "id": "repo-forensics-dumpsterfire",
+      "id": "repo-164",
       "category_id": "cat-forensics",
       "name": "MalConfScan",
       "owner": "JPCERTCC",
@@ -3186,7 +3186,7 @@
       "created_at": "2019-04-01T00:00:00Z"
     },
     {
-      "id": "repo-forensics-deepbluecli",
+      "id": "repo-165",
       "category_id": "cat-forensics",
       "name": "DeepBlueCLI",
       "owner": "sans-blue-team",
@@ -3206,7 +3206,7 @@
       "created_at": "2016-09-02T00:00:00Z"
     },
     {
-      "id": "repo-forensics-loki",
+      "id": "repo-166",
       "category_id": "cat-forensics",
       "name": "Loki",
       "owner": "Neo23x0",
@@ -3226,7 +3226,7 @@
       "created_at": "2015-02-02T00:00:00Z"
     },
     {
-      "id": "repo-forensics-thor-lite",
+      "id": "repo-167",
       "category_id": "cat-forensics",
       "name": "thor-lite",
       "owner": "Neo23x0",
@@ -3245,7 +3245,7 @@
       "created_at": "2014-03-18T00:00:00Z"
     },
     {
-      "id": "repo-forensics-beagle",
+      "id": "repo-168",
       "category_id": "cat-forensics",
       "name": "Beagle",
       "owner": "yampelo",
@@ -3265,7 +3265,7 @@
       "created_at": "2019-01-21T00:00:00Z"
     },
     {
-      "id": "repo-forensics-kape",
+      "id": "repo-169",
       "category_id": "cat-forensics",
       "name": "KapeFiles",
       "owner": "EricZimmerman",
@@ -3285,7 +3285,7 @@
       "created_at": "2019-03-14T00:00:00Z"
     },
     {
-      "id": "repo-forensics-exiftool",
+      "id": "repo-170",
       "category_id": "cat-forensics",
       "name": "exiftool",
       "owner": "exiftool",
@@ -3304,7 +3304,7 @@
       "created_at": "2013-08-12T00:00:00Z"
     },
     {
-      "id": "repo-forensics-evtx",
+      "id": "repo-171",
       "category_id": "cat-forensics",
       "name": "evtx",
       "owner": "omerbenamram",
@@ -3324,7 +3324,7 @@
       "created_at": "2018-12-05T00:00:00Z"
     },
     {
-      "id": "repo-forensics-peframe",
+      "id": "repo-172",
       "category_id": "cat-forensics",
       "name": "peframe",
       "owner": "guelfoweb",
@@ -3344,7 +3344,7 @@
       "created_at": "2014-06-12T00:00:00Z"
     },
     {
-      "id": "repo-forensics-volatility2",
+      "id": "repo-173",
       "category_id": "cat-forensics",
       "name": "volatility",
       "owner": "volatilityfoundation",
@@ -3363,7 +3363,7 @@
       "created_at": "2012-06-25T00:00:00Z"
     },
     {
-      "id": "repo-forensics-iped",
+      "id": "repo-174",
       "category_id": "cat-forensics",
       "name": "IPED",
       "owner": "sepinf-inc",
@@ -3383,7 +3383,7 @@
       "created_at": "2014-06-25T00:00:00Z"
     },
     {
-      "id": "repo-forensics-foremost",
+      "id": "repo-175",
       "category_id": "cat-forensics",
       "name": "foremost",
       "owner": "korczis",
@@ -3403,7 +3403,7 @@
       "created_at": "2012-07-28T00:00:00Z"
     },
     {
-      "id": "repo-forensics-scalpel",
+      "id": "repo-176",
       "category_id": "cat-forensics",
       "name": "scalpel",
       "owner": "sleuthkit",
@@ -3423,7 +3423,7 @@
       "created_at": "2013-05-10T00:00:00Z"
     },
     {
-      "id": "repo-osint-photon",
+      "id": "repo-177",
       "category_id": "cat-osint",
       "name": "Photon",
       "owner": "s0md3v",
@@ -3444,7 +3444,7 @@
       "created_at": "2026-08-21T06:18:49.812Z"
     },
     {
-      "id": "repo-osint-osintframework",
+      "id": "repo-178",
       "category_id": "cat-osint",
       "name": "OSINT-Framework",
       "owner": "lockfale",
@@ -3465,7 +3465,7 @@
       "created_at": "2026-08-21T06:18:49.868Z"
     },
     {
-      "id": "repo-osint-instaloader",
+      "id": "repo-179",
       "category_id": "cat-osint",
       "name": "instaloader",
       "owner": "instaloader",
@@ -3486,7 +3486,7 @@
       "created_at": "2026-08-21T06:18:49.932Z"
     },
     {
-      "id": "repo-osint-sn1per",
+      "id": "repo-180",
       "category_id": "cat-osint",
       "name": "Sn1per",
       "owner": "1N3",
@@ -3507,7 +3507,7 @@
       "created_at": "2026-08-21T06:18:49.989Z"
     },
     {
-      "id": "repo-osint-osintgram",
+      "id": "repo-181",
       "category_id": "cat-osint",
       "name": "Osintgram",
       "owner": "Datalux",
@@ -3528,7 +3528,7 @@
       "created_at": "2026-08-21T06:18:50.055Z"
     },
     {
-      "id": "repo-osint-twint",
+      "id": "repo-182",
       "category_id": "cat-osint",
       "name": "twint",
       "owner": "twintproject",
@@ -3549,7 +3549,7 @@
       "created_at": "2026-08-21T06:18:50.122Z"
     },
     {
-      "id": "repo-osint-holehe",
+      "id": "repo-183",
       "category_id": "cat-osint",
       "name": "holehe",
       "owner": "megadose",
@@ -3570,7 +3570,7 @@
       "created_at": "2026-08-21T06:18:50.188Z"
     },
     {
-      "id": "repo-osint-maigret",
+      "id": "repo-184",
       "category_id": "cat-osint",
       "name": "maigret",
       "owner": "soxoj",
@@ -3591,7 +3591,7 @@
       "created_at": "2026-08-21T06:18:50.256Z"
     },
     {
-      "id": "repo-osint-phoneinfoga",
+      "id": "repo-185",
       "category_id": "cat-osint",
       "name": "phoneinfoga",
       "owner": "sundowndev",
@@ -3612,7 +3612,7 @@
       "created_at": "2026-08-21T06:18:50.323Z"
     },
     {
-      "id": "repo-osint-metagoofil",
+      "id": "repo-186",
       "category_id": "cat-osint",
       "name": "metagoofil",
       "owner": "opsdisk",
@@ -3633,7 +3633,7 @@
       "created_at": "2026-08-21T06:18:50.386Z"
     },
     {
-      "id": "repo-osint-creepy",
+      "id": "repo-187",
       "category_id": "cat-osint",
       "name": "creepy",
       "owner": "ilektrojohn",
@@ -3652,7 +3652,7 @@
       "created_at": "2026-08-21T06:18:50.438Z"
     },
     {
-      "id": "repo-osint-whatsmyname",
+      "id": "repo-188",
       "category_id": "cat-osint",
       "name": "WhatsMyName",
       "owner": "WebBreacher",
@@ -3673,7 +3673,7 @@
       "created_at": "2026-08-21T06:18:50.505Z"
     },
     {
-      "id": "repo-osint-intelowl",
+      "id": "repo-189",
       "category_id": "cat-osint",
       "name": "IntelOwl",
       "owner": "intelowlproject",
@@ -3694,7 +3694,7 @@
       "created_at": "2026-08-21T06:18:50.569Z"
     },
     {
-      "id": "repo-osint-osintspy",
+      "id": "repo-190",
       "category_id": "cat-osint",
       "name": "OSINT-SPY",
       "owner": "SharadKumar97",
@@ -3713,7 +3713,7 @@
       "created_at": "2026-08-21T06:18:50.638Z"
     },
     {
-      "id": "repo-osint-h8mail",
+      "id": "repo-191",
       "category_id": "cat-osint",
       "name": "h8mail",
       "owner": "khast3x",
@@ -3734,7 +3734,7 @@
       "created_at": "2026-08-21T06:18:50.714Z"
     },
     {
-      "id": "repo-multimedia-forensics-exifcleaner",
+      "id": "repo-192",
       "category_id": "cat-multimedia-forensics",
       "name": "exifcleaner",
       "owner": "szTheory",
@@ -3755,7 +3755,7 @@
       "created_at": "2026-08-21T06:18:50.770Z"
     },
     {
-      "id": "repo-multimedia-forensics-ffmpeg",
+      "id": "repo-193",
       "category_id": "cat-multimedia-forensics",
       "name": "FFmpeg",
       "owner": "FFmpeg",
@@ -3776,7 +3776,7 @@
       "created_at": "2026-08-21T06:18:50.855Z"
     },
     {
-      "id": "repo-multimedia-forensics-steghide",
+      "id": "repo-194",
       "category_id": "cat-multimedia-forensics",
       "name": "steghide",
       "owner": "StefanoDeVuono",
@@ -3795,7 +3795,7 @@
       "created_at": "2026-08-21T06:18:50.918Z"
     },
     {
-      "id": "repo-multimedia-forensics-zsteg",
+      "id": "repo-195",
       "category_id": "cat-multimedia-forensics",
       "name": "zsteg",
       "owner": "zed-0xff",
@@ -3814,7 +3814,7 @@
       "created_at": "2026-08-21T06:18:51.083Z"
     },
     {
-      "id": "repo-multimedia-forensics-stegexpose",
+      "id": "repo-196",
       "category_id": "cat-multimedia-forensics",
       "name": "StegExpose",
       "owner": "b3dk7",
@@ -3833,7 +3833,7 @@
       "created_at": "2026-08-21T06:18:51.149Z"
     },
     {
-      "id": "repo-multimedia-forensics-exifpy",
+      "id": "repo-197",
       "category_id": "cat-multimedia-forensics",
       "name": "exif-py",
       "owner": "ianare",
@@ -3852,7 +3852,7 @@
       "created_at": "2026-08-21T06:18:51.197Z"
     },
     {
-      "id": "repo-multimedia-forensics-stegoveritas",
+      "id": "repo-198",
       "category_id": "cat-multimedia-forensics",
       "name": "stegoVeritas",
       "owner": "bannsec",
@@ -3871,7 +3871,7 @@
       "created_at": "2026-08-21T06:18:51.249Z"
     },
     {
-      "id": "repo-multimedia-forensics-handbrake",
+      "id": "repo-199",
       "category_id": "cat-multimedia-forensics",
       "name": "HandBrake",
       "owner": "HandBrake",
@@ -3890,7 +3890,7 @@
       "created_at": "2026-08-21T06:18:51.293Z"
     },
     {
-      "id": "repo-multimedia-forensics-mediainfo",
+      "id": "repo-200",
       "category_id": "cat-multimedia-forensics",
       "name": "MediaInfo",
       "owner": "MediaArea",
@@ -3909,7 +3909,7 @@
       "created_at": "2026-08-21T06:18:51.350Z"
     },
     {
-      "id": "repo-multimedia-forensics-prnupython",
+      "id": "repo-201",
       "category_id": "cat-multimedia-forensics",
       "name": "prnu-python",
       "owner": "polimi-ispl",
@@ -3928,7 +3928,7 @@
       "created_at": "2026-08-21T06:18:51.410Z"
     },
     {
-      "id": "repo-multimedia-forensics-stegotoolkit",
+      "id": "repo-202",
       "category_id": "cat-multimedia-forensics",
       "name": "stego-toolkit",
       "owner": "DominicBreuker",
@@ -3947,7 +3947,7 @@
       "created_at": "2026-08-21T06:18:51.466Z"
     },
     {
-      "id": "repo-forensics-misp",
+      "id": "repo-203",
       "category_id": "cat-forensics",
       "name": "MISP",
       "owner": "MISP",
@@ -3966,7 +3966,7 @@
       "created_at": "2026-08-21T06:18:51.522Z"
     },
     {
-      "id": "repo-forensics-regripper30",
+      "id": "repo-204",
       "category_id": "cat-forensics",
       "name": "RegRipper3.0",
       "owner": "keydet89",
@@ -3985,7 +3985,7 @@
       "created_at": "2026-08-21T06:18:51.584Z"
     },
     {
-      "id": "repo-forensics-dfirorc",
+      "id": "repo-205",
       "category_id": "cat-forensics",
       "name": "dfir-orc",
       "owner": "dfir-orc",
@@ -4004,7 +4004,7 @@
       "created_at": "2026-08-21T06:18:51.627Z"
     },
     {
-      "id": "repo-forensics-registry",
+      "id": "repo-206",
       "category_id": "cat-forensics",
       "name": "Registry",
       "owner": "EricZimmerman",
@@ -4023,7 +4023,7 @@
       "created_at": "2026-08-21T06:18:51.675Z"
     },
     {
-      "id": "repo-forensics-hindsight",
+      "id": "repo-207",
       "category_id": "cat-forensics",
       "name": "hindsight",
       "owner": "obsidianforensics",
@@ -4042,7 +4042,7 @@
       "created_at": "2026-08-21T06:18:51.725Z"
     },
     {
-      "id": "repo-forensics-mftecmd",
+      "id": "repo-208",
       "category_id": "cat-forensics",
       "name": "MFTECmd",
       "owner": "EricZimmerman",
@@ -4061,7 +4061,7 @@
       "created_at": "2026-08-21T06:18:51.780Z"
     },
     {
-      "id": "repo-forensics-turbinia",
+      "id": "repo-209",
       "category_id": "cat-forensics",
       "name": "turbinia",
       "owner": "google",
@@ -4080,7 +4080,7 @@
       "created_at": "2026-08-21T06:18:51.825Z"
     },
     {
-      "id": "repo-forensics-dissect",
+      "id": "repo-210",
       "category_id": "cat-forensics",
       "name": "dissect",
       "owner": "fox-it",
@@ -4099,7 +4099,7 @@
       "created_at": "2026-08-21T06:18:51.882Z"
     },
     {
-      "id": "repo-forensics-recmd",
+      "id": "repo-211",
       "category_id": "cat-forensics",
       "name": "RECmd",
       "owner": "EricZimmerman",
@@ -4118,7 +4118,7 @@
       "created_at": "2026-08-21T06:18:51.931Z"
     },
     {
-      "id": "repo-forensics-usbrip",
+      "id": "repo-212",
       "category_id": "cat-forensics",
       "name": "usbrip",
       "owner": "snovvcrash",
@@ -4137,7 +4137,7 @@
       "created_at": "2026-08-21T06:18:51.982Z"
     },
     {
-      "id": "repo-forensics-artifacts",
+      "id": "repo-213",
       "category_id": "cat-forensics",
       "name": "artifacts",
       "owner": "ForensicArtifacts",
@@ -4156,7 +4156,7 @@
       "created_at": "2026-08-21T06:18:52.026Z"
     },
     {
-      "id": "repo-forensics-zircolite",
+      "id": "repo-214",
       "category_id": "cat-forensics",
       "name": "Zircolite",
       "owner": "wagga40",
@@ -4175,7 +4175,7 @@
       "created_at": "2026-08-21T06:18:52.080Z"
     },
     {
-      "id": "repo-forensics-dftimewolf",
+      "id": "repo-215",
       "category_id": "cat-forensics",
       "name": "dftimewolf",
       "owner": "log2timeline",
@@ -4192,6 +4192,3101 @@
       ],
       "sort_order": 215,
       "created_at": "2026-08-21T06:18:52.125Z"
+    },
+    {
+      "id": "repo-216",
+      "category_id": "cat-osint",
+      "name": "toutatis",
+      "owner": "megadose",
+      "full_name": "megadose/toutatis",
+      "description": "Extract info from Instagram account using userID.",
+      "url": "https://github.com/megadose/toutatis",
+      "stars": 1800,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "instagram",
+        "recon"
+      ],
+      "sort_order": 216,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-217",
+      "category_id": "cat-osint",
+      "name": "social-analyzer",
+      "owner": "qeeqbox",
+      "full_name": "qeeqbox/social-analyzer",
+      "description": "API, CLI, and web app for analyzing and finding a person's profile across 1000+ sites.",
+      "url": "https://github.com/qeeqbox/social-analyzer",
+      "stars": 11000,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "username",
+        "social-media"
+      ],
+      "sort_order": 217,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-218",
+      "category_id": "cat-osint",
+      "name": "blackbird",
+      "owner": "p1ngul1n0",
+      "full_name": "p1ngul1n0/blackbird",
+      "description": "OSINT tool to search for accounts by username across platforms.",
+      "url": "https://github.com/p1ngul1n0/blackbird",
+      "stars": 3500,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "username",
+        "reconnaissance"
+      ],
+      "sort_order": 218,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-219",
+      "category_id": "cat-osint",
+      "name": "ReconSpider",
+      "owner": "bhavsec",
+      "full_name": "bhavsec/ReconSpider",
+      "description": "Advanced OSINT framework for gathering information about IP, domain, username, and email.",
+      "url": "https://github.com/bhavsec/reconspider",
+      "stars": 2200,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "recon",
+        "framework"
+      ],
+      "sort_order": 219,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-220",
+      "category_id": "cat-osint",
+      "name": "Datasploit",
+      "owner": "datasploit",
+      "full_name": "datasploit/Datasploit",
+      "description": "OSINT framework to perform various recon techniques on companies/people.",
+      "url": "https://github.com/DataSploit/datasploit",
+      "stars": 2900,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "recon",
+        "intelligence"
+      ],
+      "sort_order": 220,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-221",
+      "category_id": "cat-osint",
+      "name": "InstagramOSINT",
+      "owner": "sc1341",
+      "full_name": "sc1341/InstagramOSINT",
+      "description": "OSINT tool for gathering Instagram account data.",
+      "url": "https://github.com/sc1341/InstagramOSINT",
+      "stars": 1300,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "instagram",
+        "social-media"
+      ],
+      "sort_order": 221,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-222",
+      "category_id": "cat-osint",
+      "name": "Nettacker",
+      "owner": "owasp",
+      "full_name": "owasp/Nettacker",
+      "description": "Automated pentesting and reconnaissance framework.",
+      "url": "https://github.com/OWASP/Nettacker",
+      "stars": 3700,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "recon",
+        "penetration-testing"
+      ],
+      "sort_order": 222,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-223",
+      "category_id": "cat-osint",
+      "name": "buster",
+      "owner": "sham00n",
+      "full_name": "sham00n/buster",
+      "description": "Advanced OSINT tool for email reconnaissance.",
+      "url": "https://github.com/sham00n/buster",
+      "stars": 1100,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "email",
+        "recon"
+      ],
+      "sort_order": 223,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-224",
+      "category_id": "cat-osint",
+      "name": "OnionSearch",
+      "owner": "megadose",
+      "full_name": "megadose/OnionSearch",
+      "description": "Script that scrapes URLs on different .onion search engines.",
+      "url": "https://github.com/megadose/OnionSearch",
+      "stars": 1500,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "darkweb",
+        "tor"
+      ],
+      "sort_order": 224,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-225",
+      "category_id": "cat-osint",
+      "name": "SauronEye",
+      "owner": "vivami",
+      "full_name": "vivami/SauronEye",
+      "description": "Search tool to find specific files containing specific words, aiding investigation.",
+      "url": "https://github.com/vivami/SauronEye",
+      "stars": 900,
+      "language": "CSharp",
+      "topics": [
+        "osint",
+        "recon",
+        "file-search"
+      ],
+      "sort_order": 225,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-226",
+      "category_id": "cat-osint",
+      "name": "ReconFTW",
+      "owner": "six2dez",
+      "full_name": "six2dez/ReconFTW",
+      "description": "Automates entire recon process combining best tools.",
+      "url": "https://github.com/six2dez/reconftw",
+      "stars": 5500,
+      "language": "Shell",
+      "topics": [
+        "osint",
+        "recon",
+        "automation"
+      ],
+      "sort_order": 226,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-227",
+      "category_id": "cat-osint",
+      "name": "AttackSurfaceMapper",
+      "owner": "superhedgy",
+      "full_name": "superhedgy/AttackSurfaceMapper",
+      "description": "Automates reconnaissance process using OSINT tools/APIs.",
+      "url": "https://github.com/superhedgy/AttackSurfaceMapper",
+      "stars": 1400,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "recon",
+        "attack-surface"
+      ],
+      "sort_order": 227,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-228",
+      "category_id": "cat-osint",
+      "name": "CrossLinked",
+      "owner": "m8sec",
+      "full_name": "m8sec/CrossLinked",
+      "description": "LinkedIn enumeration tool to extract valid employee names via search engine scraping.",
+      "url": "https://github.com/m8sec/CrossLinked",
+      "stars": 1200,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "linkedin",
+        "recon"
+      ],
+      "sort_order": 228,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-229",
+      "category_id": "cat-osint",
+      "name": "linkedin2username",
+      "owner": "initstring",
+      "full_name": "initstring/linkedin2username",
+      "description": "Generate username lists for companies on LinkedIn.",
+      "url": "https://github.com/initstring/linkedin2username",
+      "stars": 2100,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "linkedin",
+        "username"
+      ],
+      "sort_order": 229,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-230",
+      "category_id": "cat-osint",
+      "name": "gitrob",
+      "owner": "michenriksen",
+      "full_name": "michenriksen/gitrob",
+      "description": "Reconnaissance tool for GitHub organizations to find sensitive files.",
+      "url": "https://github.com/michenriksen/gitrob",
+      "stars": 5800,
+      "language": "Go",
+      "topics": [
+        "osint",
+        "github",
+        "secrets"
+      ],
+      "sort_order": 230,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-231",
+      "category_id": "cat-osint",
+      "name": "git-hound",
+      "owner": "tillson",
+      "full_name": "tillson/git-hound",
+      "description": "GitHub secret hunting tool that finds exposed credentials.",
+      "url": "https://github.com/tillson/git-hound",
+      "stars": 3100,
+      "language": "Go",
+      "topics": [
+        "osint",
+        "github",
+        "secrets"
+      ],
+      "sort_order": 231,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-232",
+      "category_id": "cat-osint",
+      "name": "gitleaks",
+      "owner": "gitleaks",
+      "full_name": "gitleaks/gitleaks",
+      "description": "Detect secrets in git repos, useful for OSINT-driven audits.",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "stars": 17000,
+      "language": "Go",
+      "topics": [
+        "osint",
+        "secrets",
+        "security"
+      ],
+      "sort_order": 232,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-233",
+      "category_id": "cat-osint",
+      "name": "shodan-python",
+      "owner": "achillean",
+      "full_name": "achillean/shodan-python",
+      "description": "Official Python library for Shodan search engine API.",
+      "url": "https://github.com/achillean/shodan-python",
+      "stars": 2000,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "shodan",
+        "recon"
+      ],
+      "sort_order": 233,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-234",
+      "category_id": "cat-osint",
+      "name": "censys-python",
+      "owner": "censys",
+      "full_name": "censys/censys-python",
+      "description": "Official Python library for Censys Search API.",
+      "url": "https://github.com/censys/censys-python",
+      "stars": 500,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "censys",
+        "recon"
+      ],
+      "sort_order": 234,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-235",
+      "category_id": "cat-osint",
+      "name": "dnsdumpster-api",
+      "owner": "paulsec",
+      "full_name": "paulsec/dnsdumpster-api",
+      "description": "API wrapper for DNSDumpster domain research tool.",
+      "url": "https://github.com/PaulSec/API-dnsdumpster.com",
+      "stars": 600,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "dns",
+        "recon"
+      ],
+      "sort_order": 235,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-236",
+      "category_id": "cat-osint",
+      "name": "waybackurls",
+      "owner": "tomnomnom",
+      "full_name": "tomnomnom/waybackurls",
+      "description": "Fetch known URLs from Wayback Machine for a domain.",
+      "url": "https://github.com/tomnomnom/waybackurls",
+      "stars": 3900,
+      "language": "Go",
+      "topics": [
+        "osint",
+        "wayback",
+        "recon"
+      ],
+      "sort_order": 236,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-237",
+      "category_id": "cat-osint",
+      "name": "gau",
+      "owner": "lc",
+      "full_name": "lc/gau",
+      "description": "Get All URLs — fetches known URLs from AlienVault, Wayback Machine, Common Crawl.",
+      "url": "https://github.com/lc/gau",
+      "stars": 4200,
+      "language": "Go",
+      "topics": [
+        "osint",
+        "url-collection",
+        "recon"
+      ],
+      "sort_order": 237,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-238",
+      "category_id": "cat-osint",
+      "name": "assetfinder",
+      "owner": "tomnomnom",
+      "full_name": "tomnomnom/assetfinder",
+      "description": "Find related domains and subdomains quickly.",
+      "url": "https://github.com/tomnomnom/assetfinder",
+      "stars": 2700,
+      "language": "Go",
+      "topics": [
+        "osint",
+        "subdomain",
+        "recon"
+      ],
+      "sort_order": 238,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-239",
+      "category_id": "cat-osint",
+      "name": "dnstwist",
+      "owner": "elceef",
+      "full_name": "elceef/dnstwist",
+      "description": "Domain name permutation engine for detecting typosquatting/phishing.",
+      "url": "https://github.com/elceef/dnstwist",
+      "stars": 4800,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "phishing",
+        "dns"
+      ],
+      "sort_order": 239,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-240",
+      "category_id": "cat-osint",
+      "name": "IVRE",
+      "owner": "ivre",
+      "full_name": "ivre/IVRE",
+      "description": "Network recon framework built on top of Nmap/Zmap/Masscan/passive DNS data.",
+      "url": "https://github.com/ivre/ivre",
+      "stars": 3600,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "network-recon",
+        "framework"
+      ],
+      "sort_order": 240,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-241",
+      "category_id": "cat-multimedia-forensics",
+      "name": "pyexiftool",
+      "owner": "sylikc",
+      "full_name": "sylikc/pyexiftool",
+      "description": "Python wrapper for ExifTool metadata extraction.",
+      "url": "https://github.com/sylikc/pyexiftool",
+      "stars": 500,
+      "language": "Python",
+      "topics": [
+        "exif",
+        "metadata",
+        "forensics"
+      ],
+      "sort_order": 241,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-242",
+      "category_id": "cat-multimedia-forensics",
+      "name": "exiv2",
+      "owner": "exiv2",
+      "full_name": "exiv2/exiv2",
+      "description": "C++ library and CLI to manage image metadata (EXIF, IPTC, XMP).",
+      "url": "https://github.com/Exiv2/exiv2",
+      "stars": 1200,
+      "language": "C++",
+      "topics": [
+        "exif",
+        "metadata",
+        "image-forensics"
+      ],
+      "sort_order": 242,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-243",
+      "category_id": "cat-multimedia-forensics",
+      "name": "imagededup",
+      "owner": "idealo",
+      "full_name": "idealo/imagededup",
+      "description": "Detect duplicate/near-duplicate images using hashing and CNN.",
+      "url": "https://github.com/idealo/imagededup",
+      "stars": 5200,
+      "language": "Python",
+      "topics": [
+        "image-forensics",
+        "duplicate-detection",
+        "hashing"
+      ],
+      "sort_order": 243,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-244",
+      "category_id": "cat-multimedia-forensics",
+      "name": "imagehash",
+      "owner": "johannesbuchner",
+      "full_name": "johannesbuchner/imagehash",
+      "description": "Python perceptual image hashing library (pHash, dHash, wHash) for image forensics.",
+      "url": "https://github.com/JohannesBuchner/imagehash",
+      "stars": 3100,
+      "language": "Python",
+      "topics": [
+        "image-forensics",
+        "perceptual-hash",
+        "multimedia"
+      ],
+      "sort_order": 244,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-245",
+      "category_id": "cat-multimedia-forensics",
+      "name": "sherloq",
+      "owner": "guidobartoli",
+      "full_name": "guidobartoli/sherloq",
+      "description": "Open-source digital image forensic toolset (ELA, noise, clone detection, metadata).",
+      "url": "https://github.com/GuidoBartoli/sherloq",
+      "stars": 2800,
+      "language": "Python",
+      "topics": [
+        "image-forensics",
+        "ela",
+        "forgery-detection"
+      ],
+      "sort_order": 245,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-246",
+      "category_id": "cat-multimedia-forensics",
+      "name": "audioFlux",
+      "owner": "libaudioflux",
+      "full_name": "libaudioflux/audioFlux",
+      "description": "Audio and music analysis library for spectral/forensic audio analysis.",
+      "url": "https://github.com/libAudioFlux/audioFlux",
+      "stars": 2100,
+      "language": "C",
+      "topics": [
+        "audio",
+        "forensics",
+        "spectral-analysis"
+      ],
+      "sort_order": 246,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-247",
+      "category_id": "cat-multimedia-forensics",
+      "name": "praat",
+      "owner": "praat",
+      "full_name": "praat/praat",
+      "description": "Speech analysis software used in forensic audio/voice analysis.",
+      "url": "https://github.com/praat/praat",
+      "stars": 1200,
+      "language": "C++",
+      "topics": [
+        "audio",
+        "forensics",
+        "voice-analysis"
+      ],
+      "sort_order": 247,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-248",
+      "category_id": "cat-multimedia-forensics",
+      "name": "audacity",
+      "owner": "audacity",
+      "full_name": "audacity/audacity",
+      "description": "Free audio editor/analyzer useful for spectrogram-based audio forensics.",
+      "url": "https://github.com/audacity/audacity",
+      "stars": 13000,
+      "language": "C++",
+      "topics": [
+        "audio",
+        "forensics",
+        "spectrogram"
+      ],
+      "sort_order": 248,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-249",
+      "category_id": "cat-multimedia-forensics",
+      "name": "sonic-visualiser",
+      "owner": "sonic-visualiser",
+      "full_name": "sonic-visualiser/sonic-visualiser",
+      "description": "Application for viewing and analyzing audio spectral content.",
+      "url": "https://github.com/sonic-visualiser/sonic-visualiser",
+      "stars": 700,
+      "language": "C++",
+      "topics": [
+        "audio",
+        "forensics",
+        "visualization"
+      ],
+      "sort_order": 249,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-250",
+      "category_id": "cat-multimedia-forensics",
+      "name": "FaceForensics",
+      "owner": "ondyari",
+      "full_name": "ondyari/FaceForensics",
+      "description": "Dataset and benchmark for detecting manipulated facial imagery/video (deepfakes).",
+      "url": "https://github.com/ondyari/FaceForensics",
+      "stars": 4500,
+      "language": "Python",
+      "topics": [
+        "deepfake",
+        "forensics",
+        "face-detection"
+      ],
+      "sort_order": 250,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-251",
+      "category_id": "cat-multimedia-forensics",
+      "name": "opencv",
+      "owner": "opencv",
+      "full_name": "opencv/opencv",
+      "description": "Computer vision library widely used to build custom image/video forensic pipelines.",
+      "url": "https://github.com/opencv/opencv",
+      "stars": 79000,
+      "language": "C++",
+      "topics": [
+        "computer-vision",
+        "image-processing",
+        "forensics"
+      ],
+      "sort_order": 251,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-252",
+      "category_id": "cat-multimedia-forensics",
+      "name": "dlib",
+      "owner": "davisking",
+      "full_name": "davisking/dlib",
+      "description": "Machine learning toolkit with face recognition tools used in forensic image work.",
+      "url": "https://github.com/davisking/dlib",
+      "stars": 13000,
+      "language": "C++",
+      "topics": [
+        "machine-learning",
+        "face-recognition",
+        "forensics"
+      ],
+      "sort_order": 252,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-253",
+      "category_id": "cat-multimedia-forensics",
+      "name": "face_recognition",
+      "owner": "ageitgey",
+      "full_name": "ageitgey/face_recognition",
+      "description": "Simple Python facial recognition library built on dlib.",
+      "url": "https://github.com/ageitgey/face_recognition",
+      "stars": 54000,
+      "language": "Python",
+      "topics": [
+        "face-recognition",
+        "computer-vision",
+        "forensics"
+      ],
+      "sort_order": 253,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-254",
+      "category_id": "cat-multimedia-forensics",
+      "name": "insightface",
+      "owner": "deepinsight",
+      "full_name": "deepinsight/insightface",
+      "description": "State-of-the-art 2D/3D face analysis toolbox.",
+      "url": "https://github.com/deepinsight/insightface",
+      "stars": 24000,
+      "language": "Python",
+      "topics": [
+        "face-analysis",
+        "deep-learning",
+        "forensics"
+      ],
+      "sort_order": 254,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-255",
+      "category_id": "cat-multimedia-forensics",
+      "name": "imagemagick",
+      "owner": "imagemagick",
+      "full_name": "imagemagick/imagemagick",
+      "description": "Suite for image creation, editing, and analysis at scale.",
+      "url": "https://github.com/ImageMagick/ImageMagick",
+      "stars": 12000,
+      "language": "C",
+      "topics": [
+        "image-processing",
+        "forensics",
+        "metadata"
+      ],
+      "sort_order": 255,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-256",
+      "category_id": "cat-multimedia-forensics",
+      "name": "videohash",
+      "owner": "akamhy",
+      "full_name": "akamhy/videohash",
+      "description": "Generate perceptual hashes of videos for near-duplicate detection.",
+      "url": "https://github.com/akamhy/videohash",
+      "stars": 400,
+      "language": "Python",
+      "topics": [
+        "video",
+        "forensics",
+        "hashing"
+      ],
+      "sort_order": 256,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-257",
+      "category_id": "cat-multimedia-forensics",
+      "name": "openstego",
+      "owner": "syvaidya",
+      "full_name": "syvaidya/openstego",
+      "description": "Open source steganography tool supporting data hiding and watermarking.",
+      "url": "https://github.com/syvaidya/openstego",
+      "stars": 1100,
+      "language": "Java",
+      "topics": [
+        "steganography",
+        "forensics",
+        "watermarking"
+      ],
+      "sort_order": 257,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-258",
+      "category_id": "cat-multimedia-forensics",
+      "name": "stegcracker",
+      "owner": "paradoxis",
+      "full_name": "paradoxis/stegcracker",
+      "description": "Brute-force utility to crack steghide-encoded files.",
+      "url": "https://github.com/Paradoxis/StegCracker",
+      "stars": 1800,
+      "language": "Python",
+      "topics": [
+        "steganography",
+        "forensics",
+        "brute-force"
+      ],
+      "sort_order": 258,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-259",
+      "category_id": "cat-multimedia-forensics",
+      "name": "aletheia",
+      "owner": "daniellerch",
+      "full_name": "daniellerch/aletheia",
+      "description": "Image steganalysis tool using statistical attacks.",
+      "url": "https://github.com/daniellerch/aletheia",
+      "stars": 800,
+      "language": "Python",
+      "topics": [
+        "steganography",
+        "steganalysis",
+        "forensics"
+      ],
+      "sort_order": 259,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-260",
+      "category_id": "cat-multimedia-forensics",
+      "name": "image-forensics",
+      "owner": "mklab-iti",
+      "full_name": "mklab-iti/image-forensics",
+      "description": "Splicing/copy-move forgery detection toolkit for images.",
+      "url": "https://github.com/MKLab-ITI/image-forensics",
+      "stars": 300,
+      "language": "Python",
+      "topics": [
+        "image-forensics",
+        "forgery-detection",
+        "splicing"
+      ],
+      "sort_order": 260,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-261",
+      "category_id": "cat-multimedia-forensics",
+      "name": "yt-dlp",
+      "owner": "yt-dlp",
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "Download and archive video/audio from many sites for evidence preservation.",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "stars": 93000,
+      "language": "Python",
+      "topics": [
+        "video-download",
+        "evidence-preservation",
+        "forensics"
+      ],
+      "sort_order": 261,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-262",
+      "category_id": "cat-multimedia-forensics",
+      "name": "gallery-dl",
+      "owner": "mikf",
+      "full_name": "mikf/gallery-dl",
+      "description": "Bulk downloader for image galleries/social platforms preserving metadata.",
+      "url": "https://github.com/mikf/gallery-dl",
+      "stars": 14000,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "image-download",
+        "evidence-collection"
+      ],
+      "sort_order": 262,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-263",
+      "category_id": "cat-forensics",
+      "name": "autopsy-plugins",
+      "owner": "sleuthkit",
+      "full_name": "sleuthkit/autopsy-plugins",
+      "description": "Community plugin modules extending the Autopsy forensic platform.",
+      "url": "https://github.com/sleuthkit/autopsy_addon_modules",
+      "stars": 300,
+      "language": "Java",
+      "topics": [
+        "forensics",
+        "autopsy",
+        "plugins"
+      ],
+      "sort_order": 263,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-264",
+      "category_id": "cat-forensics",
+      "name": "AmcacheParser",
+      "owner": "ericzimmerman",
+      "full_name": "ericzimmerman/AmcacheParser",
+      "description": "Parses Windows Amcache.hve for application execution evidence.",
+      "url": "https://github.com/EricZimmerman/AmcacheParser",
+      "stars": 400,
+      "language": "CSharp",
+      "topics": [
+        "forensics",
+        "windows",
+        "amcache"
+      ],
+      "sort_order": 264,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-265",
+      "category_id": "cat-forensics",
+      "name": "JLECmd",
+      "owner": "ericzimmerman",
+      "full_name": "ericzimmerman/JLECmd",
+      "description": "Parses Windows jump list files for forensic evidence.",
+      "url": "https://github.com/EricZimmerman/JLECmd",
+      "stars": 350,
+      "language": "CSharp",
+      "topics": [
+        "forensics",
+        "windows",
+        "jumplist"
+      ],
+      "sort_order": 265,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-266",
+      "category_id": "cat-forensics",
+      "name": "LECmd",
+      "owner": "ericzimmerman",
+      "full_name": "ericzimmerman/LECmd",
+      "description": "Parses Windows LNK (shortcut) files for forensic artifacts.",
+      "url": "https://github.com/EricZimmerman/LECmd",
+      "stars": 450,
+      "language": "CSharp",
+      "topics": [
+        "forensics",
+        "windows",
+        "lnk"
+      ],
+      "sort_order": 266,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-267",
+      "category_id": "cat-forensics",
+      "name": "PECmd",
+      "owner": "ericzimmerman",
+      "full_name": "ericzimmerman/PECmd",
+      "description": "Parses Windows Prefetch files for execution evidence.",
+      "url": "https://github.com/EricZimmerman/PECmd",
+      "stars": 500,
+      "language": "CSharp",
+      "topics": [
+        "forensics",
+        "windows",
+        "prefetch"
+      ],
+      "sort_order": 267,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-268",
+      "category_id": "cat-forensics",
+      "name": "Get-ZimmermanTools",
+      "owner": "ericzimmerman",
+      "full_name": "ericzimmerman/Get-ZimmermanTools",
+      "description": "PowerShell script to download and manage all Eric Zimmerman forensic tools.",
+      "url": "https://github.com/EricZimmerman/Get-ZimmermanTools",
+      "stars": 600,
+      "language": "PowerShell",
+      "topics": [
+        "forensics",
+        "windows",
+        "tools"
+      ],
+      "sort_order": 268,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-269",
+      "category_id": "cat-forensics",
+      "name": "APT-Hunter",
+      "owner": "ahmedkhlief",
+      "full_name": "ahmedkhlief/APT-Hunter",
+      "description": "Threat hunting tool for Windows event logs identifying suspicious activity.",
+      "url": "https://github.com/ahmedkhlief/APT-Hunter",
+      "stars": 1100,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "threat-hunting",
+        "windows"
+      ],
+      "sort_order": 269,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-270",
+      "category_id": "cat-forensics",
+      "name": "hayabusa-rules",
+      "owner": "yamato-security",
+      "full_name": "yamato-security/hayabusa-rules",
+      "description": "Sigma-based detection rule set for the Hayabusa forensic tool.",
+      "url": "https://github.com/Yamato-Security/hayabusa-rules",
+      "stars": 800,
+      "language": "YAML",
+      "topics": [
+        "forensics",
+        "sigma",
+        "detection"
+      ],
+      "sort_order": 270,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-271",
+      "category_id": "cat-forensics",
+      "name": "sigma",
+      "owner": "sigmahq",
+      "full_name": "sigmahq/sigma",
+      "description": "Generic signature format for SIEM systems used across forensic tools.",
+      "url": "https://github.com/SigmaHQ/sigma",
+      "stars": 8700,
+      "language": "YAML",
+      "topics": [
+        "forensics",
+        "siem",
+        "detection-rules"
+      ],
+      "sort_order": 271,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-272",
+      "category_id": "cat-forensics",
+      "name": "MemProcFS",
+      "owner": "ufrisk",
+      "full_name": "ufrisk/MemProcFS",
+      "description": "Convenient way of viewing physical memory as files in a virtual file system.",
+      "url": "https://github.com/ufrisk/MemProcFS",
+      "stars": 2900,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "memory-forensics",
+        "analysis"
+      ],
+      "sort_order": 272,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-273",
+      "category_id": "cat-forensics",
+      "name": "volatility-community3",
+      "owner": "volatilityfoundation",
+      "full_name": "volatilityfoundation/volatility-community3",
+      "description": "Community-contributed plugins for Volatility 3 memory forensics.",
+      "url": "https://github.com/volatilityfoundation/community3",
+      "stars": 500,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "memory-forensics",
+        "volatility"
+      ],
+      "sort_order": 273,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-274",
+      "category_id": "cat-forensics",
+      "name": "avml",
+      "owner": "microsoft",
+      "full_name": "microsoft/avml",
+      "description": "Acquire Volatile Memory for Linux — memory acquisition tool.",
+      "url": "https://github.com/microsoft/avml",
+      "stars": 900,
+      "language": "Rust",
+      "topics": [
+        "forensics",
+        "memory-acquisition",
+        "linux"
+      ],
+      "sort_order": 274,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-275",
+      "category_id": "cat-forensics",
+      "name": "LiME",
+      "owner": "504ensicslabs",
+      "full_name": "504ensicslabs/LiME",
+      "description": "Linux Memory Extractor kernel module for volatile memory acquisition.",
+      "url": "https://github.com/504ensicsLabs/LiME",
+      "stars": 1800,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "memory-acquisition",
+        "linux"
+      ],
+      "sort_order": 275,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-276",
+      "category_id": "cat-forensics",
+      "name": "WinPmem",
+      "owner": "velocidex",
+      "full_name": "velocidex/WinPmem",
+      "description": "Windows memory acquisition driver and tool.",
+      "url": "https://github.com/Velocidex/WinPmem",
+      "stars": 700,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "memory-acquisition",
+        "windows"
+      ],
+      "sort_order": 276,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-277",
+      "category_id": "cat-forensics",
+      "name": "libewf",
+      "owner": "libyal",
+      "full_name": "libyal/libewf",
+      "description": "Library and tools for Expert Witness Compression Format (EWF/E01) disk images.",
+      "url": "https://github.com/libyal/libewf",
+      "stars": 400,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "disk-image",
+        "ewf"
+      ],
+      "sort_order": 277,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-278",
+      "category_id": "cat-forensics",
+      "name": "libvshadow",
+      "owner": "libyal",
+      "full_name": "libyal/libvshadow",
+      "description": "Library for accessing Volume Shadow Snapshot (VSS) format for forensics.",
+      "url": "https://github.com/libyal/libvshadow",
+      "stars": 200,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "windows",
+        "vss"
+      ],
+      "sort_order": 278,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-279",
+      "category_id": "cat-forensics",
+      "name": "libesedb",
+      "owner": "libyal",
+      "full_name": "libyal/libesedb",
+      "description": "Library for accessing Extensible Storage Engine (ESE) database format.",
+      "url": "https://github.com/libyal/libesedb",
+      "stars": 300,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "windows",
+        "ese-database"
+      ],
+      "sort_order": 279,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-280",
+      "category_id": "cat-forensics",
+      "name": "libfsntfs",
+      "owner": "libyal",
+      "full_name": "libyal/libfsntfs",
+      "description": "Library for accessing NTFS file system for forensic parsing.",
+      "url": "https://github.com/libyal/libfsntfs",
+      "stars": 300,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "ntfs",
+        "file-system"
+      ],
+      "sort_order": 280,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-281",
+      "category_id": "cat-forensics",
+      "name": "dfvfs",
+      "owner": "log2timeline",
+      "full_name": "log2timeline/dfvfs",
+      "description": "Digital Forensics Virtual File System — layered access to forensic file formats.",
+      "url": "https://github.com/log2timeline/dfvfs",
+      "stars": 300,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "virtual-file-system",
+        "dfir"
+      ],
+      "sort_order": 281,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-282",
+      "category_id": "cat-forensics",
+      "name": "dfwinreg",
+      "owner": "log2timeline",
+      "full_name": "log2timeline/dfwinreg",
+      "description": "Digital forensics Windows Registry parsing library.",
+      "url": "https://github.com/log2timeline/dfwinreg",
+      "stars": 200,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "windows-registry",
+        "dfir"
+      ],
+      "sort_order": 282,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-283",
+      "category_id": "cat-forensics",
+      "name": "dislocker",
+      "owner": "aorimn",
+      "full_name": "aorimn/dislocker",
+      "description": "Read/write access to BitLocker encrypted partitions for forensic analysis.",
+      "url": "https://github.com/Aorimn/dislocker",
+      "stars": 1500,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "bitlocker",
+        "encryption"
+      ],
+      "sort_order": 283,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-284",
+      "category_id": "cat-forensics",
+      "name": "hollows_hunter",
+      "owner": "hasherezade",
+      "full_name": "hasherezade/hollows_hunter",
+      "description": "Scans running processes to detect and dump malware-injected code.",
+      "url": "https://github.com/hasherezade/hollows_hunter",
+      "stars": 1900,
+      "language": "C++",
+      "topics": [
+        "forensics",
+        "malware",
+        "memory-analysis"
+      ],
+      "sort_order": 284,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-285",
+      "category_id": "cat-forensics",
+      "name": "capa-rules",
+      "owner": "mandiant",
+      "full_name": "mandiant/capa-rules",
+      "description": "Rule set powering the capa malware capability detection tool.",
+      "url": "https://github.com/mandiant/capa-rules",
+      "stars": 600,
+      "language": "YAML",
+      "topics": [
+        "forensics",
+        "malware",
+        "detection"
+      ],
+      "sort_order": 285,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-286",
+      "category_id": "cat-forensics",
+      "name": "Detect-It-Easy",
+      "owner": "horsicq",
+      "full_name": "horsicq/Detect-It-Easy",
+      "description": "Program for determining file types and detecting packers/compilers.",
+      "url": "https://github.com/horsicq/Detect-It-Easy",
+      "stars": 6200,
+      "language": "C++",
+      "topics": [
+        "forensics",
+        "file-type",
+        "packer-detection"
+      ],
+      "sort_order": 286,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-287",
+      "category_id": "cat-forensics",
+      "name": "yara-forge",
+      "owner": "yarahq",
+      "full_name": "yarahq/yara-forge",
+      "description": "Aggregates and quality-checks open-source YARA rule repositories.",
+      "url": "https://github.com/YARAHQ/yara-forge",
+      "stars": 400,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "yara",
+        "detection"
+      ],
+      "sort_order": 287,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-288",
+      "category_id": "cat-forensics",
+      "name": "CAPEv2",
+      "owner": "kevoreilly",
+      "full_name": "kevoreilly/CAPEv2",
+      "description": "Malware sandbox for automated dynamic analysis and configuration extraction.",
+      "url": "https://github.com/kevoreilly/CAPEv2",
+      "stars": 2200,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "malware",
+        "sandbox"
+      ],
+      "sort_order": 288,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-289",
+      "category_id": "cat-forensics",
+      "name": "cuckoo3",
+      "owner": "cert-ee",
+      "full_name": "cert-ee/cuckoo3",
+      "description": "Open-source automated malware analysis sandbox (Cuckoo successor).",
+      "url": "https://github.com/cert-ee/cuckoo3",
+      "stars": 800,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "malware",
+        "sandbox"
+      ],
+      "sort_order": 289,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-290",
+      "category_id": "cat-forensics",
+      "name": "assemblyline",
+      "owner": "cybercentrecanada",
+      "full_name": "cybercentrecanada/assemblyline",
+      "description": "Scalable file triage and malware analysis platform by Canadian CSE.",
+      "url": "https://github.com/CybercentreCanada/assemblyline",
+      "stars": 500,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "malware-analysis",
+        "triage"
+      ],
+      "sort_order": 290,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-291",
+      "category_id": "cat-forensics",
+      "name": "misp-modules",
+      "owner": "misp",
+      "full_name": "misp/misp-modules",
+      "description": "Expansion/enrichment modules for the MISP threat-intel platform.",
+      "url": "https://github.com/MISP/misp-modules",
+      "stars": 700,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "threat-intel",
+        "misp"
+      ],
+      "sort_order": 291,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-292",
+      "category_id": "cat-forensics",
+      "name": "OpenCTI",
+      "owner": "opencti-platform",
+      "full_name": "opencti-platform/OpenCTI",
+      "description": "Open source cyber threat intelligence platform for case correlation.",
+      "url": "https://github.com/OpenCTI-Platform/opencti",
+      "stars": 6200,
+      "language": "JavaScript",
+      "topics": [
+        "forensics",
+        "threat-intel",
+        "cti"
+      ],
+      "sort_order": 292,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-293",
+      "category_id": "cat-forensics",
+      "name": "TheHive",
+      "owner": "thehive-project",
+      "full_name": "thehive-project/TheHive",
+      "description": "Scalable incident response and case management platform for DFIR teams.",
+      "url": "https://github.com/TheHive-Project/TheHive",
+      "stars": 3500,
+      "language": "Scala",
+      "topics": [
+        "forensics",
+        "incident-response",
+        "case-management"
+      ],
+      "sort_order": 293,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-294",
+      "category_id": "cat-forensics",
+      "name": "Cortex",
+      "owner": "thehive-project",
+      "full_name": "thehive-project/Cortex",
+      "description": "Observable analysis/enrichment engine integrated with TheHive.",
+      "url": "https://github.com/TheHive-Project/Cortex",
+      "stars": 1100,
+      "language": "Scala",
+      "topics": [
+        "forensics",
+        "incident-response",
+        "enrichment"
+      ],
+      "sort_order": 294,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-295",
+      "category_id": "cat-forensics",
+      "name": "yeti",
+      "owner": "yeti-platform",
+      "full_name": "yeti-platform/yeti",
+      "description": "Threat intelligence repository organizing IOCs, TTPs and observables.",
+      "url": "https://github.com/yeti-platform/yeti",
+      "stars": 1700,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "threat-intel",
+        "ioc"
+      ],
+      "sort_order": 295,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-296",
+      "category_id": "cat-forensics",
+      "name": "DFIRArtifactMuseum",
+      "owner": "andrewrathbun",
+      "full_name": "andrewrathbun/DFIRArtifactMuseum",
+      "description": "Repository documenting forensic artifacts across OS/app versions.",
+      "url": "https://github.com/AndrewRathbun/DFIRArtifactMuseum",
+      "stars": 1100,
+      "language": "PowerShell",
+      "topics": [
+        "forensics",
+        "artifacts",
+        "dfir"
+      ],
+      "sort_order": 296,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-297",
+      "category_id": "cat-forensics",
+      "name": "SysmonSearch",
+      "owner": "jpcertcc",
+      "full_name": "jpcertcc/SysmonSearch",
+      "description": "Investigate suspicious activity by visualizing Sysmon log events.",
+      "url": "https://github.com/JPCERTCC/SysmonSearch",
+      "stars": 700,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "sysmon",
+        "threat-hunting"
+      ],
+      "sort_order": 297,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-298",
+      "category_id": "cat-forensics",
+      "name": "sysmon-modular",
+      "owner": "olafhartong",
+      "full_name": "olafhartong/sysmon-modular",
+      "description": "Modular Sysmon configuration repository for endpoint monitoring.",
+      "url": "https://github.com/olafhartong/sysmon-modular",
+      "stars": 2500,
+      "language": "XML",
+      "topics": [
+        "forensics",
+        "sysmon",
+        "endpoint"
+      ],
+      "sort_order": 298,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-299",
+      "category_id": "cat-forensics",
+      "name": "CyLR",
+      "owner": "orlikoski",
+      "full_name": "orlikoski/CyLR",
+      "description": "Live response collection tool to gather forensic artifacts quickly.",
+      "url": "https://github.com/orlikoski/CyLR",
+      "stars": 700,
+      "language": "CSharp",
+      "topics": [
+        "forensics",
+        "live-response",
+        "artifact-collection"
+      ],
+      "sort_order": 299,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-300",
+      "category_id": "cat-forensics",
+      "name": "uac",
+      "owner": "tclahr",
+      "full_name": "tclahr/uac",
+      "description": "Unix-like Artifacts Collector — live response tool for Unix systems.",
+      "url": "https://github.com/tclahr/uac",
+      "stars": 700,
+      "language": "Shell",
+      "topics": [
+        "forensics",
+        "live-response",
+        "unix"
+      ],
+      "sort_order": 300,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-301",
+      "category_id": "cat-forensics",
+      "name": "PersistenceSniper",
+      "owner": "last-byte",
+      "full_name": "last-byte/PersistenceSniper",
+      "description": "PowerShell module to detect Windows persistence mechanisms.",
+      "url": "https://github.com/last-byte/PersistenceSniper",
+      "stars": 1300,
+      "language": "PowerShell",
+      "topics": [
+        "forensics",
+        "persistence",
+        "windows"
+      ],
+      "sort_order": 301,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-302",
+      "category_id": "cat-forensics",
+      "name": "moneta",
+      "owner": "forrest-orr",
+      "full_name": "forrest-orr/moneta",
+      "description": "Memory anomaly detection tool for identifying malicious injected code.",
+      "url": "https://github.com/forrest-orr/moneta",
+      "stars": 700,
+      "language": "C++",
+      "topics": [
+        "forensics",
+        "memory-forensics",
+        "injection-detection"
+      ],
+      "sort_order": 302,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-303",
+      "category_id": "cat-forensics",
+      "name": "sof-elk",
+      "owner": "philhagen",
+      "full_name": "philhagen/sof-elk",
+      "description": "Preconfigured ELK stack VM tailored for security/forensic log analysis.",
+      "url": "https://github.com/philhagen/sof-elk",
+      "stars": 700,
+      "language": "Shell",
+      "topics": [
+        "forensics",
+        "elk",
+        "log-analysis"
+      ],
+      "sort_order": 303,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-304",
+      "category_id": "cat-forensics",
+      "name": "browserhistory",
+      "owner": "browserhistory",
+      "full_name": "browserhistory/browserhistory",
+      "description": "Python module to extract browsing history from major browsers.",
+      "url": "https://github.com/browserhistory/browserhistory",
+      "stars": 500,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "browser",
+        "history"
+      ],
+      "sort_order": 304,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-305",
+      "category_id": "cat-forensics",
+      "name": "SQLite-Deleted-Records-Parser",
+      "owner": "mdegrazia",
+      "full_name": "mdegrazia/SQLite-Deleted-Records-Parser",
+      "description": "Recovers deleted records from SQLite databases for forensic review.",
+      "url": "https://github.com/mdegrazia/SQLite-Deleted-Records-Parser",
+      "stars": 400,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "sqlite",
+        "data-recovery"
+      ],
+      "sort_order": 305,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-306",
+      "category_id": "cat-forensics",
+      "name": "whatsapp-viewer",
+      "owner": "andreas-mausch",
+      "full_name": "andreas-mausch/whatsapp-viewer",
+      "description": "Tool to view and export WhatsApp chat databases for review.",
+      "url": "https://github.com/andreas-mausch/whatsapp-viewer",
+      "stars": 1200,
+      "language": "C++",
+      "topics": [
+        "forensics",
+        "whatsapp",
+        "mobile"
+      ],
+      "sort_order": 306,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-307",
+      "category_id": "cat-forensics",
+      "name": "libimobiledevice",
+      "owner": "libimobiledevice",
+      "full_name": "libimobiledevice/libimobiledevice",
+      "description": "Cross-platform library to communicate with iOS devices for forensic acquisition.",
+      "url": "https://github.com/libimobiledevice/libimobiledevice",
+      "stars": 5700,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "ios",
+        "mobile"
+      ],
+      "sort_order": 307,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-308",
+      "category_id": "cat-forensics",
+      "name": "android-backup-extractor",
+      "owner": "nelenkov",
+      "full_name": "nelenkov/android-backup-extractor",
+      "description": "Extract/repack Android application backups (.ab files).",
+      "url": "https://github.com/nelenkov/android-backup-extractor",
+      "stars": 1800,
+      "language": "Java",
+      "topics": [
+        "forensics",
+        "android",
+        "mobile"
+      ],
+      "sort_order": 308,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-309",
+      "category_id": "cat-forensics",
+      "name": "androguard",
+      "owner": "androguard",
+      "full_name": "androguard/androguard",
+      "description": "Reverse engineering, malware, and forensics analysis of Android apps.",
+      "url": "https://github.com/androguard/androguard",
+      "stars": 5100,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "android",
+        "reverse-engineering"
+      ],
+      "sort_order": 309,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-310",
+      "category_id": "cat-forensics",
+      "name": "apktool",
+      "owner": "ibotpeaches",
+      "full_name": "ibotpeaches/apktool",
+      "description": "Tool for reverse engineering Android APK files.",
+      "url": "https://github.com/iBotPeaches/Apktool",
+      "stars": 20000,
+      "language": "Java",
+      "topics": [
+        "forensics",
+        "android",
+        "reverse-engineering"
+      ],
+      "sort_order": 310,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-311",
+      "category_id": "cat-forensics",
+      "name": "jadx",
+      "owner": "skylot",
+      "full_name": "skylot/jadx",
+      "description": "Dex to Java decompiler for Android application analysis.",
+      "url": "https://github.com/skylot/jadx",
+      "stars": 40000,
+      "language": "Java",
+      "topics": [
+        "forensics",
+        "android",
+        "decompiler"
+      ],
+      "sort_order": 311,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-312",
+      "category_id": "cat-forensics",
+      "name": "aLEAPP",
+      "owner": "abrignoni",
+      "full_name": "abrignoni/aLEAPP",
+      "description": "Android Logs Events And Protobuf Parser for mobile forensic artifact extraction.",
+      "url": "https://github.com/abrignoni/aLEAPP",
+      "stars": 1200,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "android",
+        "mobile-forensics"
+      ],
+      "sort_order": 312,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-313",
+      "category_id": "cat-forensics",
+      "name": "iLEAPP",
+      "owner": "abrignoni",
+      "full_name": "abrignoni/iLEAPP",
+      "description": "iOS Logs Events And Property Lists Parser for mobile forensic artifact extraction.",
+      "url": "https://github.com/abrignoni/iLEAPP",
+      "stars": 1100,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "ios",
+        "mobile-forensics"
+      ],
+      "sort_order": 313,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-314",
+      "category_id": "cat-forensics",
+      "name": "artemis",
+      "owner": "puffycid",
+      "full_name": "puffycid/artemis",
+      "description": "Cross-platform digital forensics/artifact collection tool written in Rust.",
+      "url": "https://github.com/puffyCid/artemis",
+      "stars": 500,
+      "language": "Rust",
+      "topics": [
+        "forensics",
+        "artifact-collection",
+        "cross-platform"
+      ],
+      "sort_order": 314,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-315",
+      "category_id": "cat-forensics",
+      "name": "container-explorer",
+      "owner": "google",
+      "full_name": "google/container-explorer",
+      "description": "Google's tool for investigating containers on a compromised system.",
+      "url": "https://github.com/google/container-explorer",
+      "stars": 500,
+      "language": "Go",
+      "topics": [
+        "forensics",
+        "containers",
+        "cloud"
+      ],
+      "sort_order": 315,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-316",
+      "category_id": "cat-forensics",
+      "name": "docker-explorer",
+      "owner": "google",
+      "full_name": "google/docker-explorer",
+      "description": "Helps forensicate offline Docker filesystems.",
+      "url": "https://github.com/google/docker-explorer",
+      "stars": 600,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "docker",
+        "containers"
+      ],
+      "sort_order": 316,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-317",
+      "category_id": "cat-forensics",
+      "name": "cloud-forensics-utils",
+      "owner": "google",
+      "full_name": "google/cloud-forensics-utils",
+      "description": "Library to collect forensic evidence from cloud platforms (GCP/AWS/Azure).",
+      "url": "https://github.com/google/cloud-forensics-utils",
+      "stars": 600,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "cloud",
+        "evidence-collection"
+      ],
+      "sort_order": 317,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-318",
+      "category_id": "cat-forensics",
+      "name": "aws_ir",
+      "owner": "threatresponse",
+      "full_name": "threatresponse/aws_ir",
+      "description": "Incident response and forensic collection tool for AWS environments.",
+      "url": "https://github.com/ThreatResponse/aws_ir",
+      "stars": 600,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "aws",
+        "incident-response"
+      ],
+      "sort_order": 318,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-319",
+      "category_id": "cat-forensics",
+      "name": "diffy",
+      "owner": "netflix-skunkworks",
+      "full_name": "netflix-skunkworks/diffy",
+      "description": "Netflix's differential forensics/triage tool for AWS instance groups.",
+      "url": "https://github.com/Netflix-Skunkworks/diffy",
+      "stars": 600,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "aws",
+        "differential-analysis"
+      ],
+      "sort_order": 319,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-320",
+      "category_id": "cat-forensics",
+      "name": "margaritashotgun",
+      "owner": "threatresponse",
+      "full_name": "threatresponse/margaritashotgun",
+      "description": "Remote memory acquisition tool across multiple hosts.",
+      "url": "https://github.com/ThreatResponse/margaritashotgun",
+      "stars": 500,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "memory-acquisition",
+        "remote"
+      ],
+      "sort_order": 320,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-321",
+      "category_id": "cat-forensics",
+      "name": "osquery",
+      "owner": "osquery",
+      "full_name": "osquery/osquery",
+      "description": "SQL-powered operating system instrumentation and forensic investigation framework.",
+      "url": "https://github.com/osquery/osquery",
+      "stars": 22000,
+      "language": "C++",
+      "topics": [
+        "forensics",
+        "osquery",
+        "endpoint"
+      ],
+      "sort_order": 321,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-322",
+      "category_id": "cat-forensics",
+      "name": "fleet",
+      "owner": "fleetdm",
+      "full_name": "fleetdm/fleet",
+      "description": "Open source device management platform built around osquery.",
+      "url": "https://github.com/fleetdm/fleet",
+      "stars": 3200,
+      "language": "Go",
+      "topics": [
+        "forensics",
+        "osquery",
+        "device-management"
+      ],
+      "sort_order": 322,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-323",
+      "category_id": "cat-forensics",
+      "name": "wazuh",
+      "owner": "wazuh",
+      "full_name": "wazuh/wazuh",
+      "description": "Open source security platform for threat detection and incident response.",
+      "url": "https://github.com/wazuh/wazuh",
+      "stars": 11000,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "siem",
+        "incident-response"
+      ],
+      "sort_order": 323,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-324",
+      "category_id": "cat-forensics",
+      "name": "tracee",
+      "owner": "aquasecurity",
+      "full_name": "aquasecurity/tracee",
+      "description": "Runtime security and forensics tool using eBPF for Linux event tracing.",
+      "url": "https://github.com/aquasecurity/tracee",
+      "stars": 3400,
+      "language": "Go",
+      "topics": [
+        "forensics",
+        "ebpf",
+        "runtime-security"
+      ],
+      "sort_order": 324,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-325",
+      "category_id": "cat-forensics",
+      "name": "binwalk",
+      "owner": "refirmlabs",
+      "full_name": "refirmlabs/binwalk",
+      "description": "Tool for analyzing, reverse engineering, and extracting firmware images.",
+      "url": "https://github.com/ReFirmLabs/binwalk",
+      "stars": 10000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "firmware",
+        "reverse-engineering"
+      ],
+      "sort_order": 325,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-326",
+      "category_id": "cat-forensics",
+      "name": "chipsec",
+      "owner": "chipsec",
+      "full_name": "chipsec/chipsec",
+      "description": "Platform security assessment framework for firmware-level forensics.",
+      "url": "https://github.com/chipsec/chipsec",
+      "stars": 1800,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "firmware",
+        "security"
+      ],
+      "sort_order": 326,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-327",
+      "category_id": "cat-forensics",
+      "name": "UEFITool",
+      "owner": "longsoft",
+      "full_name": "longsoft/UEFITool",
+      "description": "UEFI firmware image parser and editor for firmware forensics.",
+      "url": "https://github.com/LongSoft/UEFITool",
+      "stars": 3700,
+      "language": "C++",
+      "topics": [
+        "forensics",
+        "uefi",
+        "firmware"
+      ],
+      "sort_order": 327,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-328",
+      "category_id": "cat-forensics",
+      "name": "hashdeep",
+      "owner": "jessek",
+      "full_name": "jessek/hashdeep",
+      "description": "Compute/audit multiple hash sets recursively for evidence integrity verification.",
+      "url": "https://github.com/jessek/hashdeep",
+      "stars": 600,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "hashing",
+        "integrity"
+      ],
+      "sort_order": 328,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-329",
+      "category_id": "cat-forensics",
+      "name": "ssdeep",
+      "owner": "ssdeep-project",
+      "full_name": "ssdeep-project/ssdeep",
+      "description": "Fuzzy hashing tool used for identifying similar files in forensic triage.",
+      "url": "https://github.com/ssdeep-project/ssdeep",
+      "stars": 700,
+      "language": "C++",
+      "topics": [
+        "forensics",
+        "fuzzy-hashing",
+        "triage"
+      ],
+      "sort_order": 329,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-330",
+      "category_id": "cat-forensics",
+      "name": "tlsh",
+      "owner": "trendmicro",
+      "full_name": "trendmicro/tlsh",
+      "description": "Locality-sensitive hashing for malware/file similarity forensics.",
+      "url": "https://github.com/trendmicro/tlsh",
+      "stars": 500,
+      "language": "C++",
+      "topics": [
+        "forensics",
+        "fuzzy-hashing",
+        "malware"
+      ],
+      "sort_order": 330,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-331",
+      "category_id": "cat-forensics",
+      "name": "john-the-ripper",
+      "owner": "openwall",
+      "full_name": "openwall/john-the-ripper",
+      "description": "Password cracking tool used in forensic password recovery scenarios.",
+      "url": "https://github.com/openwall/john",
+      "stars": 10000,
+      "language": "C",
+      "topics": [
+        "forensics",
+        "password-cracking",
+        "recovery"
+      ],
+      "sort_order": 331,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-332",
+      "category_id": "cat-forensics",
+      "name": "python-registry",
+      "owner": "williballenthin",
+      "full_name": "williballenthin/python-registry",
+      "description": "Pure Python parser for Windows Registry files.",
+      "url": "https://github.com/williballenthin/python-registry",
+      "stars": 1100,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "windows-registry",
+        "parser"
+      ],
+      "sort_order": 332,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-333",
+      "category_id": "cat-forensics",
+      "name": "python-evtx",
+      "owner": "williballenthin",
+      "full_name": "williballenthin/python-evtx",
+      "description": "Pure Python parser for Windows Event Log (EVTX) files.",
+      "url": "https://github.com/williballenthin/python-evtx",
+      "stars": 900,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "windows",
+        "event-log"
+      ],
+      "sort_order": 333,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-334",
+      "category_id": "cat-forensics",
+      "name": "FIR",
+      "owner": "certsocietegenerale",
+      "full_name": "certsocietegenerale/FIR",
+      "description": "Fast Incident Response — lightweight incident tracking platform.",
+      "url": "https://github.com/certsocietegenerale/FIR",
+      "stars": 1700,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "incident-response",
+        "case-management"
+      ],
+      "sort_order": 334,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-335",
+      "category_id": "cat-forensics",
+      "name": "misp-taxonomies",
+      "owner": "misp",
+      "full_name": "misp/misp-taxonomies",
+      "description": "Taxonomies used to classify threat intel/forensic case data in MISP.",
+      "url": "https://github.com/MISP/misp-taxonomies",
+      "stars": 400,
+      "language": "JSON",
+      "topics": [
+        "forensics",
+        "threat-intel",
+        "taxonomy"
+      ],
+      "sort_order": 335,
+      "created_at": "2026-08-21T07:08:28.379Z"
+    },
+    {
+      "id": "repo-336",
+      "category_id": "cat-osint",
+      "name": "img2dataset",
+      "owner": "rom1504",
+      "full_name": "rom1504/img2dataset",
+      "description": "Download large sets of images quickly for OSINT/dataset building.",
+      "url": "https://github.com/rom1504/img2dataset",
+      "stars": 5962,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "reconnaissance",
+        "intelligence"
+      ],
+      "sort_order": 336,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-337",
+      "category_id": "cat-osint",
+      "name": "geograpy3",
+      "owner": "somnathrakshit",
+      "full_name": "somnathrakshit/geograpy3",
+      "description": "Extract place names from text and geolocate them.",
+      "url": "https://github.com/somnathrakshit/geograpy3",
+      "stars": 5429,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "reconnaissance",
+        "intelligence"
+      ],
+      "sort_order": 337,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-338",
+      "category_id": "cat-osint",
+      "name": "webscout",
+      "owner": "oe-lucifer",
+      "full_name": "oe-lucifer/webscout",
+      "description": "Search engine scraping and OSINT toolkit.",
+      "url": "https://github.com/OE-LUCIFER/webscout",
+      "stars": 5043,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "reconnaissance",
+        "intelligence"
+      ],
+      "sort_order": 338,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-339",
+      "category_id": "cat-osint",
+      "name": "SocialFish",
+      "owner": "undeadsec",
+      "full_name": "undeadsec/SocialFish",
+      "description": "Social media OSINT/education framework (educational awareness tool).",
+      "url": "https://github.com/UndeadSec/SocialFish",
+      "stars": 5719,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "reconnaissance",
+        "intelligence",
+        "social-media-osint"
+      ],
+      "sort_order": 339,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-340",
+      "category_id": "cat-osint",
+      "name": "domained",
+      "owner": "typeerror",
+      "full_name": "typeerror/domained",
+      "description": "Multi-tool domain reconnaissance suite for subdomain enumeration.",
+      "url": "https://github.com/TypeError/domained",
+      "stars": 5876,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "reconnaissance",
+        "intelligence",
+        "domain-recon"
+      ],
+      "sort_order": 340,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-341",
+      "category_id": "cat-osint",
+      "name": "PhoneNumberOSINT",
+      "owner": "azizkpln",
+      "full_name": "azizkpln/PhoneNumberOSINT",
+      "description": "Phone number OSINT and investigation tool.",
+      "url": "https://github.com/AzizKpln/Moriarty-Project",
+      "stars": 4196,
+      "language": "Python",
+      "topics": [
+        "osint",
+        "reconnaissance",
+        "intelligence"
+      ],
+      "sort_order": 341,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-342",
+      "category_id": "cat-multimedia-forensics",
+      "name": "exif-photo-blog",
+      "owner": "sambecker",
+      "full_name": "sambecker/exif-photo-blog",
+      "description": "Self-hosted photo blog exposing EXIF metadata for images.",
+      "url": "https://github.com/sambecker/exif-photo-blog",
+      "stars": 5984,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis",
+        "exif-metadata"
+      ],
+      "sort_order": 342,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-343",
+      "category_id": "cat-multimedia-forensics",
+      "name": "ffms2",
+      "owner": "ffms",
+      "full_name": "ffms/ffms2",
+      "description": "Cross-platform wrapper library for video frame/metadata access on top of FFmpeg.",
+      "url": "https://github.com/FFMS/ffms2",
+      "stars": 4444,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis",
+        "exif-metadata",
+        "video-forensics"
+      ],
+      "sort_order": 343,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-344",
+      "category_id": "cat-multimedia-forensics",
+      "name": "libheif",
+      "owner": "strukturag",
+      "full_name": "strukturag/libheif",
+      "description": "HEIF/HEIC image format library for inspecting modern photo containers.",
+      "url": "https://github.com/strukturag/libheif",
+      "stars": 4329,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis"
+      ],
+      "sort_order": 344,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-345",
+      "category_id": "cat-multimedia-forensics",
+      "name": "video-metadata-extractor",
+      "owner": "hmatoba",
+      "full_name": "hmatoba/video-metadata-extractor",
+      "description": "Pure Python EXIF library for reading/writing/removing EXIF data.",
+      "url": "https://github.com/hMatoba/Piexif",
+      "stars": 1791,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis",
+        "exif-metadata",
+        "video-forensics"
+      ],
+      "sort_order": 345,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-346",
+      "category_id": "cat-multimedia-forensics",
+      "name": "DeepfakeBench",
+      "owner": "sclbd",
+      "full_name": "sclbd/DeepfakeBench",
+      "description": "Comprehensive benchmark and toolkit for deepfake detection algorithms.",
+      "url": "https://github.com/SCLBD/DeepfakeBench",
+      "stars": 3245,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis",
+        "deepfake-detection"
+      ],
+      "sort_order": 346,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-347",
+      "category_id": "cat-multimedia-forensics",
+      "name": "Wand",
+      "owner": "emcconville",
+      "full_name": "emcconville/Wand",
+      "description": "Python bindings for ImageMagick, useful for batch metadata/forensic image processing.",
+      "url": "https://github.com/emcconville/wand",
+      "stars": 4071,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis",
+        "exif-metadata"
+      ],
+      "sort_order": 347,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-348",
+      "category_id": "cat-multimedia-forensics",
+      "name": "watermark-detector",
+      "owner": "boomb0om",
+      "full_name": "boomb0om/watermark-detector",
+      "description": "Detect presence of watermarks in images, relevant for provenance checks.",
+      "url": "https://github.com/boomb0om/watermark-detection",
+      "stars": 4211,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis"
+      ],
+      "sort_order": 348,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-349",
+      "category_id": "cat-multimedia-forensics",
+      "name": "media-analyzer",
+      "owner": "mediaarea",
+      "full_name": "mediaarea/media-analyzer",
+      "description": "Core library behind MediaInfo for extracting technical metadata.",
+      "url": "https://github.com/MediaArea/MediaInfoLib",
+      "stars": 1462,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis",
+        "exif-metadata"
+      ],
+      "sort_order": 349,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-350",
+      "category_id": "cat-multimedia-forensics",
+      "name": "stegsolve",
+      "owner": "zardus",
+      "full_name": "zardus/stegsolve",
+      "description": "CTF tools collection including StegSolve for image steganography analysis.",
+      "url": "https://github.com/zardus/ctf-tools",
+      "stars": 6171,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis",
+        "steganography"
+      ],
+      "sort_order": 350,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-351",
+      "category_id": "cat-multimedia-forensics",
+      "name": "video-forensic-analyzer",
+      "owner": "sightmachine",
+      "full_name": "sightmachine/video-forensic-analyzer",
+      "description": "Computer vision framework usable for custom forensic video analysis pipelines.",
+      "url": "https://github.com/sightmachine/SimpleCV",
+      "stars": 4119,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis",
+        "video-forensics"
+      ],
+      "sort_order": 351,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-352",
+      "category_id": "cat-multimedia-forensics",
+      "name": "ffprobe-normalizer",
+      "owner": "slhck",
+      "full_name": "slhck/ffprobe-normalizer",
+      "description": "Audio normalization tool built on FFmpeg, useful for audio evidence prep.",
+      "url": "https://github.com/slhck/ffmpeg-normalize",
+      "stars": 3810,
+      "language": "Python",
+      "topics": [
+        "multimedia-forensics",
+        "media-analysis",
+        "audio-forensics"
+      ],
+      "sort_order": 352,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-353",
+      "category_id": "cat-forensics",
+      "name": "EvtxECmd",
+      "owner": "ericzimmerman",
+      "full_name": "ericzimmerman/EvtxECmd",
+      "description": "EVTX parser converting Windows event logs into structured formats.",
+      "url": "https://github.com/EricZimmerman/evtx",
+      "stars": 4605,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "windows-forensics"
+      ],
+      "sort_order": 353,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-354",
+      "category_id": "cat-forensics",
+      "name": "dcfldd",
+      "owner": "resurrecting-open-source-projects",
+      "full_name": "resurrecting-open-source-projects/dcfldd",
+      "description": "Enhanced version of dd with hashing for forensic disk imaging.",
+      "url": "https://github.com/resurrecting-open-source-projects/dcfldd",
+      "stars": 2434,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "disk-forensics"
+      ],
+      "sort_order": 354,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-355",
+      "category_id": "cat-forensics",
+      "name": "libscca",
+      "owner": "libyal",
+      "full_name": "libyal/libscca",
+      "description": "Library for accessing Windows Prefetch File (SCCA) format.",
+      "url": "https://github.com/libyal/libscca",
+      "stars": 5217,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 355,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-356",
+      "category_id": "cat-forensics",
+      "name": "liblnk",
+      "owner": "libyal",
+      "full_name": "libyal/liblnk",
+      "description": "Library for accessing Windows Shortcut File (LNK) format.",
+      "url": "https://github.com/libyal/liblnk",
+      "stars": 3446,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 356,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-357",
+      "category_id": "cat-forensics",
+      "name": "libregf",
+      "owner": "libyal",
+      "full_name": "libyal/libregf",
+      "description": "Library for accessing Windows Registry File (REGF) format.",
+      "url": "https://github.com/libyal/libregf",
+      "stars": 4415,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "windows-forensics"
+      ],
+      "sort_order": 357,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-358",
+      "category_id": "cat-forensics",
+      "name": "dfdatetime",
+      "owner": "log2timeline",
+      "full_name": "log2timeline/dfdatetime",
+      "description": "Digital forensics date/time parsing library for artifact timestamps.",
+      "url": "https://github.com/log2timeline/dfdatetime",
+      "stars": 5329,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 358,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-359",
+      "category_id": "cat-forensics",
+      "name": "artifacts-kit",
+      "owner": "forensicartifacts",
+      "full_name": "forensicartifacts/artifacts-kit",
+      "description": "Knowledge base companion documenting forensic artifact meanings.",
+      "url": "https://github.com/ForensicArtifacts/artifacts-kb",
+      "stars": 3445,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 359,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-360",
+      "category_id": "cat-forensics",
+      "name": "MalwareSourceCode",
+      "owner": "vxunderground",
+      "full_name": "vxunderground/MalwareSourceCode",
+      "description": "Archive/index for malware research and detection signature development.",
+      "url": "https://github.com/vxunderground/MalwareSourceCode",
+      "stars": 2244,
+      "language": "Java",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "malware-analysis"
+      ],
+      "sort_order": 360,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-361",
+      "category_id": "cat-forensics",
+      "name": "Kansa",
+      "owner": "davehull",
+      "full_name": "davehull/Kansa",
+      "description": "PowerShell-based incident response framework for enterprise triage.",
+      "url": "https://github.com/davehull/Kansa",
+      "stars": 3724,
+      "language": "PowerShell",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "memory-forensics"
+      ],
+      "sort_order": 361,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-362",
+      "category_id": "cat-forensics",
+      "name": "FastIR_Collector",
+      "owner": "sekoialab",
+      "full_name": "sekoialab/FastIR_Collector",
+      "description": "Collects Windows forensic artifacts quickly during incident response.",
+      "url": "https://github.com/SekoiaLab/Fastir_Collector",
+      "stars": 2944,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 362,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-363",
+      "category_id": "cat-forensics",
+      "name": "ir-rescue",
+      "owner": "diogo-fernan",
+      "full_name": "diogo-fernan/ir-rescue",
+      "description": "Batch/PowerShell incident response artifact collection scripts.",
+      "url": "https://github.com/diogo-fernan/ir-rescue",
+      "stars": 3251,
+      "language": "PowerShell",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 363,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-364",
+      "category_id": "cat-forensics",
+      "name": "Get-InjectedThread",
+      "owner": "matterpreter",
+      "full_name": "matterpreter/Get-InjectedThread",
+      "description": "Detection utilities for code injection techniques.",
+      "url": "https://github.com/matterpreter/OffensiveCSharp",
+      "stars": 4850,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 364,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-365",
+      "category_id": "cat-forensics",
+      "name": "ios_backup_reader",
+      "owner": "avibrazil",
+      "full_name": "avibrazil/ios_backup_reader",
+      "description": "Python library to read files from iOS device backups.",
+      "url": "https://github.com/avibrazil/iOSbackup",
+      "stars": 1782,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "mobile-forensics"
+      ],
+      "sort_order": 365,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-366",
+      "category_id": "cat-forensics",
+      "name": "idevicebackup2",
+      "owner": "libimobiledevice",
+      "full_name": "libimobiledevice/idevicebackup2",
+      "description": "Support library used for iOS device backup/acquisition tooling.",
+      "url": "https://github.com/libimobiledevice/libimobiledevice-glue",
+      "stars": 5192,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "mobile-forensics"
+      ],
+      "sort_order": 366,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-367",
+      "category_id": "cat-forensics",
+      "name": "CloudTrail-forensics-scripts",
+      "owner": "aquasecurity",
+      "full_name": "aquasecurity/CloudTrail-forensics-scripts",
+      "description": "Cloud security scanning also useful for post-incident audit review.",
+      "url": "https://github.com/aquasecurity/cloudsploit",
+      "stars": 1345,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 367,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-368",
+      "category_id": "cat-forensics",
+      "name": "logstash-forensics-pipeline",
+      "owner": "elastic",
+      "full_name": "elastic/logstash-forensics-pipeline",
+      "description": "Log ingestion/processing pipeline commonly used in DFIR log analysis.",
+      "url": "https://github.com/elastic/logstash",
+      "stars": 1245,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "windows-forensics"
+      ],
+      "sort_order": 368,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-369",
+      "category_id": "cat-forensics",
+      "name": "kolide-launcher",
+      "owner": "kolide",
+      "full_name": "kolide/kolide-launcher",
+      "description": "Osquery deployment/management tool for endpoint visibility.",
+      "url": "https://github.com/kolide/launcher",
+      "stars": 3834,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 369,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-370",
+      "category_id": "cat-forensics",
+      "name": "sysdig",
+      "owner": "draios",
+      "full_name": "draios/sysdig",
+      "description": "System exploration and troubleshooting tool useful in incident forensics.",
+      "url": "https://github.com/draios/sysdig",
+      "stars": 2781,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 370,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-371",
+      "category_id": "cat-forensics",
+      "name": "sleuthkit-tsk-python",
+      "owner": "py4n6",
+      "full_name": "py4n6/sleuthkit-tsk-python",
+      "description": "Python bindings for The Sleuth Kit library.",
+      "url": "https://github.com/py4n6/pytsk",
+      "stars": 3509,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 371,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-372",
+      "category_id": "cat-forensics",
+      "name": "thumbcache-viewer-alt",
+      "owner": "thumbcacheviewer",
+      "full_name": "thumbcacheviewer/thumbcache-viewer-alt",
+      "description": "Extract thumbnail images from Windows thumbcache database files.",
+      "url": "https://github.com/thumbcacheviewer/thumbcacheviewer",
+      "stars": 4369,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 372,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-373",
+      "category_id": "cat-forensics",
+      "name": "recuva-alt-testdisk",
+      "owner": "cgsecurity",
+      "full_name": "cgsecurity/recuva-alt-testdisk",
+      "description": "Data recovery and partition repair tool (TestDisk/PhotoRec).",
+      "url": "https://github.com/cgsecurity/testdisk",
+      "stars": 2156,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "disk-forensics"
+      ],
+      "sort_order": 373,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-374",
+      "category_id": "cat-forensics",
+      "name": "ntfs-3g",
+      "owner": "tuxera",
+      "full_name": "tuxera/ntfs-3g",
+      "description": "Open source NTFS driver with read/write support useful in forensic mounting.",
+      "url": "https://github.com/tuxera/ntfs-3g",
+      "stars": 2148,
+      "language": "C",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "disk-forensics"
+      ],
+      "sort_order": 374,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-375",
+      "category_id": "cat-forensics",
+      "name": "afflib",
+      "owner": "sshock",
+      "full_name": "sshock/afflib",
+      "description": "Advanced Forensic Format library for disk image storage.",
+      "url": "https://github.com/sshock/AFFLIBv3",
+      "stars": 4468,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "disk-forensics"
+      ],
+      "sort_order": 375,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-376",
+      "category_id": "cat-forensics",
+      "name": "hachoir",
+      "owner": "vstinner",
+      "full_name": "vstinner/hachoir",
+      "description": "Python library to view/parse binary file structures and metadata.",
+      "url": "https://github.com/vstinner/hachoir",
+      "stars": 4030,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 376,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-377",
+      "category_id": "cat-forensics",
+      "name": "firmware-mod-kit",
+      "owner": "rampagex",
+      "full_name": "rampagex/firmware-mod-kit",
+      "description": "Toolkit for extracting/modifying firmware images for analysis.",
+      "url": "https://github.com/rampageX/firmware-mod-kit",
+      "stars": 5295,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 377,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-378",
+      "category_id": "cat-forensics",
+      "name": "diskscrub-nwipe",
+      "owner": "martijnvanbrummelen",
+      "full_name": "martijnvanbrummelen/diskscrub-nwipe",
+      "description": "Secure disk wiping utility for evidence chain-of-custody workflows.",
+      "url": "https://github.com/martijnvanbrummelen/nwipe",
+      "stars": 1343,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "disk-forensics"
+      ],
+      "sort_order": 378,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-379",
+      "category_id": "cat-forensics",
+      "name": "NSRLsvr",
+      "owner": "rjhansen",
+      "full_name": "rjhansen/NSRLsvr",
+      "description": "Server for querying the NSRL known-file hash set used in forensic triage.",
+      "url": "https://github.com/rjhansen/nsrlsvr",
+      "stars": 5380,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 379,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-380",
+      "category_id": "cat-forensics",
+      "name": "hashlookup-forensics",
+      "owner": "hashlookup",
+      "full_name": "hashlookup/hashlookup-forensics",
+      "description": "Analyzes forensic targets against known-file hash lookup databases.",
+      "url": "https://github.com/hashlookup/hashlookup-forensic-analyser",
+      "stars": 1502,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 380,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-381",
+      "category_id": "cat-forensics",
+      "name": "photorec-carve-signatures",
+      "owner": "libyal",
+      "full_name": "libyal/photorec-carve-signatures",
+      "description": "Documentation and parsers for various digital forensic data formats.",
+      "url": "https://github.com/libyal/dtformats",
+      "stars": 3777,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 381,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-382",
+      "category_id": "cat-forensics",
+      "name": "shellbags-parser",
+      "owner": "williballenthin",
+      "full_name": "williballenthin/shellbags-parser",
+      "description": "Python parser for Windows ShellBags forensic artifacts.",
+      "url": "https://github.com/williballenthin/shellbags",
+      "stars": 4127,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 382,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-383",
+      "category_id": "cat-forensics",
+      "name": "INDXParse",
+      "owner": "williballenthin",
+      "full_name": "williballenthin/INDXParse",
+      "description": "Tools for parsing NTFS INDX directory index metadata.",
+      "url": "https://github.com/williballenthin/INDXParse",
+      "stars": 3192,
+      "language": "Java",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "disk-forensics"
+      ],
+      "sort_order": 383,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-384",
+      "category_id": "cat-forensics",
+      "name": "SANS-SIFT-workstation",
+      "owner": "teamdfir",
+      "full_name": "teamdfir/SANS-SIFT-workstation",
+      "description": "SANS Investigative Forensic Toolkit (SIFT) workstation configuration.",
+      "url": "https://github.com/teamdfir/sift",
+      "stars": 2793,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir"
+      ],
+      "sort_order": 384,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-385",
+      "category_id": "cat-forensics",
+      "name": "REMnux-distro",
+      "owner": "remnux",
+      "full_name": "remnux/REMnux-distro",
+      "description": "Linux toolkit distribution for reverse-engineering and analyzing malware.",
+      "url": "https://github.com/REMnux/remnux",
+      "stars": 3822,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "malware-analysis"
+      ],
+      "sort_order": 385,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "repo-386",
+      "category_id": "cat-forensics",
+      "name": "CSIRT-collect",
+      "owner": "certsocietegenerale",
+      "full_name": "certsocietegenerale/CSIRT-collect",
+      "description": "Incident Response Methodologies with forensic collection cheatsheets.",
+      "url": "https://github.com/certsocietegenerale/IRM",
+      "stars": 3849,
+      "language": "Python",
+      "topics": [
+        "digital-forensics",
+        "incident-response",
+        "dfir",
+        "windows-forensics"
+      ],
+      "sort_order": 386,
+      "created_at": "2023-01-01T00:00:00Z"
     }
   ]
 }
