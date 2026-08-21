@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-21T05:10:35.360Z",
-    "count": 170,
+    "generatedAt": "2026-08-21T05:20:50.489Z",
+    "count": 173,
     "version": "1.0"
   },
   "data": [
@@ -479,8 +479,8 @@
       "created_at": "2018-03-24T00:00:00Z"
     },
     {
-      "id": "repo-malware-volatility",
-      "category_id": "cat-malware",
+      "id": "repo-forensics-volatility3",
+      "category_id": "cat-forensics",
       "name": "volatility3",
       "owner": "volatilityfoundation",
       "full_name": "volatilityfoundation/volatility3",
@@ -2891,7 +2891,7 @@
     },
     {
       "id": "repo-forensics-autopsy",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "autopsy",
       "owner": "sleuthkit",
       "full_name": "sleuthkit/autopsy",
@@ -2911,7 +2911,7 @@
     },
     {
       "id": "repo-forensics-sleuthkit",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "sleuthkit",
       "owner": "sleuthkit",
       "full_name": "sleuthkit/sleuthkit",
@@ -2930,7 +2930,7 @@
     },
     {
       "id": "repo-forensics-rekall",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "rekall",
       "owner": "google",
       "full_name": "google/rekall",
@@ -2950,7 +2950,7 @@
     },
     {
       "id": "repo-forensics-plaso",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "plaso",
       "owner": "log2timeline",
       "full_name": "log2timeline/plaso",
@@ -2970,7 +2970,7 @@
     },
     {
       "id": "repo-forensics-bulk-extractor",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "bulk_extractor",
       "owner": "simsong",
       "full_name": "simsong/bulk_extractor",
@@ -2989,7 +2989,7 @@
     },
     {
       "id": "repo-forensics-velociraptor",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "velociraptor",
       "owner": "Velocidex",
       "full_name": "Velocidex/velociraptor",
@@ -3009,7 +3009,7 @@
     },
     {
       "id": "repo-forensics-grr",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "grr",
       "owner": "google",
       "full_name": "google/grr",
@@ -3029,7 +3029,7 @@
     },
     {
       "id": "repo-forensics-dfir-iris",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "iris-web",
       "owner": "dfir-iris",
       "full_name": "dfir-iris/iris-web",
@@ -3049,7 +3049,7 @@
     },
     {
       "id": "repo-forensics-chainsaw",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "chainsaw",
       "owner": "WithSecureLabs",
       "full_name": "WithSecureLabs/chainsaw",
@@ -3069,7 +3069,7 @@
     },
     {
       "id": "repo-forensics-hayabusa",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "hayabusa",
       "owner": "Yamato-Security",
       "full_name": "Yamato-Security/hayabusa",
@@ -3089,7 +3089,7 @@
     },
     {
       "id": "repo-forensics-timesketch",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "timesketch",
       "owner": "google",
       "full_name": "google/timesketch",
@@ -3109,7 +3109,7 @@
     },
     {
       "id": "repo-forensics-autopsy-android",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "androidqf",
       "owner": "mvt-project",
       "full_name": "mvt-project/androidqf",
@@ -3128,7 +3128,7 @@
     },
     {
       "id": "repo-forensics-mvt",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "mvt",
       "owner": "mvt-project",
       "full_name": "mvt-project/mvt",
@@ -3148,7 +3148,7 @@
     },
     {
       "id": "repo-forensics-flare-floss",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "flare-floss",
       "owner": "mandiant",
       "full_name": "mandiant/flare-floss",
@@ -3168,7 +3168,7 @@
     },
     {
       "id": "repo-forensics-dumpsterfire",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "MalConfScan",
       "owner": "JPCERTCC",
       "full_name": "JPCERTCC/MalConfScan",
@@ -3187,7 +3187,7 @@
     },
     {
       "id": "repo-forensics-deepbluecli",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "DeepBlueCLI",
       "owner": "sans-blue-team",
       "full_name": "sans-blue-team/DeepBlueCLI",
@@ -3207,7 +3207,7 @@
     },
     {
       "id": "repo-forensics-loki",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "Loki",
       "owner": "Neo23x0",
       "full_name": "Neo23x0/Loki",
@@ -3227,7 +3227,7 @@
     },
     {
       "id": "repo-forensics-thor-lite",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "thor-lite",
       "owner": "Neo23x0",
       "full_name": "Neo23x0/signature-base",
@@ -3246,7 +3246,7 @@
     },
     {
       "id": "repo-forensics-beagle",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "Beagle",
       "owner": "yampelo",
       "full_name": "yampelo/beagle",
@@ -3266,7 +3266,7 @@
     },
     {
       "id": "repo-forensics-kape",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "KapeFiles",
       "owner": "EricZimmerman",
       "full_name": "EricZimmerman/KapeFiles",
@@ -3286,7 +3286,7 @@
     },
     {
       "id": "repo-forensics-exiftool",
-      "category_id": "cat-malware",
+      "category_id": "cat-forensics",
       "name": "exiftool",
       "owner": "exiftool",
       "full_name": "exiftool/exiftool",
@@ -3302,6 +3302,65 @@
       ],
       "sort_order": 170,
       "created_at": "2013-08-12T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-evtx",
+      "category_id": "cat-forensics",
+      "name": "evtx",
+      "owner": "omerbenamram",
+      "full_name": "omerbenamram/evtx",
+      "description": "Ultra fast Windows XML Event Log (EVTX) parser in Rust for high-speed digital forensics and incident response parsing.",
+      "url": "https://github.com/omerbenamram/evtx",
+      "stars": 2800,
+      "language": "Rust",
+      "topics": [
+        "windows-evtx",
+        "event-logs",
+        "dfir",
+        "digital-forensics",
+        "gem"
+      ],
+      "sort_order": 171,
+      "created_at": "2018-12-05T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-peframe",
+      "category_id": "cat-forensics",
+      "name": "peframe",
+      "owner": "guelfoweb",
+      "full_name": "guelfoweb/peframe",
+      "description": "PEframe is an open source tool to perform static analysis on Portable Executable malware and suspicious files.",
+      "url": "https://github.com/guelfoweb/peframe",
+      "stars": 1800,
+      "language": "Python",
+      "topics": [
+        "pe-analysis",
+        "static-analysis",
+        "malware-forensics",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 172,
+      "created_at": "2014-06-12T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-volatility2",
+      "category_id": "cat-forensics",
+      "name": "volatility",
+      "owner": "volatilityfoundation",
+      "full_name": "volatilityfoundation/volatility",
+      "description": "An advanced memory forensics framework for incident response and malware extraction from memory dumps.",
+      "url": "https://github.com/volatilityfoundation/volatility",
+      "stars": 7000,
+      "language": "Python",
+      "topics": [
+        "memory-forensics",
+        "ram-dump",
+        "dfir",
+        "volatility"
+      ],
+      "sort_order": 173,
+      "created_at": "2012-06-25T00:00:00Z"
     }
   ]
 }

@@ -1614,7 +1614,8 @@ function RepoCard3D({
     const c = catName.toLowerCase();
     if (c.includes('pentest') || c.includes('offensive')) return Sword;
     if (c.includes('osint') || c.includes('recon')) return Eye;
-    if (c.includes('malware') || c.includes('forensics')) return Bug;
+    if (c.includes('forensic') || c.includes('dfir')) return Search;
+    if (c.includes('malware') || c.includes('threat')) return Bug;
     if (c.includes('reverse') || c.includes('compiler') || c.includes('systems')) return Cpu;
     if (c.includes('web') || c.includes('frontend')) return Globe;
     if (c.includes('llm') || c.includes('ai') || c.includes('learning')) return Brain;

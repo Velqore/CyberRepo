@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-21T05:10:35.360Z",
+    "generatedAt": "2026-08-21T05:20:50.490Z",
     "count": 6,
     "version": "1.0"
   },
@@ -23,6 +23,7 @@
       "categoryIds": [
         "cat-pentest",
         "cat-osint",
+        "cat-forensics",
         "cat-malware",
         "cat-reversing",
         "cat-websec",
@@ -31,7 +32,8 @@
       "categorySlugs": [
         "penetration-testing",
         "osint",
-        "malware-forensics",
+        "digital-forensics",
+        "malware-analysis",
         "reverse-engineering",
         "web-security",
         "cryptography"

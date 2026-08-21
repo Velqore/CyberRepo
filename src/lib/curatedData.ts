@@ -26,8 +26,8 @@ export const TECH_COMMUNITIES: TechCommunityMeta[] = [
     description: 'Offensive toolkits, anti-forensics, OSINT reconnaissance, malware analysis, and cryptographic defenses.',
     icon: 'Shield',
     color: 'red',
-    categoryIds: ['cat-pentest', 'cat-osint', 'cat-malware', 'cat-reversing', 'cat-websec', 'cat-crypto'],
-    categorySlugs: ['penetration-testing', 'osint', 'malware-forensics', 'reverse-engineering', 'web-security', 'cryptography'],
+    categoryIds: ['cat-pentest', 'cat-osint', 'cat-forensics', 'cat-malware', 'cat-reversing', 'cat-websec', 'cat-crypto'],
+    categorySlugs: ['penetration-testing', 'osint', 'digital-forensics', 'malware-analysis', 'reverse-engineering', 'web-security', 'cryptography'],
   },
   {
     id: 'ai-ml',
@@ -88,13 +88,22 @@ export const FALLBACK_CATEGORIES: Category[] = [
     sort_order: 2,
   },
   {
+    id: 'cat-forensics',
+    name: 'Digital Forensics & DFIR',
+    slug: 'digital-forensics',
+    description: 'Memory dump analysis, disk imaging, DFIR artifact parsing, event log threat hunting, and timeline reconstruction.',
+    icon: 'Search',
+    color: 'cyan',
+    sort_order: 3,
+  },
+  {
     id: 'cat-malware',
-    name: 'Malware & Forensics',
-    slug: 'malware-forensics',
-    description: 'Static/dynamic analysis tools, memory dump inspection, decompilers, and anti-forensics defense.',
+    name: 'Malware Analysis & Threat Hunting',
+    slug: 'malware-analysis',
+    description: 'Static/dynamic analysis tools, PE inspection, shellcode scanners, and YARA detection rules.',
     icon: 'Bug',
     color: 'purple',
-    sort_order: 3,
+    sort_order: 4,
   },
   {
     id: 'cat-reversing',
@@ -103,7 +112,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Disassemblers, binary analysis platforms, debuggers, and firmware extraction frameworks.',
     icon: 'Cpu',
     color: 'amber',
-    sort_order: 4,
+    sort_order: 5,
   },
   {
     id: 'cat-websec',
@@ -112,7 +121,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Fuzzers, proxy interception tools, SQL injection automators, and API security testing.',
     icon: 'Globe',
     color: 'emerald',
-    sort_order: 5,
+    sort_order: 6,
   },
   {
     id: 'cat-crypto',
@@ -121,7 +130,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Cipher cracking, homomorphic encryption libraries, post-quantum primitives, and steganography.',
     icon: 'Lock',
     color: 'pink',
-    sort_order: 6,
+    sort_order: 7,
   },
 
   // ── AI, LLMs & Machine Learning ──
@@ -132,7 +141,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Large language model inference engines, fine-tuning runtimes, prompt orchestration, and vector search.',
     icon: 'Cpu',
     color: 'purple',
-    sort_order: 7,
+    sort_order: 8,
   },
   {
     id: 'cat-ai-agents',
@@ -141,7 +150,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Multi-agent frameworks, reasoning loops, autonomous coding assistants, and research copilots.',
     icon: 'Bot',
     color: 'purple',
-    sort_order: 8,
+    sort_order: 9,
   },
   {
     id: 'cat-ml',
@@ -150,7 +159,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Neural network training platforms, computer vision models, speech synthesis, and GPU acceleration.',
     icon: 'Zap',
     color: 'indigo',
-    sort_order: 9,
+    sort_order: 10,
   },
 
   // ── Full Stack & Modern Web ──
@@ -161,7 +170,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Next-generation reactive UI libraries, server-rendered meta-frameworks, and compile-time engines.',
     icon: 'Globe',
     color: 'cyan',
-    sort_order: 10,
+    sort_order: 11,
   },
   {
     id: 'cat-backend',
@@ -170,7 +179,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Asynchronous web servers, GraphQL APIs, distributed database connectors, and microservice meshes.',
     icon: 'Database',
     color: 'emerald',
-    sort_order: 11,
+    sort_order: 12,
   },
   {
     id: 'cat-ui',
@@ -179,7 +188,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Modern component libraries, 3D WebGL / Three.js canvas shaders, and glassmorphic design engines.',
     icon: 'Sparkles',
     color: 'pink',
-    sort_order: 12,
+    sort_order: 13,
   },
 
   // ── DevOps & Cloud Native ──
@@ -190,7 +199,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Continuous integration, container clustering, infrastructure-as-code, and cloud deployment pipelines.',
     icon: 'Layers',
     color: 'blue',
-    sort_order: 13,
+    sort_order: 14,
   },
   {
     id: 'cat-cloudsec',
@@ -199,7 +208,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'AWS/Azure/GCP misconfiguration auditors, Kubernetes posture security, and IAM scanners.',
     icon: 'Cloud',
     color: 'sky',
-    sort_order: 14,
+    sort_order: 15,
   },
 
   // ── Mobile & Systems ──
@@ -210,7 +219,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Multi-platform mobile frameworks, native runtimes, and mobile utility libraries.',
     icon: 'Wifi',
     color: 'teal',
-    sort_order: 15,
+    sort_order: 16,
   },
   {
     id: 'cat-systems',
@@ -219,7 +228,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'Operating system kernels, low-level compilers, memory-safe system utilities, and emulators.',
     icon: 'Cpu',
     color: 'rose',
-    sort_order: 16,
+    sort_order: 17,
   },
   {
     id: 'cat-network',
@@ -228,7 +237,7 @@ export const FALLBACK_CATEGORIES: Category[] = [
     description: 'High performance proxy layers, packet analyzers, distributed P2P meshes, and tunnel brokers.',
     icon: 'Radio',
     color: 'amber',
-    sort_order: 17,
+    sort_order: 18,
   },
 ];
 
@@ -575,10 +584,10 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
     created_at: '2018-03-24T00:00:00Z',
   },
 
-  // ── 3. Malware & Forensics (cat-malware) ──
+  // ── 3. Digital Forensics & DFIR (cat-forensics) ──
   {
-    id: 'repo-malware-volatility',
-    category_id: 'cat-malware',
+    id: 'repo-forensics-volatility3',
+    category_id: 'cat-forensics',
     name: 'volatility3',
     owner: 'volatilityfoundation',
     full_name: 'volatilityfoundation/volatility3',
@@ -2356,10 +2365,10 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
     created_at: '2015-02-18T00:00:00Z',
   },
 
-  // ── Forensics & DFIR Expanded ──
+  // ── Forensics & DFIR Expanded (cat-forensics) ──
   {
     id: 'repo-forensics-autopsy',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'autopsy',
     owner: 'sleuthkit',
     full_name: 'sleuthkit/autopsy',
@@ -2373,7 +2382,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-sleuthkit',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'sleuthkit',
     owner: 'sleuthkit',
     full_name: 'sleuthkit/sleuthkit',
@@ -2387,7 +2396,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-rekall',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'rekall',
     owner: 'google',
     full_name: 'google/rekall',
@@ -2401,7 +2410,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-plaso',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'plaso',
     owner: 'log2timeline',
     full_name: 'log2timeline/plaso',
@@ -2415,7 +2424,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-bulk-extractor',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'bulk_extractor',
     owner: 'simsong',
     full_name: 'simsong/bulk_extractor',
@@ -2429,7 +2438,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-velociraptor',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'velociraptor',
     owner: 'Velocidex',
     full_name: 'Velocidex/velociraptor',
@@ -2443,7 +2452,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-grr',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'grr',
     owner: 'google',
     full_name: 'google/grr',
@@ -2457,7 +2466,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-dfir-iris',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'iris-web',
     owner: 'dfir-iris',
     full_name: 'dfir-iris/iris-web',
@@ -2471,7 +2480,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-chainsaw',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'chainsaw',
     owner: 'WithSecureLabs',
     full_name: 'WithSecureLabs/chainsaw',
@@ -2485,7 +2494,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-hayabusa',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'hayabusa',
     owner: 'Yamato-Security',
     full_name: 'Yamato-Security/hayabusa',
@@ -2499,7 +2508,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-timesketch',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'timesketch',
     owner: 'google',
     full_name: 'google/timesketch',
@@ -2513,7 +2522,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-autopsy-android',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'androidqf',
     owner: 'mvt-project',
     full_name: 'mvt-project/androidqf',
@@ -2527,7 +2536,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-mvt',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'mvt',
     owner: 'mvt-project',
     full_name: 'mvt-project/mvt',
@@ -2541,7 +2550,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-flare-floss',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'flare-floss',
     owner: 'mandiant',
     full_name: 'mandiant/flare-floss',
@@ -2555,7 +2564,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-dumpsterfire',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'MalConfScan',
     owner: 'JPCERTCC',
     full_name: 'JPCERTCC/MalConfScan',
@@ -2569,7 +2578,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-deepbluecli',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'DeepBlueCLI',
     owner: 'sans-blue-team',
     full_name: 'sans-blue-team/DeepBlueCLI',
@@ -2583,7 +2592,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-loki',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'Loki',
     owner: 'Neo23x0',
     full_name: 'Neo23x0/Loki',
@@ -2597,7 +2606,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-thor-lite',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'thor-lite',
     owner: 'Neo23x0',
     full_name: 'Neo23x0/signature-base',
@@ -2611,7 +2620,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-beagle',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'Beagle',
     owner: 'yampelo',
     full_name: 'yampelo/beagle',
@@ -2625,7 +2634,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-kape',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'KapeFiles',
     owner: 'EricZimmerman',
     full_name: 'EricZimmerman/KapeFiles',
@@ -2639,7 +2648,7 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
   },
   {
     id: 'repo-forensics-exiftool',
-    category_id: 'cat-malware',
+    category_id: 'cat-forensics',
     name: 'exiftool',
     owner: 'exiftool',
     full_name: 'exiftool/exiftool',
@@ -2650,5 +2659,47 @@ export const FALLBACK_REPOSITORIES: Repository[] = [
     topics: ['metadata-analysis', 'exif', 'file-forensics', 'digital-forensics'],
     sort_order: 170,
     created_at: '2013-08-12T00:00:00Z',
+  },
+  {
+    id: 'repo-forensics-evtx',
+    category_id: 'cat-forensics',
+    name: 'evtx',
+    owner: 'omerbenamram',
+    full_name: 'omerbenamram/evtx',
+    description: 'Ultra fast Windows XML Event Log (EVTX) parser in Rust for high-speed digital forensics and incident response parsing.',
+    url: 'https://github.com/omerbenamram/evtx',
+    stars: 2800,
+    language: 'Rust',
+    topics: ['windows-evtx', 'event-logs', 'dfir', 'digital-forensics', 'gem'],
+    sort_order: 171,
+    created_at: '2018-12-05T00:00:00Z',
+  },
+  {
+    id: 'repo-forensics-peframe',
+    category_id: 'cat-forensics',
+    name: 'peframe',
+    owner: 'guelfoweb',
+    full_name: 'guelfoweb/peframe',
+    description: 'PEframe is an open source tool to perform static analysis on Portable Executable malware and suspicious files.',
+    url: 'https://github.com/guelfoweb/peframe',
+    stars: 1800,
+    language: 'Python',
+    topics: ['pe-analysis', 'static-analysis', 'malware-forensics', 'dfir', 'gem'],
+    sort_order: 172,
+    created_at: '2014-06-12T00:00:00Z',
+  },
+  {
+    id: 'repo-forensics-volatility2',
+    category_id: 'cat-forensics',
+    name: 'volatility',
+    owner: 'volatilityfoundation',
+    full_name: 'volatilityfoundation/volatility',
+    description: 'An advanced memory forensics framework for incident response and malware extraction from memory dumps.',
+    url: 'https://github.com/volatilityfoundation/volatility',
+    stars: 7000,
+    language: 'Python',
+    topics: ['memory-forensics', 'ram-dump', 'dfir', 'volatility'],
+    sort_order: 173,
+    created_at: '2012-06-25T00:00:00Z',
   },
 ];
