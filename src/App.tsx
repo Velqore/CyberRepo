@@ -521,6 +521,11 @@ export default function App() {
             <span className="hidden sm:inline text-zinc-400">
               COMMUNITIES: <span className="text-zinc-200">{TECH_COMMUNITIES.length} ECOSYSTEMS</span>
             </span>
+            <span className="text-zinc-700 hidden sm:inline">|</span>
+            <span className="hidden sm:inline text-emerald-400 font-semibold flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+              100% ACTIVE & VERIFIED REPOS
+            </span>
             <span className="text-zinc-700 hidden md:inline">|</span>
             <span className="hidden md:inline text-zinc-400">
               CREATOR: <span className="text-cyan-300 font-bold">@Velqore (Ayush Tyagi)</span>
@@ -1639,6 +1644,10 @@ function RepoCard3D({
               >
                 {categoryName}
               </span>
+              <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md text-[9px] font-mono font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                ACTIVE
+              </span>
               {(topics?.includes('gem') || (stars <= 3500 && stars > 0)) && (
                 <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md text-[9px] font-mono font-bold bg-amber-500/15 text-amber-300 border border-amber-500/35 shadow-[0_0_8px_rgba(245,158,11,0.2)]">
                   💎 GEM
@@ -1893,6 +1902,10 @@ function RepoModal({
                   className={`inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-mono font-bold border ${colorSpec.badge}`}
                 >
                   {repo.categoryName}
+                </span>
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-mono font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/35">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                  VERIFIED ACTIVE
                 </span>
                 {repo.license && (
                   <span className="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-mono bg-zinc-800 text-zinc-300 border border-zinc-700">

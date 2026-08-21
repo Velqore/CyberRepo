@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "check:repos": "tsx scripts/verify-repos.ts",
     "api:generate": "tsx scripts/generate-api.ts",
-    "prebuild": "npm run api:generate",
+    "prebuild": "npm run check:repos && npm run api:generate",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
