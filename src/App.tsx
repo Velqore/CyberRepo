@@ -1422,13 +1422,13 @@ function HeroSection({
             </h2>
 
             <p className="text-zinc-300 text-base sm:text-lg leading-relaxed max-w-2xl font-sans mb-8">
-              Explore curated top-tier repositories and live GitHub radar searches across <strong>AI & Agents</strong>, <strong>Cybersecurity & Red Team</strong>, <strong>Full Stack Web</strong>, <strong>DevOps & Cloud</strong>, and <strong>Systems Engineering</strong>.
+              Explore curated top-tier repositories and live GitHub radar searches across <strong>AI & Agents</strong>, <strong>Cybersecurity & Red Team</strong>, <strong>Digital Forensics</strong>, <strong>Full Stack Web</strong>, <strong>DevOps & Cloud</strong>, and <strong>Systems Engineering</strong>.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 text-xs font-mono text-zinc-300 mb-6">
               <div className="flex items-center gap-2 px-3 py-2 rounded-xl dark-minimal-panel border border-zinc-800">
                 <Code2 className="w-4 h-4 text-cyan-400" />
-                <span>6 Major Tech Communities</span>
+                <span>7 Tech Communities</span>
               </div>
               <div className="flex items-center gap-2 px-3 py-2 rounded-xl dark-minimal-panel border border-zinc-800">
                 <TrendingUp className="w-4 h-4 text-emerald-400" />
@@ -1441,19 +1441,19 @@ function HeroSection({
             </div>
 
             {/* Direct Creator Callout */}
-            <div className="p-3.5 rounded-2xl dark-minimal-panel border border-cyan-500/25 flex items-center justify-between gap-4 max-w-xl">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl overflow-hidden border border-cyan-400/60 flex-shrink-0">
+            <div className="p-3.5 rounded-2xl dark-minimal-panel border border-cyan-500/25 flex flex-col sm:flex-row sm:items-center justify-between gap-3.5 w-full max-w-2xl shadow-[0_10px_30px_rgba(0,0,0,0.4)]">
+              <div className="flex items-center gap-3 min-w-0 flex-1">
+                <div className="w-10 h-10 rounded-xl overflow-hidden border border-cyan-400/60 flex-shrink-0 shadow-[0_0_15px_rgba(34,211,238,0.25)]">
                   <img
                     src="https://avatars.githubusercontent.com/u/102029388?v=4"
                     alt="Velqore"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div>
-                  <div className="text-xs font-bold text-white font-mono flex items-center gap-1.5">
-                    <span>Curated & Maintained by Velqore</span>
-                    <span className="text-[10px] text-cyan-400 font-bold px-1.5 py-0.2 rounded bg-cyan-500/15">
+                <div className="min-w-0 flex-1">
+                  <div className="text-xs font-bold text-white font-mono flex items-center gap-1.5 flex-wrap">
+                    <span className="truncate">Curated & Maintained by Velqore</span>
+                    <span className="text-[10px] text-cyan-400 font-bold px-1.5 py-0.2 rounded bg-cyan-500/15 border border-cyan-500/30">
                       ROOT
                     </span>
                   </div>
@@ -1463,10 +1463,10 @@ function HeroSection({
                 </div>
               </div>
 
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 flex-shrink-0">
                 <button
                   onClick={onOpenApi}
-                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-850 border border-cyan-500/40 text-cyan-300 font-mono font-bold text-xs shadow-md transition-all flex-shrink-0 hover:text-white"
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-850 border border-cyan-500/40 text-cyan-300 font-mono font-bold text-xs shadow-md transition-all flex-shrink-0 hover:text-white hover:border-cyan-400"
                   title="Explore REST API endpoints"
                 >
                   <Server className="w-3.5 h-3.5 text-cyan-400" />
@@ -1474,7 +1474,7 @@ function HeroSection({
                 </button>
                 <button
                   onClick={onOpenCreator}
-                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-mono font-bold text-xs hover:brightness-110 shadow-md transition-all flex-shrink-0"
+                  className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-mono font-bold text-xs hover:brightness-110 shadow-md transition-all flex-shrink-0"
                 >
                   <span>CREATOR DASHBOARD</span>
                   <ChevronRight className="w-3.5 h-3.5" />
