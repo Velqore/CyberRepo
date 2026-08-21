@@ -435,7 +435,8 @@ export default function App() {
   const openModal = useCallback(async (repo: ModalRepo) => {
     setModalRepo(repo);
     setModalLoading(true);
-    const details = await fetchGitHubRepoDetails(repo.name);
+    const repoFullName = repo.url.replace(/^https?:\/\/github\.com\//, '').replace(/\/+$/, '').replace(/\.git$/, '');
+    const details = await fetchGitHubRepoDetails(repoFullName || repo.name);
     if (details) {
       setModalRepo((prev) =>
         prev
@@ -712,7 +713,7 @@ export default function App() {
                 </span>
               </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5">
+              <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2.5">
                 {TECH_COMMUNITIES.map((comm) => {
                   const Icon = iconMap[comm.icon] ?? Compass;
                   const isActive = activeCommunity === comm.id;
@@ -726,6 +727,8 @@ export default function App() {
                           setGithubCommunity(
                             comm.id === 'cybersecurity'
                               ? 'cybersecurity'
+                              : comm.id === 'forensics'
+                              ? 'forensics'
                               : comm.id === 'ai-ml'
                               ? 'ai'
                               : comm.id === 'web-fullstack'
@@ -841,9 +844,10 @@ export default function App() {
                       <span className="text-[11px] font-mono text-zinc-400">FILTER:</span>
                       {[
                         { id: 'all' as TechCommunity, label: 'All Repos' },
+                        { id: 'forensics' as TechCommunity, label: 'Forensics' },
+                        { id: 'cybersecurity' as TechCommunity, label: 'Security' },
                         { id: 'ai' as TechCommunity, label: 'AI/ML' },
                         { id: 'web' as TechCommunity, label: 'Web/React' },
-                        { id: 'cybersecurity' as TechCommunity, label: 'Security' },
                         { id: 'devops' as TechCommunity, label: 'DevOps' },
                       ].map((f) => (
                         <button
@@ -1605,7 +1609,8 @@ function RepoCard3D({
 
   const handleCopyClone = (e: React.MouseEvent) => {
     e.stopPropagation();
-    const cloneCmd = `git clone ${url}.git`;
+    const cleanUrl = url.replace(/\/+$/, '').replace(/\.git$/, '');
+    const cloneCmd = `git clone ${cleanUrl}.git`;
     navigator.clipboard.writeText(cloneCmd);
     onToast(`Copied clone command to clipboard: ${name}`);
   };
@@ -1875,7 +1880,8 @@ function RepoModal({
   const colorSpec = colorClasses[repo.categoryColor] ?? colorClasses['blue'];
 
   const copyClone = () => {
-    navigator.clipboard.writeText(`git clone ${repo.url}.git`);
+    const cleanUrl = repo.url.replace(/\/+$/, '').replace(/\.git$/, '');
+    navigator.clipboard.writeText(`git clone ${cleanUrl}.git`);
     onToast(`Clone command copied!`);
   };
 
@@ -2026,7 +2032,7 @@ function RepoModal({
           <div className="p-3.5 rounded-2xl bg-zinc-950 border border-zinc-800 flex items-center justify-between gap-3">
             <div className="font-mono text-xs text-zinc-400 truncate flex items-center gap-2">
               <Terminal className="w-4 h-4 text-cyan-400 flex-shrink-0" />
-              <span className="truncate">git clone {repo.url}.git</span>
+              <span className="truncate">git clone {repo.url.replace(/\/+$/, '').replace(/\.git$/, '')}.git</span>
             </div>
             <button
               onClick={copyClone}

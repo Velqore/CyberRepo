@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-21T05:20:50.489Z",
-    "count": 173,
+    "generatedAt": "2026-08-21T06:23:50.580Z",
+    "count": 215,
     "version": "1.0"
   },
   "data": [
@@ -3361,6 +3361,837 @@
       ],
       "sort_order": 173,
       "created_at": "2012-06-25T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-iped",
+      "category_id": "cat-forensics",
+      "name": "IPED",
+      "owner": "sepinf-inc",
+      "full_name": "sepinf-inc/IPED",
+      "description": "Digital Evidence Indexer and Processor (IPED): high-performance forensic analysis and artifact processing platform by Brazilian Federal Police.",
+      "url": "https://github.com/sepinf-inc/IPED",
+      "stars": 900,
+      "language": "Java",
+      "topics": [
+        "digital-forensics",
+        "evidence-processing",
+        "dfir",
+        "case-management",
+        "gem"
+      ],
+      "sort_order": 174,
+      "created_at": "2014-06-25T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-foremost",
+      "category_id": "cat-forensics",
+      "name": "foremost",
+      "owner": "korczis",
+      "full_name": "korczis/foremost",
+      "description": "Foremost is a console program to recover files based on their headers, footers, and internal data structures used in file carving.",
+      "url": "https://github.com/korczis/foremost",
+      "stars": 400,
+      "language": "C",
+      "topics": [
+        "file-carving",
+        "data-recovery",
+        "digital-forensics",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 175,
+      "created_at": "2012-07-28T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-scalpel",
+      "category_id": "cat-forensics",
+      "name": "scalpel",
+      "owner": "sleuthkit",
+      "full_name": "sleuthkit/scalpel",
+      "description": "Scalpel is an open-source, frugal, high-performance file carver for disk image analysis and digital forensics investigations.",
+      "url": "https://github.com/sleuthkit/scalpel",
+      "stars": 300,
+      "language": "C",
+      "topics": [
+        "file-carver",
+        "disk-forensics",
+        "data-recovery",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 176,
+      "created_at": "2013-05-10T00:00:00Z"
+    },
+    {
+      "id": "repo-osint-photon",
+      "category_id": "cat-osint",
+      "name": "Photon",
+      "owner": "s0md3v",
+      "full_name": "s0md3v/Photon",
+      "description": "Incredibly fast crawler designed for OSINT.",
+      "url": "https://github.com/s0md3v/Photon",
+      "stars": 13124,
+      "language": "Python",
+      "topics": [
+        "crawler",
+        "information-gathering",
+        "osint",
+        "python",
+        "spider",
+        "gem"
+      ],
+      "sort_order": 177,
+      "created_at": "2026-08-21T06:18:49.812Z"
+    },
+    {
+      "id": "repo-osint-osintframework",
+      "category_id": "cat-osint",
+      "name": "OSINT-Framework",
+      "owner": "lockfale",
+      "full_name": "lockfale/OSINT-Framework",
+      "description": "OSINT Framework",
+      "url": "https://github.com/lockfale/OSINT-Framework",
+      "stars": 11968,
+      "language": "JavaScript",
+      "topics": [
+        "footprinting",
+        "intelligence-gathering",
+        "osint",
+        "osint-framework",
+        "osint-resources",
+        "gem"
+      ],
+      "sort_order": 178,
+      "created_at": "2026-08-21T06:18:49.868Z"
+    },
+    {
+      "id": "repo-osint-instaloader",
+      "category_id": "cat-osint",
+      "name": "instaloader",
+      "owner": "instaloader",
+      "full_name": "instaloader/instaloader",
+      "description": "Download pictures (or videos) along with their captions and other metadata from Instagram.",
+      "url": "https://github.com/instaloader/instaloader",
+      "stars": 13181,
+      "language": "Python",
+      "topics": [
+        "downloader",
+        "instagram",
+        "instagram-client",
+        "instagram-downloader",
+        "instagram-feed",
+        "gem"
+      ],
+      "sort_order": 179,
+      "created_at": "2026-08-21T06:18:49.932Z"
+    },
+    {
+      "id": "repo-osint-sn1per",
+      "category_id": "cat-osint",
+      "name": "Sn1per",
+      "owner": "1N3",
+      "full_name": "1N3/Sn1per",
+      "description": "Automated penetration testing & attack surface management platform. Recon, scan, exploit, report — 600+ exploits, 90+ integrations, 10K+ detections.",
+      "url": "https://github.com/1N3/Sn1per",
+      "stars": 10789,
+      "language": "Shell",
+      "topics": [
+        "attack-surface",
+        "attack-surface-management",
+        "attacksurface",
+        "bugbounty-platform",
+        "cybersecurity",
+        "gem"
+      ],
+      "sort_order": 180,
+      "created_at": "2026-08-21T06:18:49.989Z"
+    },
+    {
+      "id": "repo-osint-osintgram",
+      "category_id": "cat-osint",
+      "name": "Osintgram",
+      "owner": "Datalux",
+      "full_name": "Datalux/Osintgram",
+      "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
+      "url": "https://github.com/Datalux/Osintgram",
+      "stars": 14061,
+      "language": "Python",
+      "topics": [
+        "analysis",
+        "hacking",
+        "information-gathering",
+        "instagram",
+        "instagram-account",
+        "gem"
+      ],
+      "sort_order": 181,
+      "created_at": "2026-08-21T06:18:50.055Z"
+    },
+    {
+      "id": "repo-osint-twint",
+      "category_id": "cat-osint",
+      "name": "twint",
+      "owner": "twintproject",
+      "full_name": "twintproject/twint",
+      "description": "An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.",
+      "url": "https://github.com/twintproject/twint",
+      "stars": 16392,
+      "language": "Python",
+      "topics": [
+        "elasticsearch",
+        "kibana",
+        "osint",
+        "python",
+        "scrape",
+        "gem"
+      ],
+      "sort_order": 182,
+      "created_at": "2026-08-21T06:18:50.122Z"
+    },
+    {
+      "id": "repo-osint-holehe",
+      "category_id": "cat-osint",
+      "name": "holehe",
+      "owner": "megadose",
+      "full_name": "megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "url": "https://github.com/megadose/holehe",
+      "stars": 13856,
+      "language": "Python",
+      "topics": [
+        "ebay",
+        "email",
+        "emails",
+        "information-gathering",
+        "instagram",
+        "gem"
+      ],
+      "sort_order": 183,
+      "created_at": "2026-08-21T06:18:50.188Z"
+    },
+    {
+      "id": "repo-osint-maigret",
+      "category_id": "cat-osint",
+      "name": "maigret",
+      "owner": "soxoj",
+      "full_name": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "url": "https://github.com/soxoj/maigret",
+      "stars": 36921,
+      "language": "Python",
+      "topics": [
+        "cli",
+        "cybersecurity",
+        "identification",
+        "information-gathering",
+        "infosec",
+        "gem"
+      ],
+      "sort_order": 184,
+      "created_at": "2026-08-21T06:18:50.256Z"
+    },
+    {
+      "id": "repo-osint-phoneinfoga",
+      "category_id": "cat-osint",
+      "name": "phoneinfoga",
+      "owner": "sundowndev",
+      "full_name": "sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "stars": 17571,
+      "language": "Go",
+      "topics": [
+        "agregation",
+        "footprint",
+        "information-gathering",
+        "investigation",
+        "open-source-intelligence",
+        "gem"
+      ],
+      "sort_order": 185,
+      "created_at": "2026-08-21T06:18:50.323Z"
+    },
+    {
+      "id": "repo-osint-metagoofil",
+      "category_id": "cat-osint",
+      "name": "metagoofil",
+      "owner": "opsdisk",
+      "full_name": "opsdisk/metagoofil",
+      "description": "Search Google and download specific file types",
+      "url": "https://github.com/opsdisk/metagoofil",
+      "stars": 579,
+      "language": "Python",
+      "topics": [
+        "dork",
+        "google",
+        "information-leakage",
+        "metagoofil",
+        "osint",
+        "gem"
+      ],
+      "sort_order": 186,
+      "created_at": "2026-08-21T06:18:50.386Z"
+    },
+    {
+      "id": "repo-osint-creepy",
+      "category_id": "cat-osint",
+      "name": "creepy",
+      "owner": "ilektrojohn",
+      "full_name": "ilektrojohn/creepy",
+      "description": "A geolocation OSINT tool. Offers geolocation information gathering through social networking platforms.",
+      "url": "https://github.com/ilektrojohn/creepy",
+      "stars": 1468,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 187,
+      "created_at": "2026-08-21T06:18:50.438Z"
+    },
+    {
+      "id": "repo-osint-whatsmyname",
+      "category_id": "cat-osint",
+      "name": "WhatsMyName",
+      "owner": "WebBreacher",
+      "full_name": "WebBreacher/WhatsMyName",
+      "description": "Community-maintained dataset of 700+ websites for finding accounts by username — powers OSINT and digital footprint tools.",
+      "url": "https://github.com/WebBreacher/WhatsMyName",
+      "stars": 2788,
+      "language": "Python",
+      "topics": [
+        "cybersecurity",
+        "dataset",
+        "json",
+        "osint",
+        "osint-tool",
+        "gem"
+      ],
+      "sort_order": 188,
+      "created_at": "2026-08-21T06:18:50.505Z"
+    },
+    {
+      "id": "repo-osint-intelowl",
+      "category_id": "cat-osint",
+      "name": "IntelOwl",
+      "owner": "intelowlproject",
+      "full_name": "intelowlproject/IntelOwl",
+      "description": "IntelOwl: manage your Threat Intelligence at scale",
+      "url": "https://github.com/intelowlproject/IntelOwl",
+      "stars": 4677,
+      "language": "Python",
+      "topics": [
+        "cyber-security",
+        "cyber-threat-intelligence",
+        "cybersecurity",
+        "dfir",
+        "enrichment",
+        "gem"
+      ],
+      "sort_order": 189,
+      "created_at": "2026-08-21T06:18:50.569Z"
+    },
+    {
+      "id": "repo-osint-osintspy",
+      "category_id": "cat-osint",
+      "name": "OSINT-SPY",
+      "owner": "SharadKumar97",
+      "full_name": "SharadKumar97/OSINT-SPY",
+      "description": "Performs OSINT scan on email/domain/ip_address/organization using OSINT-SPY. It can be used by Data Miners, Infosec Researchers, Penetration Testers and cyber crime investigator in order to find deep information about their target. If you want to ask something please feel free to reach out to me at robotcoder@protonmail.com",
+      "url": "https://github.com/SharadKumar97/OSINT-SPY",
+      "stars": 1541,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 190,
+      "created_at": "2026-08-21T06:18:50.638Z"
+    },
+    {
+      "id": "repo-osint-h8mail",
+      "category_id": "cat-osint",
+      "name": "h8mail",
+      "owner": "khast3x",
+      "full_name": "khast3x/h8mail",
+      "description": "Email OSINT & Password breach hunting tool, locally or using premium services. Supports chasing down related email",
+      "url": "https://github.com/khast3x/h8mail",
+      "stars": 5262,
+      "language": "Python",
+      "topics": [
+        "breach",
+        "breach-compilation",
+        "email",
+        "hacking",
+        "haveibeenpwned",
+        "gem"
+      ],
+      "sort_order": 191,
+      "created_at": "2026-08-21T06:18:50.714Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-exifcleaner",
+      "category_id": "cat-multimedia-forensics",
+      "name": "exifcleaner",
+      "owner": "szTheory",
+      "full_name": "szTheory/exifcleaner",
+      "description": "Cross-platform desktop GUI app to clean image metadata",
+      "url": "https://github.com/szTheory/exifcleaner",
+      "stars": 2611,
+      "language": "Perl",
+      "topics": [
+        "concurrency",
+        "dark-mode",
+        "desktop-app",
+        "electron",
+        "exif",
+        "gem"
+      ],
+      "sort_order": 192,
+      "created_at": "2026-08-21T06:18:50.770Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-ffmpeg",
+      "category_id": "cat-multimedia-forensics",
+      "name": "FFmpeg",
+      "owner": "FFmpeg",
+      "full_name": "FFmpeg/FFmpeg",
+      "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+      "url": "https://github.com/FFmpeg/FFmpeg",
+      "stars": 63486,
+      "language": "C",
+      "topics": [
+        "audio",
+        "c",
+        "ffmpeg",
+        "fft",
+        "hevc",
+        "gem"
+      ],
+      "sort_order": 193,
+      "created_at": "2026-08-21T06:18:50.855Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-steghide",
+      "category_id": "cat-multimedia-forensics",
+      "name": "steghide",
+      "owner": "StefanoDeVuono",
+      "full_name": "StefanoDeVuono/steghide",
+      "description": "Steganography tool to hide and extract data in image and audio files.",
+      "url": "https://github.com/StefanoDeVuono/steghide",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 194,
+      "created_at": "2026-08-21T06:18:50.918Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-zsteg",
+      "category_id": "cat-multimedia-forensics",
+      "name": "zsteg",
+      "owner": "zed-0xff",
+      "full_name": "zed-0xff/zsteg",
+      "description": "Detects steganographically hidden data in PNG and BMP image files.",
+      "url": "https://github.com/zed-0xff/zsteg",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 195,
+      "created_at": "2026-08-21T06:18:51.083Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-stegexpose",
+      "category_id": "cat-multimedia-forensics",
+      "name": "StegExpose",
+      "owner": "b3dk7",
+      "full_name": "b3dk7/StegExpose",
+      "description": "Steganalysis tool to detect LSB steganography in digital images.",
+      "url": "https://github.com/b3dk7/StegExpose",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 196,
+      "created_at": "2026-08-21T06:18:51.149Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-exifpy",
+      "category_id": "cat-multimedia-forensics",
+      "name": "exif-py",
+      "owner": "ianare",
+      "full_name": "ianare/exif-py",
+      "description": "Python library to extract and parse EXIF metadata from digital images (ExifRead).",
+      "url": "https://github.com/ianare/exif-py",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 197,
+      "created_at": "2026-08-21T06:18:51.197Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-stegoveritas",
+      "category_id": "cat-multimedia-forensics",
+      "name": "stegoVeritas",
+      "owner": "bannsec",
+      "full_name": "bannsec/stegoVeritas",
+      "description": "Steganography analysis tool with automated checks, image transforms, and extraction.",
+      "url": "https://github.com/bannsec/stegoVeritas",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 198,
+      "created_at": "2026-08-21T06:18:51.249Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-handbrake",
+      "category_id": "cat-multimedia-forensics",
+      "name": "HandBrake",
+      "owner": "HandBrake",
+      "full_name": "HandBrake/HandBrake",
+      "description": "Open-source video transcoder to inspect and verify video streams and codecs.",
+      "url": "https://github.com/HandBrake/HandBrake",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 199,
+      "created_at": "2026-08-21T06:18:51.293Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-mediainfo",
+      "category_id": "cat-multimedia-forensics",
+      "name": "MediaInfo",
+      "owner": "MediaArea",
+      "full_name": "MediaArea/MediaInfo",
+      "description": "Convenient unified display of technical and tag metadata for video and audio files.",
+      "url": "https://github.com/MediaArea/MediaInfo",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 200,
+      "created_at": "2026-08-21T06:18:51.350Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-prnupython",
+      "category_id": "cat-multimedia-forensics",
+      "name": "prnu-python",
+      "owner": "polimi-ispl",
+      "full_name": "polimi-ispl/prnu-python",
+      "description": "Camera fingerprint (PRNU) extraction for digital camera source identification.",
+      "url": "https://github.com/polimi-ispl/prnu-python",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 201,
+      "created_at": "2026-08-21T06:18:51.410Z"
+    },
+    {
+      "id": "repo-multimedia-forensics-stegotoolkit",
+      "category_id": "cat-multimedia-forensics",
+      "name": "stego-toolkit",
+      "owner": "DominicBreuker",
+      "full_name": "DominicBreuker/stego-toolkit",
+      "description": "Collection of steganography and steganalysis tools in a convenient Docker environment.",
+      "url": "https://github.com/DominicBreuker/stego-toolkit",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 202,
+      "created_at": "2026-08-21T06:18:51.466Z"
+    },
+    {
+      "id": "repo-forensics-misp",
+      "category_id": "cat-forensics",
+      "name": "MISP",
+      "owner": "MISP",
+      "full_name": "MISP/MISP",
+      "description": "Open source threat intelligence and indicator sharing platform for correlating forensic IOCs.",
+      "url": "https://github.com/MISP/MISP",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 203,
+      "created_at": "2026-08-21T06:18:51.522Z"
+    },
+    {
+      "id": "repo-forensics-regripper30",
+      "category_id": "cat-forensics",
+      "name": "RegRipper3.0",
+      "owner": "keydet89",
+      "full_name": "keydet89/RegRipper3.0",
+      "description": "Windows registry data extraction and forensic correlation tool.",
+      "url": "https://github.com/keydet89/RegRipper3.0",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 204,
+      "created_at": "2026-08-21T06:18:51.584Z"
+    },
+    {
+      "id": "repo-forensics-dfirorc",
+      "category_id": "cat-forensics",
+      "name": "dfir-orc",
+      "owner": "dfir-orc",
+      "full_name": "dfir-orc/dfir-orc",
+      "description": "Modular forensic artifact collection tool for Windows endpoints by ANSSI.",
+      "url": "https://github.com/dfir-orc/dfir-orc",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 205,
+      "created_at": "2026-08-21T06:18:51.627Z"
+    },
+    {
+      "id": "repo-forensics-registry",
+      "category_id": "cat-forensics",
+      "name": "Registry",
+      "owner": "EricZimmerman",
+      "full_name": "EricZimmerman/Registry",
+      "description": "Eric Zimmerman .NET library and engine for high-speed parsing of Windows registry hives.",
+      "url": "https://github.com/EricZimmerman/Registry",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 206,
+      "created_at": "2026-08-21T06:18:51.675Z"
+    },
+    {
+      "id": "repo-forensics-hindsight",
+      "category_id": "cat-forensics",
+      "name": "hindsight",
+      "owner": "obsidianforensics",
+      "full_name": "obsidianforensics/hindsight",
+      "description": "Browser forensics tool to parse Chromium-based web history and artifacts.",
+      "url": "https://github.com/obsidianforensics/hindsight",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 207,
+      "created_at": "2026-08-21T06:18:51.725Z"
+    },
+    {
+      "id": "repo-forensics-mftecmd",
+      "category_id": "cat-forensics",
+      "name": "MFTECmd",
+      "owner": "EricZimmerman",
+      "full_name": "EricZimmerman/MFTECmd",
+      "description": "Forensic command line parser for NTFS Master File Table ($MFT).",
+      "url": "https://github.com/EricZimmerman/MFTECmd",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 208,
+      "created_at": "2026-08-21T06:18:51.780Z"
+    },
+    {
+      "id": "repo-forensics-turbinia",
+      "category_id": "cat-forensics",
+      "name": "turbinia",
+      "owner": "google",
+      "full_name": "google/turbinia",
+      "description": "Automation framework for running forensic processing tools at scale in the cloud.",
+      "url": "https://github.com/google/turbinia",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 209,
+      "created_at": "2026-08-21T06:18:51.825Z"
+    },
+    {
+      "id": "repo-forensics-dissect",
+      "category_id": "cat-forensics",
+      "name": "dissect",
+      "owner": "fox-it",
+      "full_name": "fox-it/dissect",
+      "description": "Incident response framework to remotely parse disk images and artifacts.",
+      "url": "https://github.com/fox-it/dissect",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 210,
+      "created_at": "2026-08-21T06:18:51.882Z"
+    },
+    {
+      "id": "repo-forensics-recmd",
+      "category_id": "cat-forensics",
+      "name": "RECmd",
+      "owner": "EricZimmerman",
+      "full_name": "EricZimmerman/RECmd",
+      "description": "Command line tool for high-speed batch registry key and value extraction.",
+      "url": "https://github.com/EricZimmerman/RECmd",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 211,
+      "created_at": "2026-08-21T06:18:51.931Z"
+    },
+    {
+      "id": "repo-forensics-usbrip",
+      "category_id": "cat-forensics",
+      "name": "usbrip",
+      "owner": "snovvcrash",
+      "full_name": "snovvcrash/usbrip",
+      "description": "Forensic CLI tool to track and analyze USB device connection history on Linux.",
+      "url": "https://github.com/snovvcrash/usbrip",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 212,
+      "created_at": "2026-08-21T06:18:51.982Z"
+    },
+    {
+      "id": "repo-forensics-artifacts",
+      "category_id": "cat-forensics",
+      "name": "artifacts",
+      "owner": "ForensicArtifacts",
+      "full_name": "ForensicArtifacts/artifacts",
+      "description": "Community-curated knowledge base of digital forensic artifact definitions.",
+      "url": "https://github.com/ForensicArtifacts/artifacts",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 213,
+      "created_at": "2026-08-21T06:18:52.026Z"
+    },
+    {
+      "id": "repo-forensics-zircolite",
+      "category_id": "cat-forensics",
+      "name": "Zircolite",
+      "owner": "wagga40",
+      "full_name": "wagga40/Zircolite",
+      "description": "Standalone SIGMA-based detection engine for EVTX forensic log analysis.",
+      "url": "https://github.com/wagga40/Zircolite",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 214,
+      "created_at": "2026-08-21T06:18:52.080Z"
+    },
+    {
+      "id": "repo-forensics-dftimewolf",
+      "category_id": "cat-forensics",
+      "name": "dftimewolf",
+      "owner": "log2timeline",
+      "full_name": "log2timeline/dftimewolf",
+      "description": "Orchestration framework to chain forensic collection and processing recipes.",
+      "url": "https://github.com/log2timeline/dftimewolf",
+      "stars": 1000,
+      "language": "Python",
+      "topics": [
+        "forensics",
+        "security",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 215,
+      "created_at": "2026-08-21T06:18:52.125Z"
     }
   ]
 }

@@ -246,7 +246,8 @@ export function CreatorDashboard({ onToast }: CreatorDashboardProps) {
   };
 
   const copyClone = (url: string, name: string) => {
-    navigator.clipboard.writeText(`git clone ${url}.git`);
+    const cleanUrl = url.replace(/\/+$/, '').replace(/\.git$/, '');
+    navigator.clipboard.writeText(`git clone ${cleanUrl}.git`);
     onToast(`Copied clone command for ${name}`);
   };
 

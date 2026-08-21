@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-21T05:20:50.490Z",
-    "count": 6,
+    "generatedAt": "2026-08-21T06:23:50.580Z",
+    "count": 7,
     "version": "1.0"
   },
   "data": [
@@ -24,6 +24,7 @@
         "cat-pentest",
         "cat-osint",
         "cat-forensics",
+        "cat-multimedia-forensics",
         "cat-malware",
         "cat-reversing",
         "cat-websec",
@@ -33,10 +34,28 @@
         "penetration-testing",
         "osint",
         "digital-forensics",
+        "multimedia-forensics",
         "malware-analysis",
         "reverse-engineering",
         "web-security",
         "cryptography"
+      ]
+    },
+    {
+      "id": "forensics",
+      "name": "Digital & Media Forensics",
+      "description": "DFIR artifact extraction, disk & memory dump analysis, timeline reconstruction, steganography, and multimedia integrity inspection.",
+      "icon": "Search",
+      "color": "teal",
+      "categoryIds": [
+        "cat-forensics",
+        "cat-multimedia-forensics",
+        "cat-osint"
+      ],
+      "categorySlugs": [
+        "digital-forensics",
+        "multimedia-forensics",
+        "osint"
       ]
     },
     {

@@ -59,8 +59,8 @@ export function ApiModal({ isOpen, onClose, initialRepoName }: ApiModalProps) {
       url: '/api/v1/communities.json',
       method: 'GET',
       badge: 'COMMUNITIES',
-      desc: 'Multi-discipline community metadata (Cybersecurity, AI/ML, Web Fullstack, DevOps, Mobile & Systems).',
-      sampleFilter: 'cybersecurity',
+      desc: 'Multi-discipline community metadata (Cybersecurity, Forensics, AI/ML, Web Fullstack, DevOps, Mobile & Systems).',
+      sampleFilter: 'forensics',
     },
   ];
 

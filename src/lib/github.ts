@@ -63,6 +63,7 @@ export interface GitHubUserRepo {
 export type TechCommunity =
   | 'all'
   | 'cybersecurity'
+  | 'forensics'
   | 'ai'
   | 'web'
   | 'devops'
@@ -72,7 +73,8 @@ export type TechCommunity =
 
 const COMMUNITY_TOPIC_FILTERS: Record<TechCommunity, string> = {
   all: '',
-  cybersecurity: 'topic:security OR topic:cybersecurity OR topic:hacking OR topic:forensics OR topic:osint',
+  cybersecurity: 'topic:security OR topic:cybersecurity OR topic:hacking OR topic:malware OR topic:pentest',
+  forensics: 'topic:forensics OR topic:dfir OR topic:digital-forensics OR topic:steganography OR topic:osint OR topic:incident-response',
   ai: 'topic:ai OR topic:machine-learning OR topic:deep-learning OR topic:llm OR topic:artificial-intelligence',
   web: 'topic:react OR topic:web OR topic:frontend OR topic:backend OR topic:fullstack OR topic:javascript',
   devops: 'topic:devops OR topic:docker OR topic:kubernetes OR topic:cloud OR topic:infrastructure',
@@ -690,10 +692,21 @@ function fallbackGlobalSearch(query: string, community: TechCommunity): GitHubSe
     if (community === 'all') return true;
     if (community === 'cybersecurity') {
       return (
-        repo.topics.some((t) => t.includes('security') || t.includes('pentest') || t.includes('osint')) ||
+        repo.topics.some((t) => t.includes('security') || t.includes('pentest') || t.includes('malware') || t.includes('reversing')) ||
         repo.name.includes('trace') ||
         repo.name.includes('metasploit') ||
         repo.name.includes('ghidra')
+      );
+    }
+    if (community === 'forensics') {
+      return (
+        repo.topics.some((t) => t.includes('forensics') || t.includes('dfir') || t.includes('steganography') || t.includes('osint') || t.includes('evidence')) ||
+        repo.name.includes('autopsy') ||
+        repo.name.includes('volatility') ||
+        repo.name.includes('sleuthkit') ||
+        repo.name.includes('foremost') ||
+        repo.name.includes('bulk_extractor') ||
+        repo.name.includes('bulkextractor')
       );
     }
     if (community === 'ai') {
