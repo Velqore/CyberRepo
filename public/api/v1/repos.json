@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-21T04:42:57.205Z",
-    "count": 149,
+    "generatedAt": "2026-08-21T04:55:32.353Z",
+    "count": 170,
     "version": "1.0"
   },
   "data": [
@@ -2888,6 +2888,419 @@
       ],
       "sort_order": 149,
       "created_at": "2015-02-18T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-autopsy",
+      "category_id": "cat-malware",
+      "name": "autopsy",
+      "owner": "sleuthkit",
+      "full_name": "sleuthkit/autopsy",
+      "description": "Autopsy is a digital forensics platform and GUI to The Sleuth Kit for disk image analysis and case management.",
+      "url": "https://github.com/sleuthkit/autopsy",
+      "stars": 2400,
+      "language": "Java",
+      "topics": [
+        "digital-forensics",
+        "disk-analysis",
+        "dfir",
+        "incident-response",
+        "gem"
+      ],
+      "sort_order": 150,
+      "created_at": "2012-08-14T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-sleuthkit",
+      "category_id": "cat-malware",
+      "name": "sleuthkit",
+      "owner": "sleuthkit",
+      "full_name": "sleuthkit/sleuthkit",
+      "description": "The Sleuth Kit (TSK) is a library for analyzing disk images and recovering files from them used in DFIR investigations.",
+      "url": "https://github.com/sleuthkit/sleuthkit",
+      "stars": 2900,
+      "language": "C++",
+      "topics": [
+        "filesystem-forensics",
+        "disk-imaging",
+        "dfir",
+        "file-recovery"
+      ],
+      "sort_order": 151,
+      "created_at": "2012-03-16T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-rekall",
+      "category_id": "cat-malware",
+      "name": "rekall",
+      "owner": "google",
+      "full_name": "google/rekall",
+      "description": "Rekall Memory Forensic Framework by Google: advanced memory analysis and artifact extraction from RAM dumps.",
+      "url": "https://github.com/google/rekall",
+      "stars": 1900,
+      "language": "Python",
+      "topics": [
+        "memory-forensics",
+        "ram-analysis",
+        "dfir",
+        "google",
+        "gem"
+      ],
+      "sort_order": 152,
+      "created_at": "2013-09-12T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-plaso",
+      "category_id": "cat-malware",
+      "name": "plaso",
+      "owner": "log2timeline",
+      "full_name": "log2timeline/plaso",
+      "description": "Plaso (log2timeline) is a super timeline creation and analysis tool for DFIR and incident response investigations.",
+      "url": "https://github.com/log2timeline/plaso",
+      "stars": 1700,
+      "language": "Python",
+      "topics": [
+        "timeline-analysis",
+        "log2timeline",
+        "dfir",
+        "forensics",
+        "gem"
+      ],
+      "sort_order": 153,
+      "created_at": "2013-04-18T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-bulk-extractor",
+      "category_id": "cat-malware",
+      "name": "bulk_extractor",
+      "owner": "simsong",
+      "full_name": "simsong/bulk_extractor",
+      "description": "Bulk Extractor scans disk images for email addresses, URLs, credit card numbers, and other forensic artifacts without filesystem parsing.",
+      "url": "https://github.com/simsong/bulk_extractor",
+      "stars": 1100,
+      "language": "C++",
+      "topics": [
+        "artifact-extraction",
+        "disk-forensics",
+        "pii-detection",
+        "gem"
+      ],
+      "sort_order": 154,
+      "created_at": "2012-05-01T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-velociraptor",
+      "category_id": "cat-malware",
+      "name": "velociraptor",
+      "owner": "Velocidex",
+      "full_name": "Velocidex/velociraptor",
+      "description": "Velociraptor is an advanced DFIR and endpoint monitoring tool using VQL for rapid artifact collection at scale.",
+      "url": "https://github.com/Velocidex/velociraptor",
+      "stars": 3600,
+      "language": "Go",
+      "topics": [
+        "endpoint-forensics",
+        "dfir",
+        "vql",
+        "incident-response",
+        "gem"
+      ],
+      "sort_order": 155,
+      "created_at": "2019-01-14T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-grr",
+      "category_id": "cat-malware",
+      "name": "grr",
+      "owner": "google",
+      "full_name": "google/grr",
+      "description": "GRR Rapid Response is an incident response framework focused on remote live forensics across thousands of endpoints.",
+      "url": "https://github.com/google/grr",
+      "stars": 4600,
+      "language": "Python",
+      "topics": [
+        "remote-forensics",
+        "incident-response",
+        "google",
+        "endpoint",
+        "gem"
+      ],
+      "sort_order": 156,
+      "created_at": "2011-11-10T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-dfir-iris",
+      "category_id": "cat-malware",
+      "name": "iris-web",
+      "owner": "dfir-iris",
+      "full_name": "dfir-iris/iris-web",
+      "description": "IRIS is a collaborative and open platform for incident response investigations with case management and artifact tracking.",
+      "url": "https://github.com/dfir-iris/iris-web",
+      "stars": 1100,
+      "language": "Python",
+      "topics": [
+        "incident-response",
+        "case-management",
+        "dfir",
+        "collaboration",
+        "gem"
+      ],
+      "sort_order": 157,
+      "created_at": "2021-10-04T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-chainsaw",
+      "category_id": "cat-malware",
+      "name": "chainsaw",
+      "owner": "WithSecureLabs",
+      "full_name": "WithSecureLabs/chainsaw",
+      "description": "Rapidly search and hunt through Windows event logs to identify threats using Sigma detection rules and patterns.",
+      "url": "https://github.com/WithSecureLabs/chainsaw",
+      "stars": 2800,
+      "language": "Rust",
+      "topics": [
+        "windows-event-logs",
+        "sigma-rules",
+        "threat-hunting",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 158,
+      "created_at": "2021-06-14T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-hayabusa",
+      "category_id": "cat-malware",
+      "name": "hayabusa",
+      "owner": "Yamato-Security",
+      "full_name": "Yamato-Security/hayabusa",
+      "description": "Hayabusa is a Windows event log fast forensics timeline generator and threat hunting tool using Sigma-compatible rules.",
+      "url": "https://github.com/Yamato-Security/hayabusa",
+      "stars": 2700,
+      "language": "Rust",
+      "topics": [
+        "windows-forensics",
+        "timeline",
+        "sigma",
+        "threat-hunting",
+        "gem"
+      ],
+      "sort_order": 159,
+      "created_at": "2021-08-05T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-timesketch",
+      "category_id": "cat-malware",
+      "name": "timesketch",
+      "owner": "google",
+      "full_name": "google/timesketch",
+      "description": "Timesketch is an open-source tool for collaborative forensic timeline analysis for DFIR teams.",
+      "url": "https://github.com/google/timesketch",
+      "stars": 2500,
+      "language": "Python",
+      "topics": [
+        "timeline-analysis",
+        "dfir",
+        "collaborative",
+        "google",
+        "visualization"
+      ],
+      "sort_order": 160,
+      "created_at": "2014-09-04T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-autopsy-android",
+      "category_id": "cat-malware",
+      "name": "androidqf",
+      "owner": "mvt-project",
+      "full_name": "mvt-project/androidqf",
+      "description": "Android Quick Forensics (androidqf) facilitates the safe collection of forensic artifacts from Android devices.",
+      "url": "https://github.com/mvt-project/androidqf",
+      "stars": 800,
+      "language": "Go",
+      "topics": [
+        "android-forensics",
+        "mobile-forensics",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 161,
+      "created_at": "2021-11-18T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-mvt",
+      "category_id": "cat-malware",
+      "name": "mvt",
+      "owner": "mvt-project",
+      "full_name": "mvt-project/mvt",
+      "description": "Mobile Verification Toolkit (MVT) helps conduct forensics of mobile devices to identify potential compromise (Pegasus, stalkerware).",
+      "url": "https://github.com/mvt-project/mvt",
+      "stars": 10000,
+      "language": "Python",
+      "topics": [
+        "mobile-forensics",
+        "ios-forensics",
+        "android-forensics",
+        "pegasus",
+        "gem"
+      ],
+      "sort_order": 162,
+      "created_at": "2021-07-16T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-networkminer",
+      "category_id": "cat-malware",
+      "name": "network-forensics",
+      "owner": "netresec",
+      "full_name": "netresec/NetworkMiner",
+      "description": "NetworkMiner is a Network Forensic Analysis Tool (NFAT) for passive network sniffing and PCAP file analysis.",
+      "url": "https://github.com/netresec/NetworkMiner",
+      "stars": 700,
+      "language": "C#",
+      "topics": [
+        "network-forensics",
+        "pcap-analysis",
+        "nfat",
+        "passive-monitoring"
+      ],
+      "sort_order": 163,
+      "created_at": "2014-04-21T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-dumpsterfire",
+      "category_id": "cat-malware",
+      "name": "MalConfScan",
+      "owner": "JPCERTCC",
+      "full_name": "JPCERTCC/MalConfScan",
+      "description": "Volatility plugin for extracting configuration data of known malware families from memory dumps for DFIR.",
+      "url": "https://github.com/JPCERTCC/MalConfScan",
+      "stars": 600,
+      "language": "Python",
+      "topics": [
+        "malware-config",
+        "volatility-plugin",
+        "memory-forensics",
+        "gem"
+      ],
+      "sort_order": 164,
+      "created_at": "2019-04-01T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-diffy",
+      "category_id": "cat-malware",
+      "name": "diffy",
+      "owner": "Netflix",
+      "full_name": "Netflix/diffy",
+      "description": "Diffy is a DFIR tool by Netflix for finding anomalies in cloud instances during incident response investigations.",
+      "url": "https://github.com/Netflix/diffy",
+      "stars": 650,
+      "language": "Python",
+      "topics": [
+        "cloud-forensics",
+        "anomaly-detection",
+        "aws",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 165,
+      "created_at": "2016-11-01T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-loki",
+      "category_id": "cat-malware",
+      "name": "Loki",
+      "owner": "Neo23x0",
+      "full_name": "Neo23x0/Loki",
+      "description": "Loki - Simple IOC and Incident Response Scanner: detects YARA matches, IOCs, malware artifacts, and rootkits.",
+      "url": "https://github.com/Neo23x0/Loki",
+      "stars": 3600,
+      "language": "Python",
+      "topics": [
+        "ioc-scanner",
+        "yara",
+        "incident-response",
+        "malware-detection",
+        "gem"
+      ],
+      "sort_order": 166,
+      "created_at": "2015-02-02T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-thor-lite",
+      "category_id": "cat-malware",
+      "name": "thor-lite",
+      "owner": "Neo23x0",
+      "full_name": "Neo23x0/signature-base",
+      "description": "YARA signature-base for APT hunting and DFIR investigations: thousands of rules for detecting malware families.",
+      "url": "https://github.com/Neo23x0/signature-base",
+      "stars": 3900,
+      "language": "YARA",
+      "topics": [
+        "yara-rules",
+        "apt-detection",
+        "threat-hunting",
+        "dfir"
+      ],
+      "sort_order": 167,
+      "created_at": "2014-03-18T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-beagle",
+      "category_id": "cat-malware",
+      "name": "Beagle",
+      "owner": "yampelo",
+      "full_name": "yampelo/beagle",
+      "description": "Beagle is an incident response and digital forensics tool to transform data sources and logs into attack graphs.",
+      "url": "https://github.com/yampelo/beagle",
+      "stars": 1400,
+      "language": "Python",
+      "topics": [
+        "attack-graph",
+        "incident-response",
+        "visualization",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 168,
+      "created_at": "2019-01-21T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-kape",
+      "category_id": "cat-malware",
+      "name": "KapeFiles",
+      "owner": "EricZimmerman",
+      "full_name": "EricZimmerman/KapeFiles",
+      "description": "KAPE (Kroll Artifact Parser and Extractor) target and module files for rapid Windows forensic artifact collection.",
+      "url": "https://github.com/EricZimmerman/KapeFiles",
+      "stars": 1900,
+      "language": "YAML",
+      "topics": [
+        "kape",
+        "artifact-collection",
+        "windows-forensics",
+        "dfir",
+        "gem"
+      ],
+      "sort_order": 169,
+      "created_at": "2019-03-14T00:00:00Z"
+    },
+    {
+      "id": "repo-forensics-exiftool",
+      "category_id": "cat-malware",
+      "name": "exiftool",
+      "owner": "exiftool",
+      "full_name": "exiftool/exiftool",
+      "description": "ExifTool reads, writes, and edits metadata in image, audio, video, and document files for forensic file analysis.",
+      "url": "https://github.com/exiftool/exiftool",
+      "stars": 4100,
+      "language": "Perl",
+      "topics": [
+        "metadata-analysis",
+        "exif",
+        "file-forensics",
+        "digital-forensics"
+      ],
+      "sort_order": 170,
+      "created_at": "2013-08-12T00:00:00Z"
     }
   ]
 }
